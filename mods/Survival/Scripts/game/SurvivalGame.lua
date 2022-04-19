@@ -303,29 +303,32 @@ function SurvivalGame.cl_onChatCommand( self, params )
 		self.network:sendToClients( "client_showMessage", "UUID >> " .. tostring( self.activeItem ) )
 		--self.network:sendToClient( player = sm.localPlayer.getPlayer(), "client_showMessage", "UUID >> " .. sm.localPlayer.getActiveItem() )
 	--EXI CMDs START--
-  elseif params[1] == "/exiconfig" or params[1] == "/ec" then
-    SurvivalPlayer:client_openexiConfig()
-  elseif params[1] == "/calc" or params[1] == "/c" then
-    SurvivalPlayer:client_calccmd(params[2],params[3])
-  elseif params[1] == "/exihelp" then
-    sm.gui.chatMessage(
+	
+	  elseif params[1] == "/getitem" then
+		self.network:sendToServer( "sv_giveItem", { player = sm.localPlayer.getPlayer(), item = sm.uuid.new( params[2] ), quantity = ( params[3] or 1 ) } )	
+	  elseif params[1] == "/exiconfig" or params[1] == "/ec" then
+		SurvivalPlayer:client_openexiConfig()
+	  elseif params[1] == "/calc" or params[1] == "/c" then
+		SurvivalPlayer:client_calccmd(params[2],params[3])
+	  elseif params[1] == "/exihelp" then
+		sm.gui.chatMessage(
     
-  [[
-  --Expanded info help--
-  #93ff8bthis colour#ffffff means that it is just a normal command and #fc8bffthis colour#ffffff means that it is a subcommand of the #93ff8bcommand#ffffff above it.
+	  [[
+	  --Expanded info help--
+	  #93ff8bthis colour#ffffff means that it is just a normal command and #fc8bffthis colour#ffffff means that it is a subcommand of the #93ff8bcommand#ffffff above it.
 
-  #6786ffTo set the raid size calculator crop amounts:#ffffff
-  Type the full name of the crop you want, or the first and last letters. Then a number that represents the amount. Example: "/c carrot 10" or "/c ct 10"
+	  #6786ffTo set the raid size calculator crop amounts:#ffffff
+	  Type the full name of the crop you want, or the first and last letters. Then a number that represents the amount. Example: "/c carrot 10" or "/c ct 10"
 
-  #93ff8b/calc#ffffff or #93ff8b/c#ffffff - Open the raid size calculator from Expanded info
-  #fc8bffreset#ffffff - Reset the raid size calculator
-  #fc8bffinv#ffffff - Set the raid size calculator values to the amount of seeds in your inventory
+	  #93ff8b/calc#ffffff or #93ff8b/c#ffffff - Open the raid size calculator from Expanded info
+	  #fc8bffreset#ffffff - Reset the raid size calculator
+	  #fc8bffinv#ffffff - Set the raid size calculator values to the amount of seeds in your inventory
 
-  #93ff8b/exihelp#ffffff - Display all commands added by Expanded info in the chat
-  #93ff8b/exiconfig#ffffff or #93ff8b/ec#ffffff - Open the Expanded info control panel where you can change mod settings
+	  #93ff8b/exihelp#ffffff - Display all commands added by Expanded info in the chat
+	  #93ff8b/exiconfig#ffffff or #93ff8b/ec#ffffff - Open the Expanded info control panel where you can change mod settings
 
-  ]]
-  )
+	  ]]
+	  )
 	elseif params[1] == "/spudgun" then
 		self.network:sendToServer( "sv_giveItem", { player = sm.localPlayer.getPlayer(), item = tool_spudgun, quantity = 1 } )
 	elseif params[1] == "/gatling" then
@@ -552,9 +555,6 @@ function SurvivalGame.sv_onChatCommand( self, params, player )
 		else
 			self.network:sendToClients( "client_showMessage", "Player is not tumbling" )
 		end
-		
-	elseif params[1] == "/getitem" then
-		self.network:sendToServer( "sv_giveItem", { player = sm.localPlayer.getPlayer(), item = sm.uuid.new( params[2] ), quantity = ( params[3] or 1 ) } )
 		
 	elseif params[1] == "/tp" then
 		local pos

@@ -54,7 +54,7 @@
 				"filename": "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua",
 				"classname": "ConsumableContainer",
 				"data": {
-					"stackSize": 50,
+					"stackSize": 20,
 					"filterUid": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67"
 				}
 			},
@@ -141,7 +141,7 @@
 				"filename": "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua",
 				"classname": "SeedContainer",
 				"data": {
-					"stackSize": 50
+					"stackSize": 20
 				}
 			},
 			"rotationSet": "PropYZ",
@@ -235,7 +235,7 @@
 				"filename": "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua",
 				"classname": "ConsumableContainer",
 				"data": {
-					"stackSize": 50,
+					"stackSize": 20,
 					"filterUid": "f74c2891-79a9-45e0-982e-4896651c2e25"
 				}
 			},

@@ -54,7 +54,7 @@
 				"filename": "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua",
 				"classname": "GasolineContainer",
 				"data": {
-					"stackSize": 50,
+					"stackSize": 20,
 					"filterUid": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
 				}
 			},
@@ -141,7 +141,7 @@
 				"filename": "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua",
 				"classname": "BatteryContainer",
 				"data": {
-					"stackSize": 50,
+					"stackSize": 20,
 					"filterUid": "910a7f2c-52b0-46eb-8873-ad13255539af"
 				}
 			},
@@ -228,7 +228,7 @@
 				"filename": "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua",
 				"classname": "WaterContainer",
 				"data": {
-					"stackSize": 50,
+					"stackSize": 20,
 					"filterUid": "869d4736-289a-4952-96cd-8a40117a2d28"
 				}
 			},
@@ -315,7 +315,7 @@
 				"filename": "$SURVIVAL_DATA/Scripts/game/containers/ConsumableContainer.lua",
 				"classname": "AmmoContainer",
 				"data": {
-					"stackSize": 100,
+					"stackSize": 50,
 					"filterUid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82"
 				}
 			},

@@ -1,19 +1,77 @@
 {
-  "b0b933d1-8112-4383-be48-7b6e37d38c53": {
+	"b0b933d1-8112-4383-be48-7b6e37d38c53": {
 		"title": "Recyclebot",
-		"description": "The Recyclebot will help you recycle everything from things to other things. The environment's best friend.\n\n#7e7a6dThis part was added by #786e40Craftbot+"
+		"description": "The Recyclebot will help you recycle everything from things to other things. The environment's best friend."
 	},
-	"00284190-1484-4286-a198-b2ddef768c2e": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
-		"title": "Off-Road Suspension 2"
-	},
-  "87d7c020-8593-4b34-98fe-fa779b30b964": {
+	"87d7c020-8593-4b34-98fe-fa779b30b964": {
 		"title": "Vacuum Pipe T",
-		"description": "Split a vacuum pipe connection into 2 more ones! Much better than using a chest for this."
+		"description": "Split a vacuum pipe connection into 2 more ones! Much better than using a chest for this.\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 10x #787878Glass Blocks,#648181 2x #787878Circuit Boards"
 	},
 	"97e273a2-3bf6-11eb-adc1-0242ac120002": {
 		"title": "Vacuum Pipe Cross",
-		"description": "Split a vacuum pipe connection into 3 more ones!"
+		"description": "Split a vacuum pipe connection into 3 more ones!\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 10x #787878Glass Blocks,#648181 2x #787878Circuit Boards"
+	},
+	"c1de3e95-e1e9-4185-b868-557390f94399": {
+		"title": "obj_craftbot_tapingebot_deactivated",
+		"description": "PLACEHOLDER"
+	},
+	"f16c5c94-ae7d-4cd8-b046-26a4df1903c6": {
+		"title": "obj_craftbot_tapingebot",
+		"description": "PLACEHOLDER"
+	},
+	"f7d689eb-a198-45be-b12a-103dc06d02fe": {
+		"title": "Fix this bot",
+		"description": "Something has happend to this bot. Who knows what those crazy tapebots have been doing! The software is corrupted and everything is wrong. Maybe you can help and make the bot happy agian? It's assumed that this bot was used by the tapebots to make tape."
+	},
+
+	"713705a4-db7d-4485-a268-f9b4cb2885a8": {
+		"title": "Any type of seed",
+		"description": "DO NOT USE"
+	},
+	"0c44e6cb-90c5-48bd-b717-c7a210cee110": {
+		"title": "Any type of glass block",
+		"description": "DO NOT USE"
+	},
+
+	"2324091b-135a-4953-85ed-26ff03474108": {
+		"title": "Restrom Mirror",
+		"description": "its a mirror... i think..."
+	},
+	"0aa0d573-7743-47ea-a61c-cc6a7af04ff1": {
+		"title": "Scrap Light",
+		"description": "Let there be at least some visibility! This light isn't very bright but it can still be useful at night. Connect to a trigger to turn on and off."
+	},
+
+
+	"85fc5f11-722b-4723-91f2-293a81ad0800": {
+		"title": "Connect Tool Decoration",
+		"description": "Doesn't work. It's just a decoration!"
+	},
+	"731c6a84-7ae7-439d-a620-128076f9985c": {
+		"title": "Paint Tool Decoration",
+		"description": "Doesn't work. It's just a decoration!"
+	},
+	"836e98a2-8c8c-4a6b-9239-54acdd4f4736": {
+		"title": "Weld Tool Decoration",
+		"description": "Doesn't work. It's just a decoration!"
+	},
+	"2d7f1278-ac93-4039-9eb2-d31715ea10ff": {
+		"title": "Spudgun Decoration",
+		"description": "Doesn't work. It's just a decoration!"
+	},
+	"b633c3ee-2cda-4096-989a-60e90cd220aa": {
+		"title": "Spudling Gun Decoration",
+		"description": "Doesn't work. It's just a decoration!"
+	},
+	"3faf624b-0a95-452f-b6cd-9930ad1731c5": {
+		"title": "Spud Shotgun Decoration",
+		"description": "Doesn't work. It's just a decoration!"
+	},
+
+
+	"00284190-1484-4286-a198-b2ddef768c2e": {
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
+		"title": "Off-Road Suspension 2"
 	},
 	"004bb5ee-34ba-484a-924b-31412d898e7e": {
 		"title": "obj_survivalobject_elevatordoor_left"
@@ -41,12 +99,14 @@
 		"title": "obj_harvests_trees_pine03_p09"
 	},
 	"061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb": {
+		"description": "The highest tier of wood. More durable than metal 1 while being much, much more buoyant and weighing the same as normal wood!\n\n#787878If recycled:#648181 15x #787878Wood Block 2,#648181 1x #787878Metal Block 3",
 		"title": "Wood Block 3"
 	},
 	"06c564e2-ca8d-4843-94e9-322cb835f59e": {
 		"title": "obj_harvests_trees_birch02_p04"
 	},
 	"06fd0e52-f791-43a6-9fbd-5a8a6260f3f2": {
+		"description": "If you need a pipe this big, what are you doing?",
 		"title": "Giant Pipe Glass Straight"
 	},
 	"079b7a15-7718-444b-8560-7717109dabff": {
@@ -78,10 +138,11 @@
 		"title": "Water Dispenser"
 	},
 	"0c07dba0-be79-40fd-9ed8-5a1c34e2d196": {
+		"description": "#787878If recycled:#648181 25x #787878Scrap Metal Blocks",
 		"title": "Shack Roof"
 	},
 	"0c9cc5bb-af2f-4023-b8d8-cd7d52a60efe": {
-		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
+		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Electric Engine 2"
 	},
 	"0dff60c2-f7ae-4c13-b9c4-962ec1039be8": {
@@ -106,6 +167,7 @@
 		"title": "obj_harvest_log_l02b"
 	},
 	"1016cafc-9f6b-40c9-8713-9019d399783f": {
+		"description": "#787878If recycled:#648181 15x #787878Metal Block 1,#648181 1x #787878Ember,#648181 2x #787878Water",
 		"title": "Metal Block 2"
 	},
 	"103fc4e6-7e57-465e-a86d-983343415877": {
@@ -143,16 +205,18 @@
 		"title": "Warehouse Spotlight"
 	},
 	"16ed53cc-a45b-4f64-92d4-2db93bf33e1c": {
+		"description": "If you need a pipe this big, what are you doing?",
 		"title": "Giant Pipe Glass Corner"
 	},
 	"176f4537-b245-4ba2-a318-da12e15bf789": {
 		"title": "Frame Beam Corner"
 	},
 	"1872d83a-d1a1-4cb7-ad46-9e4468d2548c": {
-		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
+		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Controller 2"
 	},
 	"1897ee42-0291-43e4-9645-8c5a5d310398": {
+		"description": "The upgraded version of the normal wood block. It has been reinforced with metal for better durability. It's more suitable for boats as it's more buoyant.\n\n#787878If recycled:#648181 15x #787878Wood Block 1,#648181 1x #787878Metal Block 2",
 		"title": "Wood Block 2"
 	},
 	"189aabd7-a3a4-4ba1-886e-e2e21dd1772b": {
@@ -165,7 +229,7 @@
 		"title": "obj_harvests_trees_pine02_p04"
 	},
 	"1991e0c6-4dd8-4e44-9da8-7fdf4d938fdc": {
-		"title": "Office Table A"
+		"title": "Office Table Extension"
 	},
 	"1aac8942-38ac-4a83-bc16-6d33436c0934": {
 		"title": "Ship Ventilation"
@@ -186,7 +250,7 @@
 		"title": "obj_destructable_tape_tape02"
 	},
 	"1bfccc0a-828f-475c-882c-87d5a96054c9": {
-		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
+		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Gas Engine 1"
 	},
 	"1c6756ca-3a60-4dcb-a5d1-353edf818308": {
@@ -196,7 +260,7 @@
 		"title": "Craftbot"
 	},
 	"1d4793af-cb66-4628-804a-9d7404712643": {
-		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
+		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Sensor 1"
 	},
 	"1d667253-849c-4f9f-9109-1a2d91795247": {
@@ -236,10 +300,11 @@
 		"title": "Large Taperoll"
 	},
 	"20bd2885-d184-44ae-b72b-f90b786f8664": {
+		"description": "#787878If recycled:#648181 10x #787878Scrap Metal Blocks,#648181 20x #787878Scrap Wood Blocks,#648181 5x #787878Paint Ammo",
 		"title": "Hard Work Sign"
 	},
 	"20dcd41c-0a11-4668-9b00-97f278ce21af": {
-		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
+		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.\n\n#787878If recycled:#648181 1x #787878Scrap Metal Block,#648181 1x #787878Glass Block,#648181 2x #787878Glue,#648181 2x #787878Circuit Boards,#648181 6x #787878Component Kits",
 		"title": "Sensor 5"
 	},
 	"20e0b1f2-dd7b-4b69-9308-b6c26c0b0e6e": {
@@ -249,12 +314,14 @@
 		"title": "obj_harvests_trees_birch03_p03"
 	},
 	"220b201e-aa40-4995-96c8-e6007af160de": {
+		"description": "#787878If recycled:#648181 2x #787878Scrap Metal Blocks",
 		"title": "Rusted Metal Block"
 	},
 	"221badef-0313-419c-9a7c-7469d26b0d5b": {
 		"title": "Man Sign"
 	},
 	"2289e96f-f9c6-440c-b7c9-ce9474da8264": {
+		"description": "#787878If recycled:#648181 10x #787878Scrap Wood Blocks,#648181 1x #787878Paint Ammo",
 		"title": "Sale Sign"
 	},
 	"22947bb1-7c64-477c-8656-d7857df39b78": {
@@ -267,23 +334,25 @@
 		"title": "Small Ship Corner Floor Mold"
 	},
 	"22f3e797-82f5-4819-a085-c3cc28ec9025": {
-		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
+		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.\n\n#787878If recycled:#648181 30x #787878Metal Block 1,#648181 5x #787878Batteries,#648181 10x #787878Circuit Boards,#648181 33x #787878Component Kits",
 		"title": "Electric Engine 5"
 	},
 	"2311afca-ca99-4b7b-a209-8382ed7ea356": {
 		"title": "obj_harvests_trees_pine01_p10"
 	},
 	"2354cd24-3dd3-4db5-84ab-df64c32d2c72": {
-		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
+		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Controller 4"
 	},
 	"23572f75-03c0-4c33-b643-70250d0e4ae0": {
+		"description": "#787878If recycled:#648181 20x #787878Metal Block 1,#648181 1x #787878Circuit Board",
 		"title": "Generator Coil Corner"
 	},
 	"239c9c71-e5c7-4ccb-ad40-7bdbb32f3cc9": {
 		"title": "Cup Holder"
 	},
 	"23ac6823-51a4-4581-b8ca-061c76f093f6": {
+		"description": "Wocs like to eat hay, not as much as corn though. It's still better than corn for making them produce milk!",
 		"title": "Haystack"
 	},
 	"243afe95-8058-47b0-bccf-49cc0445cd55": {
@@ -296,6 +365,7 @@
 		"title": "obj_survivalobject_elevatorfan"
 	},
 	"25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e": {
+		"description": "Cheaper than metal, but not as strong. Is usually used for building but as it's not that heavy, you probably won't have an issue using it for a vehicle.",
 		"title": "Extruded Metal Block"
 	},
 	"26119eb4-0e0e-4730-85ad-8a8c44f3d18c": {
@@ -311,7 +381,7 @@
 		"title": "Ship Ventilation Panel"
 	},
 	"276fd55b-ae54-4a7a-ace6-fddd2d3370a5": {
-		"description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock.",
+		"description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock.\n\n#787878If recycled:#648181 30x #787878Metal Block 1,#648181 45x #787878Scrap Metal Blocks",
 		"title": "Drill"
 	},
 	"27a221b1-9809-4df1-901a-caafe119c9b6": {
@@ -319,6 +389,7 @@
 		"title": "Garment Box (Rare)"
 	},
 	"27c00cfb-4e7f-45fc-a037-f9a941464ce6": {
+		"description": "#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 15x #787878Scrap Wood Blocks,#648181 2x #787878Glow,#648181 1x #787878Circuit Board",
 		"title": "Fresh Neon Sign"
 	},
 	"286faea5-83db-4f53-8813-1ce81309a059": {
@@ -331,6 +402,7 @@
 		"title": "Ship Opening Floor Mold"
 	},
 	"2aa8cb2c-2311-440c-8162-829ee394fbc2": {
+		"description": "#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 5x #787878Scrap Wood Blocks",
 		"title": "Shack Wall"
 	},
 	"2af00456-b22e-4743-b338-a91934aba7c5": {
@@ -338,7 +410,7 @@
 		"title": "Cookbot"
 	},
 	"2b9c6e87-1b75-4a57-8979-74d9f95668ba": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Seat 2"
 	},
 	"2bacc33e-60fb-40c3-b751-ef76f79392c7": {
@@ -357,21 +429,18 @@
 		"title": "Warehouse Brick Lamp"
 	},
 	"2d3016f7-febe-416e-93bc-41d80ca3910d": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Saddle 1"
 	},
 	"2d503740-f2da-41a1-ae5c-3c49d44e3bb2": {
 		"title": "obj_destructable_tape_rooftape03"
-	},
-	"2d7f1278-ac93-4039-9eb2-d31715ea10ff": {
-		"title": "obj_tool_spudgun"
 	},
 	"2e792123-4a10-4cc6-b9ef-c5a518655cb4": {
 		"description": "Bucket with chemical waste.",
 		"title": "Chemical Bucket"
 	},
 	"2f004fdf-bfb0-46f3-a7ac-7711100bee0c": {
-		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
+		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.\n\n#787878If recycled:#648181 15x #787878Metal Block 1,#648181 2x #787878Crude Oil,#648181 2x #787878Circuit Boards,#648181 9x #787878Component Kits",
 		"title": "Piston 5"
 	},
 	"2f955589-701b-4c47-9127-37feeb80d35a": {
@@ -381,7 +450,7 @@
 		"title": "Mini Craftbot"
 	},
 	"3091926a-9340-46d9-83d6-4fd7c68ad950": {
-		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
+		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.\n\n#787878If recycled:#648181 30x #787878Scrap Metal Blocks,#648181 5x #787878Crude Oil,#648181 5x #787878Circuit Boards,#648181 31x #787878Component Kits",
 		"title": "Gas Engine 5"
 	},
 	"30a2288b-e88e-4a92-a916-1edbfc2b2dac": {
@@ -391,32 +460,35 @@
 		"title": "obj_harvests_trees_spruce02_p02"
 	},
 	"31ada55e-7c79-4aee-86b6-809c0e5468df": {
+		"description": "#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 3x #787878Circuit Boards",
 		"title": "Cash Register"
 	},
 	"31c38d38-73f5-47ef-93c8-e10d4f579e1c": {
 		"title": "Net frame"
 	},
 	"31f14f52-f4d8-4b9f-9d6e-7412497c9284": {
-		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
+		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Piston 2"
 	},
 	"3292878f-4d1e-49e3-a80f-16b710dad42e": {
 		"title": "Large Pipe Extension"
 	},
 	"33d01ddd-f32b-4a9a-87d6-efb6710b389c": {
-		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
+		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Gas Engine 2"
 	},
 	"3440440b-d362-4473-aa03-b7c41e1fe7ad": {
 		"title": "Cotton"
 	},
 	"346a4ea9-d360-4133-b62f-4c188000c60b": {
+		"description": "A cool place for your switch.",
 		"title": "Trigger Frame"
 	},
 	"3526de39-dcf4-484b-84ec-3336538be192": {
 		"title": "Corner Brace"
 	},
 	"36335664-6e61-4d44-9876-54f9660a8565": {
+		"description": "It glues stuff.",
 		"title": "Glue"
 	},
 	"369b43d3-4ed3-464d-82e8-c9aa11251afc": {
@@ -461,10 +533,11 @@
 		"title": "obj_harvests_trees_birch02_p06"
 	},
 	"3b972f2f-30c7-4a5e-a100-5e257e62295d": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Seat 1"
 	},
 	"3bd4430f-75bc-452c-9e80-1bd639898689": {
+		"description": "Materials waiting to be transported into the warehouse or some other place. The recyclebot can be used to get the materials from this crate.\n\n#787878If recycled:#648181 10x #787878Scrap Metal Blocks,#648181 100x #787878Scrap Stone Blocks",
 		"title": "Stone Crate"
 	},
 	"3cbf5f08-14da-4db5-8360-de5078e7c4c1": {
@@ -486,7 +559,7 @@
 		"title": "obj_destructable_tape_cornertape01"
 	},
 	"3e10ef67-383a-4b60-aa5b-b1173134e437": {
-		"description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree.",
+		"description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree.\n\n#787878If recycled:#648181 15x #787878Metal Block 1,#648181 30x #787878Scrap Metal Blocks",
 		"title": "Saw Blade"
 	},
 	"3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c": {
@@ -497,9 +570,6 @@
 	},
 	"3f7c3f3c-9b28-4a26-abbd-8f2948e9b027": {
 		"title": "obj_harvests_trees_pine03_p05"
-	},
-	"3faf624b-0a95-452f-b6cd-9930ad1731c5": {
-		"title": "obj_tool_frier"
 	},
 	"4053c30c-6717-47c7-b0a9-177f7b8b30bc": {
 		"title": "obj_spaceship_wall02"
@@ -520,13 +590,15 @@
 		"title": "Large Pipe Compressor"
 	},
 	"414854a9-77bc-48aa-a9d5-0c7cd213e4df": {
+		"description": "I'm a big fan of this!",
 		"title": "Fan Blade Cap"
 	},
 	"41784077-0636-470f-a6df-b868f152af29": {
+		"description": "If you need a pipe this big, what are you doing?",
 		"title": "Giant Pipe Corner"
 	},
 	"41960868-6245-47b5-97c4-f446e199812f": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Driver's Saddle 4"
 	},
 	"419fb889-e440-420c-b553-4cdf95e71a61": {
@@ -536,7 +608,7 @@
 		"title": "obj_harvests_trees_leafy02_p03"
 	},
 	"42f70341-207d-4e9d-b8ed-37962603a926": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.\n\n#787878If recycled:#648181 4x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 2x #787878Circuit Boards,#648181 4x #787878Component Kits",
 		"title": "Saddle 5"
 	},
 	"4369132a-40d8-47e7-ac45-e390c0ea6597": {
@@ -562,11 +634,11 @@
 		"title": "obj_robotparts_haybotbody"
 	},
 	"46396518-8c29-4da9-81bb-a020f4baf5b2": {
-		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
+		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.\n\n#787878If recycled:#648181 15x #787878Metal Block 1,#648181 2x #787878Crude Oil,#648181 2x #787878Circuit Boards,#648181 5x #787878Component Kits",
 		"title": "Piston 3"
 	},
 	"46465697-ed36-4720-ba8a-08c568b4e36c": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Seat 4"
 	},
 	"468650b4-5ff7-4be1-9e75-05ed86fd83e0": {
@@ -585,7 +657,7 @@
 		"title": "Ship Light"
 	},
 	"470b9a92-ed94-4ef2-b1ea-b45f47ef0982": {
-		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
+		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.\n\n#787878If recycled:#648181 30x #787878Scrap Metal Blocks,#648181 5x #787878Crude Oil,#648181 5x #787878Circuit Boards,#648181 13x #787878Component Kits",
 		"title": "Gas Engine 3"
 	},
 	"4724913e-4f9b-4334-8408-4b0850a1c7de": {
@@ -595,7 +667,7 @@
 		"title": "obj_harvests_trees_birch02_p03"
 	},
 	"47d33078-a9b0-4e30-9610-ad0556be5fa2": {
-		"title": "Office Table B"
+		"title": "Office Table"
 	},
 	"47ece75a-bfca-4e8a-b618-4f609fcea0da": {
 		"description": "A nutritious Carrot.",
@@ -620,11 +692,11 @@
 		"title": "Bathroom Stall Door"
 	},
 	"4c1cc8de-7af1-4f8e-a5c4-c583460af9e5": {
-		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
+		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.\n\n#787878If recycled:#648181 80x #787878Metal Block 2,#648181 30x #787878Component Kits",
 		"title": "Thruster 3"
 	},
 	"4c3f6a7c-45c6-4ed8-bf13-c247c3db6b81": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Off-Road Suspension 4"
 	},
 	"4c93de5a-72ab-40d0-a081-c41e3aa87e86": {
@@ -675,7 +747,7 @@
 		"title": "Metal Storage Floor"
 	},
 	"52855106-a95c-4427-9970-3f227109b66d": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 2x #787878Crude Oil,#648181 15x #787878Component Kits",
 		"title": "Sport Suspension 5"
 	},
 	"54d84731-d9ec-435d-bc9d-d48e0763b1bf": {
@@ -700,7 +772,7 @@
 		"title": "obj_harvests_trees_birch01_p00"
 	},
 	"56cea967-a685-494d-85ef-3aa121a0c193": {
-		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
+		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.\n\n#787878If recycled:#648181 30x #787878Metal Block 1,#648181 5x #787878Batteries,#648181 10x #787878Circuit Boards,#648181 15x #787878Component Kits",
 		"title": "Electric Engine 3"
 	},
 	"57d39e43-5c0b-476c-b8a2-474c77c22607": {
@@ -710,18 +782,18 @@
 		"title": "Holder Support Leg Base"
 	},
 	"5939f460-ab6c-48f2-9d07-a66845ce8cf2": {
-		"description": "Use it with the Vacuum Pump to make items travel through pipes.",
+		"description": "Vacuum pipes can connect different interactive parts to different containers for easier access. No more running around trying take materials out of chests and going back to your craftbot. Just connect the craftbot directly to the chests with this!\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 10x #787878Glass Blocks,#648181 2x #787878Circuit Boards",
 		"title": "Vacuum Pipe Corner"
 	},
 	"598d865c-324c-4129-9c57-21a6abd2cb2e": {
-		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
+		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Controller 1"
 	},
 	"59ea6ce8-239b-4eed-8847-a51b907d9b42": {
 		"title": "Vacuum Pipe 1"
 	},
 	"59f6951a-a450-42bf-ad03-54567cb70245": {
-		"description": "Not perfectly round.",
+		"description": "Not perfectly round.\n\n#787878If recycled:#648181 20x #787878Scrap Wood Blocks,#648181 5x #787878Scrap Metal Blocks",
 		"title": "Scrap Wheel"
 	},
 	"5a0ffe5b-f7cf-482b-915f-1d6b0876c26c": {
@@ -765,15 +837,15 @@
 		"title": "Warehouse Square Light"
 	},
 	"5e57e0f7-e87c-4269-b274-146fe40e1b44": {
-		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
+		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Electric Engine 4"
 	},
 	"5e5d231e-405e-4f45-9bd0-b3557dbb42eb": {
-		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
+		"description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Electric Engine 1"
 	},
 	"5eb8975b-0acf-43a7-ab4e-62ce661c0df7": {
-		"description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out.",
+		"description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out.\n\n#787878If recycled:#648181 75x #787878Scrap Wood Blocks,#648181 5x #787878Paint Ammo,#648181 20x #787878Cotton",
 		"title": "Respawn Bed"
 	},
 	"5ee9b950-839f-479a-bc06-902b830504cf": {
@@ -820,6 +892,7 @@
 		"title": "Garment Box (Common)"
 	},
 	"63cf0973-b81e-4fe1-ae44-654937e1b0e4": {
+		"description": "If you need a pipe this big, what are you doing?",
 		"title": "Giant Pipe"
 	},
 	"64051718-a3f1-422b-bda3-277efa0c4545": {
@@ -847,7 +920,7 @@
 		"title": "Giant Pipe Holder"
 	},
 	"67da25c9-3825-41f6-9724-4546a11cb2a5": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Sport Suspension 1"
 	},
 	"684002ad-3218-4dd0-a6dd-53e6dfdec562": {
@@ -860,11 +933,11 @@
 		"title": "Sound Isolation Small "
 	},
 	"6953b17e-0a38-4107-8c56-5ee97e68bee3": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878If recycled:#648181 4x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 3x #787878Circuit Boards,#648181 4x #787878Component Kits",
 		"title": "Driver's Saddle 3"
 	},
 	"69559e81-50fa-40ae-afa2-a22c1a49eb54": {
-		"description": "Connect it to a Water container with a trigger to water your plants more efficiently.",
+		"description": "Connect it to a Water container with a trigger to water your plants more efficiently.\n\n#787878If recycled:#648181 15x #787878Metal Block 1,#648181 10x #787878Beeswax,#648181 2x #787878Component Kits",
 		"title": "Water Cannon"
 	},
 	"6a43fff2-8c6d-4460-9f44-e5483b5267dd": {
@@ -875,10 +948,11 @@
 		"title": "obj_packingstation_screen_veggie"
 	},
 	"6ad9b8c7-4006-43cd-aa95-3d63c0e5c9fb": {
+		"description": "I'm a big fan of this!",
 		"title": "Fan Base"
 	},
 	"6bb84152-c4d7-4644-bc37-a3becd79298d": {
-		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
+		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.\n\n#787878If recycled:#648181 7x #787878Scrap Metal Blocks,#648181 3x #787878Glue,#648181 5x #787878Circuit Boards,#648181 6x #787878Component Kits",
 		"title": "Controller 3"
 	},
 	"6cb18801-8284-4f27-9f2e-b9955861b605": {
@@ -904,7 +978,7 @@
 		"title": "obj_harvests_trees_pine02_p06"
 	},
 	"703ca746-d802-4e76-b443-4881e83afb73": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.\n\n#787878If recycled:#648181 9x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 2x #787878Circuit Boards,#648181 4x #787878Component Kits",
 		"title": "Seat 5"
 	},
 	"7085387b-a2ce-4ef5-be67-b67501754b9e": {
@@ -925,18 +999,15 @@
 	"7237080a-676b-4be1-bb7f-2fb1a9f6f274": {
 		"title": "Ventilation Frame"
 	},
-	"731c6a84-7ae7-439d-a620-128076f9985c": {
-		"title": "obj_tool_paint"
-	},
 	"7324219e-2b19-4098-baa3-9876984ead08": {
-		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
+		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Piston 4"
 	},
 	"737a5987-a586-4a06-9e9d-3661ab8d69d2": {
 		"title": "obj_harvests_trees_pine03_p00"
 	},
 	"73f838db-783e-4a41-bc0f-9008967780f3": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.\n\n#787878If recycled:#648181 15x #787878Metal Block 1,#648181 2x #787878Crude Oil,#648181 15x #787878Component Kits",
 		"title": "Off-Road Suspension 5"
 	},
 	"7468db55-b29d-4ce0-82b9-2414f493a376": {
@@ -949,10 +1020,11 @@
 		"title": "Hay Bale"
 	},
 	"7516f5b8-9a15-4606-92bb-ea9a96a16594": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Saddle 4"
 	},
 	"7540ef9a-5c84-4dd2-b111-176d8de66e47": {
+		"description": "#787878If recycled:#648181 10x #787878Plastic Blocks,#648181 15x #787878Scrap Wood Blocks,#648181 15x #787878Scrap Metal Blocks",
 		"title": "Old Fruit Stand"
 	},
 	"75c11f33-7592-427f-96ac-d89994438042": {
@@ -973,15 +1045,15 @@
 		"title": "Office Sign"
 	},
 	"77c2687c-2e13-4df8-996a-96fb26d75ee0": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Driver's Seat 1"
 	},
 	"797e07a3-6d56-4b74-949b-9492c7946e0d": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.\n\n#787878If recycled:#648181 4x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 2x #787878Circuit Boards,#648181 2x #787878Component Kits",
 		"title": "Saddle 3"
 	},
 	"798c2c81-1f8e-481b-8c32-b71b5dc5511a": {
-		"description": "Fill it with water to water your plants.",
+		"description": "Fill it with water to water your plants, or in an emergency to put out a fire maybe? Just beware! If you do use the bucket to put out a fire, it might melt if you get too close to the fire. We do not offer free replacements if you destroy your bucket!\n\n#787878If recycled:#648181 8x #787878Plastic Blocks",
 		"title": "Water Bucket"
 	},
 	"7997f4a5-6f5f-492e-95cb-65a5e2a0f2f2": {
@@ -1019,7 +1091,7 @@
 		"title": "Road Sign Base"
 	},
 	"7d601a5a-796d-4cae-be88-b47479d38d11": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Driver's Saddle 1"
 	},
 	"7e2b1dcb-4853-43ed-a7c5-0eb1a24b49d0": {
@@ -1035,6 +1107,7 @@
 		"title": "obj_robotparts_tapebotleftarm01"
 	},
 	"7feba511-4910-429d-a0e3-f1727259ae5c": {
+		"description": "#787878If recycled:#648181 20x #787878Metal Block 1,#648181 1x #787878Circuit Board",
 		"title": "Generator Coil Segment"
 	},
 	"8089b86c-7390-4cb6-b30e-7b281e8c329e": {
@@ -1047,19 +1120,17 @@
 		"title": "Frame Beam Short"
 	},
 	"8310f5b9-3394-4723-ac23-f59a21d6e3f3": {
+		"description": "If you need a pipe this big, what are you doing?",
 		"title": "Giant Pipe Tee"
 	},
 	"8365cf6a-af1a-41aa-a8c9-34313dce1f55": {
 		"title": "Small Taperolls"
 	},
-	"836e98a2-8c8c-4a6b-9239-54acdd4f4736": {
-		"title": "obj_tool_weld"
-	},
 	"838c8d9a-8fc0-4b15-898b-b82bbf8bf2e0": {
 		"title": "Generator Pipe Long"
 	},
 	"847daf20-02bf-4170-8699-9ab106acd29a": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable.\n\n#787878If recycled:#648181 50x #787878Scrap Wood Blocks,#648181 1x #787878Circuit Board",
 		"title": "Scrap Seat"
 	},
 	"84d8e6eb-948b-4dd4-ab23-55a64d33eff1": {
@@ -1073,9 +1144,6 @@
 	},
 	"85a54457-4172-4be5-a750-96df4d40286c": {
 		"title": "obj_harvests_trees_pine03_p04"
-	},
-	"85fc5f11-722b-4723-91f2-293a81ad0800": {
-		"title": "obj_tool_connect"
 	},
 	"8694192c-d91b-444c-a184-910911bbb354": {
 		"title": "Oily Toilet Seat"
@@ -1118,7 +1186,7 @@
 		"title": "obj_harvests_stones_p05"
 	},
 	"8c741785-5eae-4c48-9f99-d62bf522a83f": {
-		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
+		"description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Piston 1"
 	},
 	"8ca9a4f2-c8c8-439d-9945-e2e95dafbc21": {
@@ -1154,7 +1222,7 @@
 		"title": "obj_harvests_trees_leafy01_p03"
 	},
 	"90fc3603-3544-4254-97ef-ea6723510961": {
-		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
+		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.\n\n#787878If recycled:#648181 1x #787878Scrap Metal Block,#648181 1x #787878Glass Block,#648181 2x #787878Glue,#648181 2x #787878Circuit Boards,#648181 2x #787878Component Kits",
 		"title": "Sensor 3"
 	},
 	"910a7f2c-52b0-46eb-8873-ad13255539af": {
@@ -1207,7 +1275,7 @@
 		"title": "Giant Pipe Bracer"
 	},
 	"97f449b6-c948-448b-b8b3-4448e3f6b956": {
-		"description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest.",
+		"description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest.\n\n#787878If recycled:#648181 15x #787878Metal Block 1,#648181 5x #787878Beeswax,#648181 5x #787878Circuit Boards,#648181 3x #787878Component Kits",
 		"title": "Vacuum Pump"
 	},
 	"988b5592-9e53-4782-a058-d26be442bd49": {
@@ -1233,7 +1301,7 @@
 		"title": "Stand Support A"
 	},
 	"9b8f2abd-265c-4750-b8b9-fe6cb564633c": {
-		"description": "Use it with the Vacuum Pump to make items travel through pipes.",
+		"description": "Vacuum pipes can connect different interactive parts to different containers for easier access. No more running around trying take materials out of chests and going back to your craftbot. Just connect the craftbot directly to the chests with this!\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 10x #787878Glass Blocks,#648181 2x #787878Circuit Boards",
 		"title": "Vacuum Pipe"
 	},
 	"9bdb677f-8033-451f-8bc7-7ae71351c35c": {
@@ -1252,7 +1320,7 @@
 		"title": "Carrot Crate"
 	},
 	"9dd1ccea-1e44-430d-b706-3ff45416583e": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878If recycled:#648181 4x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 3x #787878Circuit Boards,#648181 12x #787878Component Kits",
 		"title": "Driver's Saddle 5"
 	},
 	"9e9280f7-c9bc-4b86-b788-43f9b48903dd": {
@@ -1265,7 +1333,7 @@
 		"title": "Carpet Spool Holder"
 	},
 	"9fc793b2-250b-40ab-bcb3-97cf97c7b481": {
-		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
+		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Thruster 2"
 	},
 	"9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b": {
@@ -1276,7 +1344,7 @@
 		"title": "Tomato Juice Cylinder"
 	},
 	"a092359d-5cea-484d-a274-470d9a567632": {
-		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
+		"description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.\n\n#787878If recycled:#648181 7x #787878Scrap Metal Blocks,#648181 3x #787878Glue,#648181 5x #787878Circuit Boards,#648181 21x #787878Component Kits",
 		"title": "Controller 5"
 	},
 	"a20e79dd-d74e-4e10-845a-b101b3a95ab2": {
@@ -1295,7 +1363,7 @@
 		"title": "Elevator Button"
 	},
 	"a5985971-1f95-4373-a5d9-4ce0a3e74851": {
-		"description": "Emits a tracking signal that can be toggled in the Logbook.",
+		"description": "Emits a tracking signal that can be toggled in the Logbook.\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 1x #787878Radio,#648181 10x #787878Circuit Boards",
 		"title": "Beacon"
 	},
 	"a6523fd2-869c-4d11-ba42-dc967a8aad25": {
@@ -1308,7 +1376,7 @@
 		"title": "obj_harvests_trees_spruce02_p04"
 	},
 	"a736ffdf-22c1-40f2-8e40-988cab7c0559": {
-		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
+		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.\n\n#787878If recycled:#648181 80x #787878Metal Block 2,#648181 50x #787878Component Kits",
 		"title": "Thruster 5"
 	},
 	"a73f7005-b89a-427d-8e94-c3d6f729be52": {
@@ -1334,7 +1402,7 @@
 		"title": "Resource Collector"
 	},
 	"a9658eaf-0dd8-46a6-8cac-be6978f19b79": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.\n\n#787878If recycled:#648181 15x #787878Metal Block 1,#648181 2x #787878Crude Oil,#648181 3x #787878Component Kits",
 		"title": "Off-Road Suspension 3"
 	},
 	"aa3e38ef-21aa-4430-ab56-93c367f4f458": {
@@ -1345,7 +1413,7 @@
 		"title": "Banana"
 	},
 	"aae686a2-0eb3-43b3-b998-def282de79e9": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Sport Suspension 2"
 	},
 	"abaef792-741e-4c6b-8e79-02461a37b035": {
@@ -1362,7 +1430,7 @@
 		"title": "Packing Sign"
 	},
 	"ad35f7e6-af8f-40fa-aef4-77d827ac8a8a": {
-		"description": "Great for storing a lot of items. Can also be used with a Vacuum Pump.",
+		"description": "Great for storing a lot of items (10x3). Can also be connected to vacuum pipes, pumps and craftbots using the three connectors found on the chest.\n\n#787878If recycled:#648181 90x #787878Scrap Metal Blocks,#648181 5x #787878Glue,#648181 5x #787878Circuit Boards,#648181 3x #787878Component Kits",
 		"title": "Large Chest"
 	},
 	"ad9f6357-b0b4-4dab-b84e-fb20df54d1ac": {
@@ -1420,9 +1488,6 @@
 	"b627c533-f0e7-4fa7-83e6-5c3d517568e0": {
 		"title": "Cubicle Wall"
 	},
-	"b633c3ee-2cda-4096-989a-60e90cd220aa": {
-		"title": "obj_tool_spudling"
-	},
 	"b63c6440-dfc2-4da7-acdb-3c385080b2e4": {
 		"description": "The Craftbot will help you craft everything from new blocks to useful interactive parts. A mechanics best friend.",
 		"title": "Craftbot"
@@ -1440,6 +1505,7 @@
 		"title": "Metal Storage Corner B"
 	},
 	"b94a113d-ddd4-45db-844c-1d97ca0e1d61": {
+		"description": "#787878If recycled:#648181 8x #787878Scrap Metal Blocks,#648181 3x #787878Scrap Wood Blocks",
 		"title": "Shack Half Wall"
 	},
 	"b95bcc20-9581-4228-b444-b1c7ebc73507": {
@@ -1458,7 +1524,7 @@
 		"title": "obj_harvests_trees_spruce01_p05"
 	},
 	"bb2ed406-f0d3-4fd6-b3f9-7caadfa8e4e4": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Driver's Saddle 2"
 	},
 	"bb641a4f-e391-441c-bc6d-0ae21a069476": {
@@ -1472,7 +1538,7 @@
 		"title": "obj_harvests_trees_leafy02_p01"
 	},
 	"bd597ac9-6640-43ba-9bd8-ed584a794f13": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable.\n\n#787878If recycled:#648181 100x #787878Scrap Wood Blocks,#648181 10x #787878Scrap Metal Blocks,#648181 2x #787878Circuit Boards",
 		"title": "Scrap Driver's Seat"
 	},
 	"bdb55551-39a4-437c-aeff-f54368b19b5e": {
@@ -1492,7 +1558,7 @@
 		"title": "Vacuum Pipe 4"
 	},
 	"bfcaac1a-5a7f-4fba-9980-1159617a7212": {
-		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
+		"description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Gas Engine 4"
 	},
 	"bfcfac34-db0f-42d6-bd0c-74a7a5c95e82": {
@@ -1503,6 +1569,7 @@
 		"title": "Master Battery Socket"
 	},
 	"c0dfdea5-a39d-433a-b94a-299345a5df46": {
+		"description": "The hardest material in the game. Suitable for building walls to defend your crops during a raid or if you just want something that those annoying farmbots won't destroy quickly.\n\n#787878If recycled:#648181 20x #787878Metal Block 2,#648181 2x #787878Ember,#648181 4x #787878Water",
 		"title": "Metal Block 3"
 	},
 	"c10a77d5-3357-4cb4-8113-a2cbe69c7ff2": {
@@ -1518,13 +1585,14 @@
 		"title": "Barrier Stand"
 	},
 	"c2ce40b1-fc95-48bd-bd05-9c3e394a157a": {
+		"description": "I'm a big fan of this!",
 		"title": "Fan Blade"
 	},
 	"c349afdf-aded-47bc-9a5c-606372bc535b": {
 		"title": "Generator E"
 	},
 	"c39b3537-d9b2-45f8-b2ea-0e9002c896d9": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Saddle 2"
 	},
 	"c3a520b3-8d0e-435c-8070-e0ef58d028be": {
@@ -1534,7 +1602,7 @@
 		"title": "obj_destructable_tape_cocoon01"
 	},
 	"c3ef3008-9367-4ab7-813a-24195d63e5a3": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878If recycled:#648181 9x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 3x #787878Circuit Boards,#648181 4x #787878Component Kits",
 		"title": "Driver's Seat 3"
 	},
 	"c4a0a65b-3b24-4beb-bd7a-d687f4210169": {
@@ -1544,9 +1612,11 @@
 		"title": "Framework Block"
 	},
 	"c4aa3807-0806-4202-a36d-b5fa254d3046": {
+		"description": "It's round BUT CRANE!",
 		"title": "Crane Wheel"
 	},
 	"c4ec4d33-83f7-4e7e-bb0a-8df52f96aef5": {
+		"description": "#787878If recycled:#648181 10x #787878Scrap Metal Blocks,#648181 5x #787878Scrap Wood Blocks,#648181 5x #787878Cotton",
 		"title": "Shack Awning"
 	},
 	"c52c6da1-dad9-4649-b02f-34dec0bbd411": {
@@ -1556,6 +1626,7 @@
 		"title": "Bed"
 	},
 	"c56700d9-bbe5-4b17-95ed-cef05bd8be1b": {
+		"description": "Can be turned into glass.",
 		"title": "Sand Block"
 	},
 	"c5bdb30e-9675-4f8a-8fb9-07e5b98039d4": {
@@ -1579,10 +1650,11 @@
 		"title": "obj_harvests_trees_pine01_p03"
 	},
 	"c7322cd1-3158-41d9-b15a-eff2f2f8d9f7": {
-		"description": "Load your Paint Tool and give your creations some color.",
+		"description": "Load your Paint Tool and give your creations some color. DO NOT EAT",
 		"title": "Paint Ammo"
 	},
 	"c76b89a3-7731-4ae1-99d4-788a29319360": {
+		"description": "Materials waiting to be transported into the warehouse or some other place. The recyclebot can be used to get the materials from this crate.\n\n#787878If recycled:#648181 10x #787878Scrap Metal Blocks,#648181 5x #787878Haystacks",
 		"title": "Hay Crate"
 	},
 	"c7772f74-f120-4008-8121-977e52a1d7c0": {
@@ -1602,6 +1674,7 @@
 		"title": "Protector: Anti-Destruction"
 	},
 	"c8ca8731-3af2-4554-9019-6b941affcb16": {
+		"description": "#787878If recycled:#648181 5x #787878Scrap Metal Blocks,#648181 10x #787878Scrap Wood Blocks,#648181 5x #787878Cotton",
 		"title": "Shack Shade Sails"
 	},
 	"c8d3b9ba-5bb1-49c5-aeb0-6c32f9b1e5c8": {
@@ -1611,7 +1684,7 @@
 		"title": "Pigment Flower"
 	},
 	"c96ab903-f238-4bae-a614-28a758716d00": {
-		"description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable.",
+		"description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable.\n\n#787878If recycled:#648181 20x #787878Scrap Wood Blocks,#648181 30x #787878Scrap Metal Blocks,#648181 3x #787878Circuit Boards",
 		"title": "Scrap Gas Engine"
 	},
 	"c9d61f53-ebd3-4bb5-8789-43b00edbcc8b": {
@@ -1649,7 +1722,7 @@
 		"title": "Slippery Surface Sign"
 	},
 	"cf46678b-c947-4267-ba85-f66930f5faa4": {
-		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
+		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Sensor 2"
 	},
 	"cf4daf85-36a2-479f-96dc-b6201bc12d36": {
@@ -1662,7 +1735,7 @@
 		"title": "Recycling Bin"
 	},
 	"d0aa2676-5266-432a-bf7e-3887e6ddedd5": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 2x #787878Crude Oil,#648181 3x #787878Component Kits",
 		"title": "Sport Suspension 3"
 	},
 	"d0afb527-e786-4a22-a907-6da7e7cba8cb": {
@@ -1681,10 +1754,11 @@
 		"title": "obj_survivalobject_elevatorfloor"
 	},
 	"d30dcd12-ec39-43b9-a115-44c08e1b9091": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Driver's Seat 4"
 	},
 	"d361b477-69b2-4a3a-b119-ec99a3938f5b": {
+		"description": "#787878If recycled:#648181 20x #787878Plastic Blocks,#648181 5x #787878Scrap Wood Blocks",
 		"title": "Stacked Crates"
 	},
 	"d42cae51-343e-4847-83a4-e55c1b04aa80": {
@@ -1700,14 +1774,12 @@
 	"d4e6c84c-a493-44b1-81aa-4f4741ea3ed8": {
 		"title": "Broken Microwave"
 	},
-	"d62ab46a-6d71-4858-85ba-c1a0e28e9abc": {
-		"title": "obj_robotparts_redtapebothead"
-	},
 	"d740a27d-cc0f-4866-9e07-6a5c516ad719": {
+		"description": "#787878If recycled:#648181 6x #787878Scrap Metal Blocks",
 		"title": "Worn Metal Block"
 	},
 	"d9adddcc-972d-4726-a376-67f950b99a44": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Sport Suspension 4"
 	},
 	"da2efa37-370d-4848-bc2e-2bae01173ce1": {
@@ -1721,6 +1793,7 @@
 		"title": "Work Light"
 	},
 	"da86d1c6-e29b-4741-8b65-eed067222dc7": {
+		"description": "WORK.",
 		"title": "Paper Stack"
 	},
 	"dac97219-d076-41db-8bbb-2509facf0eb4": {
@@ -1733,7 +1806,7 @@
 		"title": "Encryptor Base Plate"
 	},
 	"de018bc6-1db5-492c-bfec-045e63f9d64b": {
-		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
+		"description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Sensor 4"
 	},
 	"de556b89-a4be-4d7e-ab49-e6485af16836": {
@@ -1758,7 +1831,7 @@
 		"title": "obj_destructable_tape_tape01"
 	},
 	"df8528ed-15ad-4a39-a33a-698880684001": {
-		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
+		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Thruster 1"
 	},
 	"dfcff000-e027-4f43-9bfb-f9a84b3b50c4": {
@@ -1790,7 +1863,7 @@
 		"title": "obj_harvests_trees_pine03_p03"
 	},
 	"e49b210a-0d46-4f06-bcd8-08862379d156": {
-		"description": "Used to activate a Warehouse elevator.",
+		"description": "Maybe it's at least worth a try to use this to get inside...\n\n#787878If recycled:#648181 30x #787878Metal Block 3,#648181 5x #787878Circuit Boards,#648181 5x #787878Component Kits",
 		"title": "Warehouse Key"
 	},
 	"e4df268d-5845-4532-ba75-75bb7b71fcdf": {
@@ -1800,7 +1873,7 @@
 		"title": "Capsule Door"
 	},
 	"e6db321c-6f98-47f6-9f7f-4e6794a62cb8": {
-		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
+		"description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.\n\n#787878Upgrade this item to level#648181 5#787878 for it to be able to be recycled.",
 		"title": "Thruster 4"
 	},
 	"e71b55c7-8547-4bef-bb77-e976c8abde0b": {
@@ -1834,7 +1907,7 @@
 		"title": "obj_robotparts_haybothead"
 	},
 	"ea10d1af-b97a-46fb-8895-dfd1becb53bb": {
-		"description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
+		"description": "Connect it to a Vacuum Pump that is under water to fill the Water Container with water or you can do it the other way around. Make the Vacuum pump shoot out water!",
 		"title": "Water Container"
 	},
 	"ea16ec2e-5135-49e9-9543-9bdcd818d90a": {
@@ -1859,10 +1932,11 @@
 		"title": "obj_survivalobject_dispenserbot"
 	},
 	"ebe2782e-a4f5-4d91-83cc-db110179393b": {
-		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
+		"description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.\n\n#787878If recycled:#648181 9x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 2x #787878Circuit Boards,#648181 2x #787878Component Kits",
 		"title": "Seat 3"
 	},
 	"ebefa387-fe4a-4839-bdd9-b6b4da39368f": {
+		"description": "#787878If recycled:#648181 3x #787878Scrap Metal Blocks,#648181 5x #787878Cardboard Block,#648181 1x #787878Circuit board",
 		"title": "Shack Light"
 	},
 	"ec0bb005-f3c1-425a-94c4-6feca8567068": {
@@ -1884,20 +1958,21 @@
 		"title": "obj_harvests_trees_leafy03_p00"
 	},
 	"efbf45f8-62ec-4541-9eb1-d529966f6a29": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Driver's Seat 2"
 	},
 	"efd779ef-ce99-4507-bafb-9e2c7ff8a46c": {
 		"title": "Banner"
 	},
 	"f08d772f-9851-400f-a014-d847900458a7": {
-		"description": "Keeps your food fresh.",
+		"description": "Keeps your food fresh.\n\n#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 2x #787878Chemicals,#648181 2x #787878Glue,#648181 1x #787878Circuit Board",
 		"title": "Fridge"
 	},
 	"f092e8b5-4b10-48be-8ad1-2ac5625f49b8": {
 		"title": "Plunger"
 	},
 	"f152e4df-bc40-44fb-8d20-3b3ff70cdfe3": {
+		"description": "Scrap circuit board from a farmbot. Can be reused to make different machines and interactive parts. Hope this thing still works...",
 		"title": "Circuit Board"
 	},
 	"f15b5fa7-6113-4af8-b3e1-b05560ed946a": {
@@ -1910,10 +1985,11 @@
 		"title": "obj_robotparts_tapebotshooter"
 	},
 	"f3cfef9d-faef-4be8-9283-476eb99614d7": {
-		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
+		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.\n\n#787878Upgrade this item to level#648181 3#787878 for it to be able to be recycled.",
 		"title": "Off-Road Suspension 1"
 	},
 	"f406bf6e-9fd5-4aa0-97c1-0b3c2118198e": {
+		"description": "Plastic with bubbles. Everyone likes to pop these!",
 		"title": "Bubble Plastic Block"
 	},
 	"f47612db-e035-4d62-81e2-64fc3453ccc3": {
@@ -1943,9 +2019,11 @@
 		"title": "Chemicals"
 	},
 	"f7d4bfed-1093-49b9-be32-394c872a1ef4": {
+		"description": "#787878If recycled:#648181 15x #787878Scrap Metal Blocks",
 		"title": "Diamond Plate Block"
 	},
 	"f8b984da-4b24-4e36-b440-86ead126b6dc": {
+		"description": "Materials waiting to be transported into the warehouse or some other place. The recyclebot can be used to get the materials from this crate.\n\n#787878If recycled:#648181 10x #787878Scrap Metal Blocks,#648181 100x #787878Scrap Wood Blocks",
 		"title": "Tree Crate"
 	},
 	"f8da6b41-03d7-4bc1-ba94-011a351b1569": {
@@ -1973,7 +2051,7 @@
 		"title": "Beeswax"
 	},
 	"fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5": {
-		"description": "A simple chest to store your items.",
+		"description": "A simple chest to store your items. (10x2)\n\n#787878If recycled:#648181 60x #787878Scrap Metal Blocks,#648181 2x #787878Glue",
 		"title": "Chest"
 	},
 	"fd381577-bcd2-4b72-b86c-de47d7783820": {
@@ -1987,6 +2065,7 @@
 		"title": "Corn"
 	},
 	"febce8a6-6c05-4e5d-803b-dfa930286944": {
+		"description": "#787878If recycled:#648181 5x #787878Cotton",
 		"title": "Carpet Block"
 	},
 	"ff09d816-843a-43e9-aab6-dc35e73787fd": {
@@ -1999,7 +2078,7 @@
 		"title": "obj_harvests_trees_pine02_p01"
 	},
 	"ffa3a47e-fc0d-4977-802f-bd15683bbe5c": {
-		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+		"description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.\n\n#787878If recycled:#648181 9x #787878Cotton,#648181 7x #787878Scrap Metal Blocks,#648181 3x #787878Circuit Boards,#648181 12x #787878Component Kits",
 		"title": "Driver's Seat 5"
 	},
 	"fff76292-79aa-4f0d-814f-72e51159d6d7": {

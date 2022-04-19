@@ -187,7 +187,6 @@ function Crafter.sv_init( self )
 	self.sv.clientDataDirty = false
 	self.sv.storageDataDirty = true
 	self.sv.craftArray = {}
-	self.sv.virtualPlrContainers = {}
 	self.sv.saved = self.storage:load()
 	if self.params then print( self.params ) end
 
@@ -200,13 +199,6 @@ function Crafter.sv_init( self )
 	if self.sv.saved.craftArray then
 		self.sv.craftArray = self.sv.saved.craftArray
 	end
-	if self.sv.saved.virtualPlrContainers then
-		self.sv.virtualPlrContainers = self.sv.saved.virtualPlrContainers
-		hasPlrContainers = true
-	end
-	if shapeUuid == obj_craftbot_craftbot1 or shapeUuid == obj_craftbot_craftbot2 or shapeUuid == obj_craftbot_craftbot3 or shapeUuid == obj_craftbot_craftbot4 or shapeUuid == obj_craftbot_craftbot5 then
-		hasPlrContainers = true
-	end
 
 	self:sv_buildPipesAndContainerGraph()
 end
@@ -217,8 +209,7 @@ end
 
 function Crafter.sv_sendClientData( self )
 	if self.sv.clientDataDirty then
-    local shapeUuid = self.shape:getShapeUuid()
-		self.network:setClientData( { craftArray = self.sv.craftArray, pipeGraphs = self.sv.pipeGraphs, virtualPlrContainers = self.sv.virtualPlrContainers } )
+		self.network:setClientData( { craftArray = self.sv.craftArray, pipeGraphs = self.sv.pipeGraphs } )
 		self.sv.clientDataDirty = false
 	end
 end
@@ -451,7 +442,6 @@ end
 function Crafter.client_onClientDataUpdate( self, data )
 	self.cl.craftArray = data.craftArray
 	self.cl.pipeGraphs = data.pipeGraphs
-	self.cl.virtualPlrContainers = data.virtualPlrContainers
 
 	-- Experimental needs testing
 	for _, val in ipairs( self.cl.craftArray ) do
@@ -954,10 +944,7 @@ function Crafter.cl_setGuiContainers( self )
 			end
 		else
 			table.insert( containers, sm.localPlayer.getPlayer():getInventory() )
-		end
-		if hasPlrContainers then
-			table.insert( containers, self.cl.virtualPlrContainers[sm.localPlayer.getId()] )
-		end                                                                      
+		end                                                                   
 		self.cl.guiInterface:setContainers( "", containers )
 	else
 		self.cl.guiInterface:setContainer( "", sm.localPlayer.getPlayer():getInventory() )
