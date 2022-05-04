@@ -55,7 +55,7 @@
 			},
 			"flammable": false,
 			"friction": 0.1,
-			"stackSize": 5
+			"stackSize": 5,
 			"friction": 0.1
 		}
 		
