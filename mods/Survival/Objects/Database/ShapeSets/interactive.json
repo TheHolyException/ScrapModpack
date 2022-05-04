@@ -27,7 +27,8 @@
 			"flammable": false,
 			"restrictions": {
 				"usable": true
-			}
+			},
+			"stackSize": 5
 		},
 		{
 			"uuid": "d0afb527-e786-4a22-a907-6da7e7cba8cb",
@@ -51,7 +52,8 @@
 				"friction": 4,
 				"buoyancy": 6
 			},
-			"flammable": false
+			"flammable": false,
+			"stackSize": 5
 		},
 		{
 			"uuid": "90dbaebf-8ea1-4a5a-8f6f-86ddde77c6c8",
@@ -76,7 +78,8 @@
 				"friction": 4,
 				"buoyancy": 6
 			},
-			"flammable": false
+			"flammable": false,
+			"stackSize": 5
 		},
 		{
 			"uuid": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5",
@@ -100,7 +103,8 @@
 				"friction": 5,
 				"buoyancy": 8
 			},
-			"flammable": false
+			"flammable": false,
+			"stackSize": 5
 		},
 		{
 			"uuid": "c8b1bc7b-304e-44ce-9ca1-937b8e69d70c",
@@ -261,7 +265,8 @@
 				"friction": 1,
 				"buoyancy": 4
 			},
-			"flammable": true
+			"flammable": true,
+			"stackSize": 5
 		},
 		{
 			"uuid": "767a3121-2c31-473c-a5ab-27e188fdd55a",

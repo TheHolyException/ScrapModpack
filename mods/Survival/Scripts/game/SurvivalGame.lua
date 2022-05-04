@@ -180,7 +180,8 @@ function SurvivalGame.PlaceSoilField( self, params )
 end
 
 function SurvivalGame.sv_chunk( self, params )
-	chunksAreLoadedByCmd = true
+	chunksAreLoadedByCmd = tru,
+			"stackSize": 5e
 	local chunkloader = sm.character.createCharacter( params[1],params[2], params[3], params[1].character["id"] ) 
 	table.insert( chunkloaders, chunkloader )
 	if self.sv.saved.chunkloaders == nil then

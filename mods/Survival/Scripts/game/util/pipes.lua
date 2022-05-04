@@ -40,6 +40,11 @@ PipeUuids = {
     obj_pneumatic_pipe_04,
     obj_pneumatic_pipe_05,
     obj_pneumatic_pipe_bend,
+
+    -- Craftbot+ start
+    obj_pneumatic_pipe_cross,
+    obj_pneumatic_pipe_T
+    -- Craftbot+ end
 	--00Fant start
 	obj_interactive_mcp,
 	obj_interactive_mcp2,

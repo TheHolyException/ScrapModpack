@@ -19,6 +19,7 @@
 		"title": "Wires Long"
 	},
 	"0603b36e-0bdb-4828-b90c-ff19abcdfe34": {
+		"description": "Very often used in building. Is slightly cheaper than concrete but also slightly less durable.\n\n#787878If recycled:#648181 10x #787878Scrap Stone Blocks",
 		"title": "Brick Block"
 	},
 	"068a89ca-504e-4782-9ede-48f710aeea73": {
@@ -28,6 +29,7 @@
 		"title": "Pipe Long"
 	},
 	"073f92af-f37e-4aff-96b3-d66284d5081c": {
+		"description": "#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 1x #787878Circuit Board",
 		"title": "Path Light Block"
 	},
 	"08918d4d-29e6-427d-ad8c-1eafcc4af1f9": {
@@ -54,9 +56,11 @@
 		"title": "Woc Capsule"
 	},
 	"1325d152-3dd1-41a1-9027-5823c5cb55c4": {
+		"description": "Nice to have on those really hot days.\n\n#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 3x #787878Circuit Boards",
 		"title": "Air Conditioner"
 	},
 	"13ffabca-91ec-48ce-9dd6-4f6660714701": {
+		"description": "It contains grass.",
 		"title": "Grass Container"
 	},
 	"14e8f5d0-7d6a-41ab-96a1-fc34588de868": {
@@ -66,7 +70,7 @@
 		"title": "Large Support Structure"
 	},
 	"161786c1-1290-4817-8f8b-7f80de755a06": {
-		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
+		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.\n\n#787878If recycled:#648181 18x #787878Scrap Metal Blocks,#648181 4x #787878Circuit Boards",
 		"title": "Totebot Head: Bass"
 	},
 	"17153a0e-8461-442f-b172-3a899c1ae99f": {
@@ -79,7 +83,7 @@
 		"title": "Exit Sign"
 	},
 	"1c04327f-1de4-4b06-92a8-2c9b40e491aa": {
-		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
+		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.\n\n#787878If recycled:#648181 15x #787878Scrap Metal Blocks,#648181 2x #787878Circuit Boards",
 		"title": "Totebot Head: Blip"
 	},
 	"1daf2b8a-fd2f-4266-9942-c04feede4f7b": {
@@ -186,7 +190,7 @@
 		"title": "Tapebot Capsule"
 	},
 	"4c6e27a2-4c35-4df3-9794-5e206fef9012": {
-		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
+		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.\n\n#787878If recycled:#648181 18x #787878Scrap Metal Blocks,#648181 4x #787878Circuit Boards",
 		"title": "Totebot Head: Percussion"
 	},
 	"4c7b8096-b8ca-4341-bfe9-d31d2d5443b8": {
@@ -255,6 +259,7 @@
 		"title": "Fuse Box"
 	},
 	"69e362c3-32aa-4cd1-adc0-dcfc47b92c0d": {
+		"description": "It's round.\n\n#787878If recycled:#648181 22x #787878Scrap Wood Blocks,#648181 7x #787878Scrap Metal Blocks,#648181 6x #787878Beeswax",
 		"title": "Wheel"
 	},
 	"6a720005-ba27-4cfc-8fb3-b1af8b9c8bd3": {
@@ -327,6 +332,7 @@
 		"title": "Small Potted Plant"
 	},
 	"8aedf6c2-94e1-4506-89d4-a0227c552f1e": {
+		"description": "It's not made out of wood.\n\n#787878If recycled:#648181 15x #787878Scrap Metal Blocks",
 		"title": "Metal Block 1"
 	},
 	"8b684022-254b-41af-a58c-ec4b14791000": {
@@ -343,6 +349,7 @@
 		"title": "Connect Tool"
 	},
 	"8ca49bff-eeef-4b43-abd0-b527a567f1b7": {
+		"description": "Usually found in bathrooms or parts of kitchens.",
 		"title": "Tile Block"
 	},
 	"8d3b98de-c981-4f05-abfe-d22ee4781d33": {
@@ -376,6 +383,7 @@
 		"title": "Duct Short"
 	},
 	"9eead4cf-4743-486e-99be-a553c4c10740": {
+		"description": "#787878If recycled:#648181 35x #787878Scrap Wood Blocks,#648181 20x #787878Cotton",
 		"title": "Mattress"
 	},
 	"9f0f56e8-2c31-4d83-996c-d00a9b296c3f": {
@@ -386,7 +394,7 @@
 		"title": "Pipe Join"
 	},
 	"a052e116-f273-4d73-872c-924a97b86720": {
-		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
+		"description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.\n\n#787878If recycled:#648181 18x #787878Scrap Metal Blocks,#648181 4x #787878Circuit Boards",
 		"title": "Totebot Head: Synth Voice"
 	},
 	"a481138b-fae9-47c9-9bc2-91b6d2e2bf52": {
@@ -397,6 +405,7 @@
 		"title": "Danger Sign"
 	},
 	"a6c6ce30-dd47-4587-b475-085d55c6a3b4": {
+		"description": "Cheap but pretty durable material suitable for building structures with, only downside being that it's really heavy. Can be reinforced with metal in the craftbot.",
 		"title": "Concrete Block 1"
 	},
 	"a6ec1dcc-07e9-418a-819e-904e28a32f63": {
@@ -444,6 +453,7 @@
 		"title": "Potted Cactus"
 	},
 	"c3990931-b471-4e89-beb5-0baaef47f0af": {
+		"description": "#787878If recycled:#648181 10x #787878Scrap Wood Blocks",
 		"title": "Wooden Crate"
 	},
 	"c40683f3-d9ce-4067-af24-3514c1867a1a": {
@@ -519,6 +529,7 @@
 		"title": "Haybot Capsule"
 	},
 	"db66f0b1-0c50-4b74-bdc7-771374204b1f": {
+		"description": "It's big AND round.\n\n#787878If recycled:#648181 60x #787878Scrap Wood Blocks,#648181 15x #787878Scrap Metal Blocks,#648181 8x #787878Beeswax",
 		"title": "Big Wheel"
 	},
 	"dbd509b5-b7cc-43cf-9a89-b3befecfe991": {
@@ -531,6 +542,7 @@
 		"title": "Potted Plant"
 	},
 	"df953d9c-234f-4ac2-af5e-f0490b223e71": {
+		"description": "It's made out of wood.\n\n#787878If recycled:#648181 15x #787878Scrap Wood Blocks",
 		"title": "Wood Block 1"
 	},
 	"dfefc9d7-db03-4d25-ad85-eae1d824d8c0": {
@@ -561,7 +573,7 @@
 		"title": "Headlight"
 	},
 	"edd445cc-c298-4ce3-9a58-745c1bee1bc7": {
-		"description": "Ammo for the Scrapgun",
+		"description": "Can be used to decorate your creations or in survival, be used to craft component kits.",
 		"title": "Nut"
 	},
 	"f0438bd7-6307-4991-943f-d78b04877d96": {

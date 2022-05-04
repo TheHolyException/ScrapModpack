@@ -38,7 +38,7 @@
 			},
 			"flammable": true,
 			"consumable": true,
-			"stackSize": 20,
+			"stackSize": 50,
 			"restrictions": {
 				"erasable": true
 			},
@@ -82,7 +82,7 @@
 			},
 			"flammable": true,
 			"consumable": true,
-			"stackSize": 5,
+			"stackSize": 10,
 			"restrictions": {
 				"erasable": true
 			},
@@ -114,8 +114,8 @@
 				"buoyancy": 7
 			},
 			"flammable": true,
-			"consumable": true,			
-			"stackSize": 5,
+			"consumable": true,
+			"stackSize": 10,
 			"restrictions": {
 				"erasable": true
 			},
@@ -148,7 +148,7 @@
 			},
 			"flammable": true,
 			"consumable": true,
-			"stackSize": 5,
+			"stackSize": 10,
 			"restrictions": {
 				"erasable": true
 			},
@@ -203,8 +203,8 @@
 				"buoyancy": 7
 			},
 			"flammable": true,
-			"consumable": true,			
-			"stackSize": 5,
+			"consumable": true,
+			"stackSize": 10,
 			"restrictions": {
 				"erasable": true
 			},
@@ -255,7 +255,7 @@
 				"buoyancy": 7
 			},
 			"flammable": true,
-			"stackSize": 5,
+			"stackSize": 10,
 			"restrictions": {
 				"erasable": true
 			},

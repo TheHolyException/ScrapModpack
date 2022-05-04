@@ -322,6 +322,9 @@
 			},
 			"flammable": false,
 			"density": 250.0,
+			"restrictions": {
+				"usable": true
+			},
 			"pipe": {
 				"openings": [
 					{
@@ -415,6 +418,9 @@
 			},
 			"flammable": false,
 			"density": 250.0,
+			"restrictions": {
+				"usable": true
+			},
 			"pipe": {
 				"openings": [
 					{

@@ -14,6 +14,8 @@ Crafter.colorHighlight = sm.color.new( 0xa7ff4fff )
 Crafter.maxParentCount = 1 -- Search MOD, allow a connection for keyboard
 Crafter.connectionInput = sm.interactable.connectionType.logic -- Search MOD, connection for keyboard
 
+--local LockItems = true --Lock items depending on level (DO NOT SET THIS TO TRUE. THIS FEATURE IS NOT FINISHED!)
+local hasPlrContainers = false
 
 local crafters = {
 	-- Workbench
@@ -110,6 +112,19 @@ local crafters = {
 			{ name = "craftbot", locked = false }
 		},
 		subTitle = "#{LEVEL} 5",
+		createGuiFunction = sm.gui.createCraftBotGui                     
+	},
+	-- Recyclebot
+	[tostring( obj_craftbot_recyclebot )] = {
+		needsPower = false,
+		slots = 8,
+		speed = 1,
+		recipeSets = {
+			{ name = "recyclebot", locked = false }
+		},
+		title = "RECYCLEBOT",
+		subTitle = "Recycle items here!",
+		craftBtnText = "RECYCLE THIS ITEM",
 		createGuiFunction = sm.gui.createCraftBotGui
 	}
 }
@@ -350,7 +365,7 @@ function Crafter.cl_init( self )
 	-- print( "craft_finish", self.interactable:getAnimDuration( "craft_finish" ) )
 
 
-	if shapeUuid == obj_craftbot_craftbot1 or shapeUuid == obj_craftbot_craftbot2 or shapeUuid == obj_craftbot_craftbot3 or shapeUuid == obj_craftbot_craftbot4 or shapeUuid == obj_craftbot_craftbot5  then
+	if shapeUuid == obj_craftbot_craftbot1 or shapeUuid == obj_craftbot_craftbot2 or shapeUuid == obj_craftbot_craftbot3 or shapeUuid == obj_craftbot_craftbot4 or shapeUuid == obj_craftbot_craftbot5 or shapeUuid == obj_craftbot_recyclebot then
 		self.cl.mainEffects["unfold"] = sm.effect.createEffect( "Craftbot - Unpack", self.interactable )
 		self.cl.mainEffects["idle"] = sm.effect.createEffect( "Craftbot - Idle", self.interactable )
 		self.cl.mainEffects["idlespecial01"] = sm.effect.createEffect( "Craftbot - IdleSpecial01", self.interactable )
@@ -366,6 +381,9 @@ function Crafter.cl_init( self )
 
 		self.cl.tertiaryEffects["craft_loop02"] = sm.effect.createEffect( "Craftbot - Work02Torch", self.interactable, "l_arm03_jnt" )
 
+		if shapeUuid ~= obj_craftbot_recyclebot then
+			hasPlrContainers = true
+		end
 	elseif shapeUuid == obj_craftbot_cookbot then
 
 		self.cl.mainEffects["unfold"] = sm.effect.createEffect( "Cookbot - Unpack", self.interactable )
@@ -934,7 +952,7 @@ function Crafter.client_canInteract( self )
 end
 
 function Crafter.cl_setGuiContainers( self )
-	if isAnyOf( self.shape:getShapeUuid(), { obj_craftbot_craftbot1, obj_craftbot_craftbot2, obj_craftbot_craftbot3, obj_craftbot_craftbot4, obj_craftbot_craftbot5 } ) then
+	if isAnyOf( self.shape:getShapeUuid(), { obj_craftbot_craftbot1, obj_craftbot_craftbot2, obj_craftbot_craftbot3, obj_craftbot_craftbot4, obj_craftbot_craftbot5, obj_craftbot_recyclebot } ) then
 		local containers = {}
 		if #self.cl.pipeGraphs.input.containers > 0 then
 			for _, val in ipairs( self.cl.pipeGraphs.input.containers ) do
@@ -1031,6 +1049,16 @@ function Crafter.client_onInteract( self, character, state )
 			end
 
 			self.cl.guiInterface:setText( "SubTitle", self.crafter.subTitle )
+			
+			if self.crafter.title then
+				self.cl.guiInterface:setText("BotTitle", self.crafter.title)
+			end
+			if self.crafter.craftBtnText then
+				self.cl.guiInterface:setText("Craft", self.crafter.craftBtnText)
+			end
+			if self.interactable.shape.uuid == obj_craftbot_recyclebot then
+				self.cl.guiInterface:setVisible("RecyclebotBG", true)
+			end
 			self.cl.guiInterface:open()
 
 			local pipeConnection = #self.cl.pipeGraphs.output.containers > 0
@@ -1398,6 +1426,12 @@ function Crafter.cl_n_upgrade( self, upgrade )
 
 		self.cl.guiInterface:setText( "SubTitle", self.crafter.subTitle )
 
+		if self.crafter.title then
+			self.cl.guiInterface:setText("BotTitle", self.crafter.title)
+		end
+		if self.crafter.craftBtnText then
+			self.cl.guiInterface:setText("Craft", self.crafter.craftBtnText)
+		end
 		if self.crafter.upgrade then
 			local nextLevel = crafters[ self.crafter.upgrade ]
 			local upgradeInfo = {}
@@ -1411,7 +1445,7 @@ function Crafter.cl_n_upgrade( self, upgrade )
 			end
 			self.cl.guiInterface:setData( "UpgradeInfo", upgradeInfo )
 		else
-			self.cl.guiInterface:setData( "UpgradeInfo", {} )
+			self.cl.guiInterface:setData( "UpgradeInfo", nil )
 		end
 	end
 end

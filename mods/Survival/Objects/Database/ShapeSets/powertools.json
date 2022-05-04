@@ -26,7 +26,8 @@
 			},
 			"flammable": false,
 			"friction": 0.0,
-			"restitution": 0.0
+			"restitution": 0.0,
+			"stackSize": 5
 		},
 		{
 			"uuid": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
@@ -53,6 +54,8 @@
 				"buoyancy": 1
 			},
 			"flammable": false,
+			"friction": 0.1,
+			"stackSize": 5
 			"friction": 0.1
 		}
 		

@@ -183,7 +183,193 @@
 				"friction": 4,
 				"buoyancy": 5
 			},
+{
+	"partList": [
+		{
+			"uuid": "1b927252-ee6d-420e-8bb4-ae42fcb43ba8",
+			"name": "obj_construction_brick",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_brick.fbx"
+					}
+				]
+			},
+			"color": "82847e",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 1
+			},
 			"flammable": false
+		},
+		{
+			"uuid": "c3a520b3-8d0e-435c-8070-e0ef58d028be",
+			"name": "obj_construction_rebarsmall",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarsmall.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ac59ef69-95a7-4907-a8ba-e5c83ef83112",
+			"name": "obj_construction_rebarmedium",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarmedium.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0f638bd7-0c0d-4ba3-9ba2-af0b523ddff4",
+			"name": "obj_construction_rebarbig",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarbig.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c2078bfe-fa3d-4c2b-8d97-6b5308ff624b",
+			"name": "obj_construction_signcone",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_signcone.fbx"
+					}
+				]
+			},
+			"color": "f15814",
+			"hull": {
+				"x": 2,
+				"y": 5,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_signcone.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false,
+			"stackSize": 5
 		},
 		{
 			"uuid": "6232b62a-f3e0-4609-a159-ab08abf8125f",
@@ -541,7 +727,8 @@
 				"friction": 4,
 				"buoyancy": 3
 			},
-			"flammable": true
+			"flammable": true,
+			"stackSize": 5
 		},
 		{
 			"uuid": "26119eb4-0e0e-4730-85ad-8a8c44f3d18c",
@@ -721,7 +908,8 @@
 				"friction": 4,
 				"buoyancy": 2
 			},
-			"flammable": false
+			"flammable": false,
+			"stackSize": 5
 		},
 		{
 			"uuid": "dac97219-d076-41db-8bbb-2509facf0eb4",
@@ -761,6 +949,7 @@
 			},
 			"flammable": true,
 			"autoTool": "c9d61b8a-b116-41d5-9f95-77a87e4fcff7"
+			"stackSize": 5
 		},
 		{
 			"uuid": "de7a75db-207d-48fe-a385-fc4c61b40cf6",
