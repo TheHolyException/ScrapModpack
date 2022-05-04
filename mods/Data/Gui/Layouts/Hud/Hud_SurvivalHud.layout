@@ -1,0 +1,1291 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="StatusPanel" position_real="0 0.0925926 0.151042 0.235186">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="HudBackgroundLarge" position_real="0.172414 0.5 0.827586 0.1574805">
+            <Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0.158333 0.05 0.833333 0.9">
+                <Widget type="ProgressBar" skin="HUDProgressBarRedLarge" name="HealthLoss" position_real="0.015 0.0833333 0.97 0.833333">
+                    <Property key="Range" value="100" />
+                    <Property key="RangePosition" value="100" />
+                    <Property key="Alpha" value="1" />
+                    <Widget type="ProgressBar" skin="HUDProgressBarGreen" name="Health" position_real="0 0 1 1">
+                        <Property key="Range" value="100" />
+                        <Property key="RangePosition" value="50" />
+                        <Property key="InheritsAlpha" value="false" />
+                        <Widget type="TextBox" skin="TextBox" name="HealthLossText" position_real="0.71134 0 0.257732 1">
+                            <Property key="TextAlign" value="Right VCenter" />
+                            <Property key="Caption" value="-50" />
+                            <Property key="FontName" value="SM_NumberSmall" />
+                            <Property key="TextShadow" value="true" />
+                            <Property key="TextColour" value="1 1 0.752941" />
+                            <Property key="InheritsAlpha" value="false" />
+                            <Property key="TextShadowColour" value="0 0 0 0.2" />
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="HealthIcon" position_real="0.0416667 0.25 0.0833333 0.5">
+                <Property key="ImageTexture" value="gui_icon_hud_health.png" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="HudBackgroundSmall" position_real="0.172414 0.6968505 0.827586 0.07874">
+            <Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.158333 0.1 0.833333 0.8">
+                <Widget type="ProgressBar" skin="HUDProgressBarRedSmall" name="FoodLoss" position_real="0.015 0.1875 0.97 0.625">
+                    <Property key="Range" value="100" />
+                    <Property key="RangePosition" value="100" />
+                    <Widget type="ProgressBar" skin="HUDProgressBarYellow" name="Food" position_real="0 0 1 1">
+                        <Property key="Range" value="100" />
+                        <Property key="RangePosition" value="50" />
+                        <Property key="InheritsAlpha" value="false" />
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="FoodIcon" position_real="0.0416667 0 0.0833333 1">
+                <Property key="ImageTexture" value="gui_icon_hud_food.png" />
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="HudBackgroundSmall" position_real="0.172414 0.8149605 0.827586 0.07874">
+            <Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.158333 0.1 0.833333 0.8">
+                <Widget type="ProgressBar" skin="HUDProgressBarRedSmall" name="WaterLoss" position_real="0.015 0.1875 0.97 0.625">
+                    <Property key="Range" value="100" />
+                    <Property key="RangePosition" value="100" />
+                    <Widget type="ProgressBar" skin="HUDProgressBarBlue" name="Water" position_real="0 0 1 1">
+                        <Property key="Range" value="100" />
+                        <Property key="RangePosition" value="50" />
+                        <Property key="InheritsAlpha" value="false" />
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="WaterIcon" position_real="0.0416667 0 0.0833333 1">
+                <Property key="ImageTexture" value="gui_icon_hud_water.png" />
+            </Widget>
+        </Widget>
+		
+		<Widget type="Widget" skin="HudBackgroundSmall" name="SpeedometerPanel" position_real="0.172414 0.38189 0.827586 0.07874">
+  			<Widget type="ImageBox" skin="ImageBox" name="SpeedometerIcon" position_real="0.0416667 0 0.0833333 1">
+        		<Property key="ImageTexture" value="gui_icon_hud_exi_speedometer.png" />
+     		</Widget>
+    		<Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.158333 0.1 0.833333 0.8">
+        		<Widget type="TextBox" skin="TextBox" name="Speed" position_real="0 0 1 1">
+					<Property key="FontName" value="Monosmaller" />
+        	    	<Property key="Caption" value="29.5 km/h" />
+        	    	<Property key="TextShadow" value="true" />
+        			<Property key="TextAlign" value="Center" />
+				</Widget>
+    		</Widget>
+		</Widget>
+
+    </Widget>
+    <Widget type="Widget" skin="PanelEmpty" name="BindingPanel" position_real="0.270833 0.342593 0.227084 0.555555">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+
+
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.5 0.8 0.5 0.2">
+
+		
+        	<Widget type="Button" skin="HudBackgroundIcon" align="Right Bottom" name="InventoryIconBackground" position_real="0 0.316667 0.256881 0.466667">
+            	<Widget type="ImageBox" skin="ImageBox" position_real="0.232143 0.232143 0.535714 0.535714">
+            	    <Property key="ImageTexture" value="gui_icon_hud_backpack.png" />
+        	    </Widget>
+        	</Widget>
+        	<Widget type="Button" skin="HotbarItemKeybindingBackground" align="Right Bottom" name="InventoryBinding" position_real="0.0779817 0.7 0.100917 0.133333">
+        	    <Property key="Caption" value="I" />
+        	    <Property key="FontName" value="SM_HotbarBinding" />
+        	    <Property key="TextAlign" value="Center" />
+        	</Widget>
+        	<Widget type="Button" skin="HudBackgroundIcon" align="Right Bottom" name="LogbookIconBackground" position_real="0.266055 0.316667 0.256881 0.466667">
+            	<Widget type="ImageBox" skin="ImageBox" name="LogbookImageBox" position_real="0.232143 0.232143 0.535714 0.535714">
+                	<Property key="ImageTexture" value="gui_icon_hud_logbook_inactive.png" />
+            	</Widget>
+        	</Widget>
+        	<Widget type="Button" skin="HotbarItemKeybindingBackground" align="Right Bottom" name="LogbookBinding" position_real="0.344037 0.7 0.100917 0.133333">
+            	<Property key="Caption" value="L" />
+            	<Property key="FontName" value="SM_HotbarBinding" />
+         		<Property key="TextAlign" value="Center" />
+        	</Widget>
+        	<Widget type="Button" skin="HudBackgroundIcon" align="Right Bottom" name="HandbookIconBackground" position_real="0.53211 0.316667 0.256881 0.466667">
+            	<Widget type="ImageBox" skin="ImageBox" position_real="0.232143 0.232143 0.535714 0.535714">
+                	<Property key="ImageTexture" value="gui_icon_hud_handbook.png" />
+            	</Widget>
+        	</Widget>
+        	<Widget type="Button" skin="HotbarItemKeybindingBackground" align="Right Bottom" name="HandbookBinding" position_real="0.610092 0.7 0.100917 0.133333">
+            	<Property key="Caption" value="H" />
+            	<Property key="FontName" value="SM_HotbarBinding" />
+            	<Property key="TextAlign" value="Center" />
+        	</Widget>
+        	<Widget type="ImageBox" skin="ImageBox" align="Right Bottom" name="LogbookNotification" position_real="0.454128 0.35 0.0825688 0.225">
+            	<Property key="ImageTexture" value="gui_logbook_item_exclamation.png" />
+            	<Property key="Visible" value="false" />
+        	</Widget>
+ 		</Widget>
+
+<!--Counter-->
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel1" position_real="0.188 0.863 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0 0.07 0.85 0.86">
+				<Widget type="TextBox" skin="TextBox" name="CounterText" position_real="0.125 0 0.75 1">
+					<Property key="FontName" value="InventorySearchText" />
+					<Property key="TextShadow" value="true" />
+					<Property key="TextAlign" value="Left" />
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel2" position_real="0.188 0.863 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.08 0.07 0.77 0.86">
+				<Widget type="TextBox" skin="TextBox" name="CounterText" position_real="0.125 0 0.75 1">
+					<Property key="FontName" value="InventorySearchText" />
+					<Property key="TextShadow" value="true" />
+					<Property key="TextAlign" value="Left" />
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel3" position_real="0.188 0.863 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.16 0.07 0.69 0.86">
+				<Widget type="TextBox" skin="TextBox" name="CounterText" position_real="0.125 0 0.75 1">
+					<Property key="FontName" value="InventorySearchText" />
+					<Property key="TextShadow" value="true" />
+					<Property key="TextAlign" value="Left" />
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel4" position_real="0.188 0.863 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.3 0.07 0.55 0.86">
+				<Widget type="TextBox" skin="TextBox" name="CounterText" position_real="0.125 0 0.75 1">
+					<Property key="FontName" value="InventorySearchText" />
+					<Property key="TextShadow" value="true" />
+					<Property key="TextAlign" value="Left" />
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel5" position_real="0.188 0.864 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.48 0.07 0.43 0.86">
+				<Widget type="TextBox" skin="TextBox" name="CounterText" position_real="0.125 0 0.75 1">
+					<Property key="FontName" value="InventorySearchText" />
+					<Property key="TextShadow" value="true" />
+					<Property key="TextAlign" value="Left" />
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel6" position_real="0.188 0.867 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.56 0.07 0.31 0.86">
+				<Widget type="TextBox" skin="TextBox" name="CounterText" position_real="0.125 0 0.75 1">
+					<Property key="FontName" value="InventorySearchText" />
+					<Property key="TextShadow" value="true" />
+					<Property key="TextAlign" value="Left" />
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel7" position_real="0.188 0.87 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.65 0.07 0.2 0.86">
+				<Widget type="TextBox" skin="TextBox" name="CounterText" position_real="0.125 0 0.75 1">
+					<Property key="FontName" value="InventorySearchText" />
+					<Property key="TextShadow" value="true" />
+					<Property key="TextAlign" value="Left" />
+				</Widget>
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel8" position_real="0.188 0.875 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.75 0.07 0.1 0.86" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel9" position_real="0.188 0.883 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel10" position_real="0.188 0.892 0.308 0.093">
+        	<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel11" position_real="0.188 0.903 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel12" position_real="0.188 0.915 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel13" position_real="0.188 0.929 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel14" position_real="0.188 0.946 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="PanelEmpty" name="CounterPanel15" position_real="0.188 0.968 0.308 0.093">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="HudBackgroundIcon" position_real="0.583332 0 0.416668 1">
+				<Widget type="ImageBox" skin="ImageBox" name="CounterIcon" position_real="0.17 0.17 0.66 0.66" />
+			</Widget>
+		</Widget>
+
+	
+	
+		<!--Spud Counter-->
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg1" position_real="0.649 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+            	<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg2" position_real="0.657 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+            	<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg3" position_real="0.675 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+           		<Property key="FontName" value="InventorySearchText" />
+            	<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg4" position_real="0.701 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+           		<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg5" position_real="0.737 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+           		<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg6" position_real="0.78 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+          		<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg7" position_real="0.833 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+            	<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg8" position_real="0.886 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="ImageBox" skin="ImageBox" position_real="0.37 0 0.2 1">
+				<Property key="ImageTexture" value="gui_icon_hud_exi_potato.png" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+    	        <Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg9" position_real="0.939 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+	            <Property key="FontName" value="InventorySearchText" />
+ 	           <Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+	
+		<Widget type="Widget" skin="HudBackgroundLarge" name="SpudCounterBg10" position_real="0.991 0.777 0.55 0.08">
+			<Property key="Visible" value="false" />
+			<Widget type="TextBox" skin="TextBox" name="SpudsLeftText" position_real="0.05 0 0.95 1">
+            	<Property key="FontName" value="InventorySearchText" />
+            	<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Left" />
+			</Widget>
+		</Widget>
+
+	</Widget>
+	
+    <Widget type="Widget" skin="PanelEmpty" name="BreathPanel" position_real="0.15625 0 0.125 0.101852">
+        <Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="HudBackgroundLarge" position_real="0 0.727273 1 0.272727">
+            <Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0.158333 0.0666667 0.833333 0.866667">
+                <Widget type="ProgressBar" skin="HUDProgressBarLightBlue" name="Breath" position_real="0.015 0.115385 0.97 0.769231">
+                    <Property key="Range" value="195" />
+                    <Property key="RangePosition" value="194" />
+                </Widget>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" name="BreathIcon" position_real="0.05 0.133333 0.0833333 0.666667">
+                <Property key="ImageTexture" value="gui_icon_hud_breath.png" />
+            </Widget>
+        </Widget>
+    </Widget>
+
+    <!--Other Expanded info stuff-->
+    <Widget type="Widget" skin="PanelEmpty" name="TCCPanel" align="HCenter Top" position_real="0 0 1 0.2" >
+		<Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+        <Widget type="Widget" skin="HudBackgroundLarge" name="CompassPanel" position_real="0.40 0.01 0.20 0.28" >
+            <Widget type="TextBox" skin="TextBox" name="CompassArrow" position_real="0.01 0.01 1 0.30">
+                <Property key="FontName" value="MonoMedium" />
+                <Property key="Caption" value="v" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextShadow" value="true" />
+            </Widget>
+			<Widget type="TextBox" skin="TextBox" name="CompassText4" position_real="0 0.31 1 0.30">
+                <Property key="FontName" value="MonoMedium" />
+                <Property key="Caption" value="N.NE.E.SE.S.SW.W.NW." />
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextShadow" value="true" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="CompassText3" position_real="0.0045 0.31 1 0.30">
+                <Property key="FontName" value="MonoMedium" />
+                <Property key="Caption" value="N.NE.E.SE.S.SW.W.NW." />
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextShadow" value="true" />
+            </Widget>
+			<Widget type="TextBox" skin="TextBox" name="CompassText2" position_real="0.009 0.31 1 0.30">
+                <Property key="FontName" value="MonoMedium" />
+                <Property key="Caption" value="N.NE.E.SE.S.SW.W.NW." />
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextShadow" value="true" />
+            </Widget>
+			<Widget type="TextBox" skin="TextBox" name="CompassText1" position_real="0.0135 0.31 1 0.30">
+                <Property key="FontName" value="MonoMedium" />
+                <Property key="Caption" value="N.NE.E.SE.S.SW.W.NW." />
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextShadow" value="true" />
+            </Widget>
+			<Widget type="TextBox" skin="TextBox" name="CompassText0" position_real="0.018 0.31 1 0.30">
+                <Property key="FontName" value="MonoMedium" />
+                <Property key="Caption" value="N.NE.E.SE.S.SW.W.NW." />
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextShadow" value="true" />
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" name="CompassDegree" position_real="0.01 0.61 1 0.30">
+                <Property key="FontName" value="MonoMedium" />
+                <Property key="Caption" value="-0123456789" />
+                <Property key="TextAlign" value="Center" />
+                <Property key="TextShadow" value="true" />
+            </Widget>
+            <Widget type="Widget" skin="HudBackgroundShadowLarge" name="CellPanel" position_real="0.01 0.64 0.25 0.30">
+                <Widget type="TextBox" skin="TextBox" name="CellText" position_real="0 0 1 1">
+                    <Property key="FontName" value="MonoMedium" />
+                    <Property key="Caption" value="-0123456789," />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="TextShadow" value="true" />
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="HudBackgroundShadowLarge" name="CoordPanel" position_real="0.64 0.64 0.35 0.30" >
+                <Widget type="TextBox" skin="TextBox" name="CoordText" position_real="0 0 1 1">
+                    <Property key="FontName" value="MonoMedium" />
+                    <Property key="Caption" value="-0123456789," />
+                    <Property key="TextAlign" value="Center" />
+                    <Property key="TextShadow" value="true" />
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+	
+
+	<Widget type="TextBox" skin="TextBox" name="ExtraRaids" position_real="0.84 0.381 0.153 0.021">
+		<Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+		<Property key="Visible" value="false" />
+        <Property key="FontName" value="MonoMedium" />
+        <Property key="Caption" value="#f2bd94+0123456789Raids" />
+        <Property key="TextShadow" value="true" />
+		<Property key="TextAlign" value="Center" />
+	</Widget>
+	<Widget type="Widget" skin="PanelEmpty" name="RaidBackground" position_real="0.841 0.011 0.153 0.371">
+		<Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+		<Property key="Visible" value="false" />
+
+		<Widget type="Widget" skin="PanelEmpty" name="RaidGui_Style1" position_real="0 0 1 1">
+			<Widget type="Widget" skin="HudBackgroundShadowLarge" name="RaidGui_full" position_real="0 0 1 1">
+				<Widget type="Widget" skin="Exi_FarmbotTiledClassic" position_real="0 0 1 1" />
+			</Widget>
+			<Widget type="Widget" skin="HudBackgroundShadowLarge" name="RaidGui_half" position_real="0 0 1 0.5">
+				<Property key="Visible" value="false" />
+				<Widget type="Widget" skin="Exi_FarmbotTiledClassic" position_real="0 0 1 2" />
+			</Widget>
+		</Widget>
+
+		<Widget type="Widget" skin="PanelEmpty" name="RaidGui_Style2" position_real="0 0 1 1">
+			<Property key="Visible" value="false" />
+			<Widget type="Widget" skin="Exi_FarmbotTiledSM" name="RaidGui_full" position_real="0 0 1 1">
+			</Widget>
+			<Widget type="Widget" skin="Exi_FarmbotTiledSM_Half" name="RaidGui_half" position_real="0 0 1 0.5">
+				<Property key="Visible" value="false" />
+			</Widget>
+		</Widget>
+
+		<Widget type="TextBox" skin="TextBox" name="Current_raids" position_real="0.012 0.01 0.988 0.047">
+            <Property key="FontName" value="MonoMedium" />
+            <Property key="Caption" value="Current raids:" />
+            <Property key="TextShadow" value="true" />
+			<Property key="TextAlign" value="Center" />
+		</Widget>
+	<!--Raid 1-->
+		<Widget type="Widget" skin="PanelEmpty" name="Raid1" position_real="0.032 0.072 0.929 0.187">
+			<Property key="Visible" value="false" />
+
+			<Widget type="Widget" skin="Exi_RedBackground" name="RaidGui_Style1" position_real="0 0 1 1" />
+
+			<Widget type="Widget" skin="Exi_GrayBackground" name="RaidGui_Style2" position_real="0 0 1 1">
+				<Property key="Visible" value="false" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="text1_raid1" position_real="0 0 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+
+			<Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.063 0.243 0.872 0.123">
+				<Widget type="ImageBox" skin="ImageBox" name="Progressbar_raid1" position_real="0 0 1 1" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarText_raid1" position_real="0 0.75 1 0.202">
+					<Property key="FontName" value="OxaniumSmall3" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+					<UserString key="FontName" value="OxaniumSmall3" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarTextTime_raid1" position_real="0 0.567 1 0.202">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+					<UserString key="FontName" value="OxaniumSmall2" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="text2_raid1" position_real="0 0.366 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+		</Widget>
+	<!--Raid 2-->
+		<Widget type="Widget" skin="PanelEmpty" name="Raid2" position_real="0.032 0.312 0.929 0.187">
+			<Property key="Visible" value="false" />
+
+			<Widget type="Widget" skin="Exi_RedBackground" name="RaidGui_Style1" position_real="0 0 1 1" />
+
+			<Widget type="Widget" skin="Exi_GrayBackground" name="RaidGui_Style2" position_real="0 0 1 1">
+				<Property key="Visible" value="false" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="text1_raid2" position_real="0 0 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+
+			<Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.063 0.243 0.872 0.123">
+				<Widget type="ImageBox" skin="ImageBox" name="Progressbar_raid2" position_real="0 0 1 1" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarText_raid2" position_real="0 0.75 1 0.202">
+					<Property key="FontName" value="OxaniumSmall3" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarTextTime_raid2" position_real="0 0.567 1 0.202">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="text2_raid2" position_real="0 0.366 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+		</Widget>
+	<!--Raid 3-->
+		<Widget type="Widget" skin="PanelEmpty" name="Raid3" position_real="0.032 0.552 0.929 0.187">
+			<Property key="Visible" value="false" />
+
+			<Widget type="Widget" skin="Exi_RedBackground" name="RaidGui_Style1" position_real="0 0 1 1" />
+
+			<Widget type="Widget" skin="Exi_GrayBackground" name="RaidGui_Style2" position_real="0 0 1 1">
+				<Property key="Visible" value="false" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="text1_raid3" position_real="0 0 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+
+			<Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.063 0.243 0.872 0.123">
+				<Widget type="ImageBox" skin="ImageBox" name="Progressbar_raid3" position_real="0 0 1 1" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarText_raid3" position_real="0 0.75 1 0.202">
+					<Property key="FontName" value="OxaniumSmall3" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarTextTime_raid3" position_real="0 0.567 1 0.202">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="text2_raid3" position_real="0 0.366 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+		</Widget>
+	<!--Raid 4-->
+		<Widget type="Widget" skin="PanelEmpty" name="Raid4" position_real="0.032 0.789 0.929 0.187">
+			<Property key="Visible" value="false" />
+
+			<Widget type="Widget" skin="Exi_RedBackground" name="RaidGui_Style1" position_real="0 0 1 1" />
+
+			<Widget type="Widget" skin="Exi_GrayBackground" name="RaidGui_Style2" position_real="0 0 1 1">
+				<Property key="Visible" value="false" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="text1_raid4" position_real="0 0 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+
+			<Widget type="Widget" skin="HudBackgroundShadowSmall" position_real="0.063 0.243 0.872 0.123">
+				<Widget type="ImageBox" skin="ImageBox" name="Progressbar_raid4" position_real="0 0 1 1" />
+			</Widget>
+
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarText_raid4" position_real="0 0.75 1 0.202">
+					<Property key="FontName" value="OxaniumSmall3" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="ProgressBarTextTime_raid4" position_real="0 0.567 1 0.202">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="Caption" value="#{EXPANDED_INFO_ALL_CHARACTERS}" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="text2_raid4" position_real="0 0.366 1 0.202">
+				<Property key="FontName" value="OxaniumSmall2" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+		</Widget>
+	</Widget>
+	
+	<Widget type="Widget" skin="PanelEmpty" name="CalcPanel" position_real="0.167 0 0.665 0.332">
+		<Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+		<Property key="Visible" value="false" />
+		
+		<Widget type="Widget" skin="PanelEmpty" name="cropvalue1" position_real="0.057 0.566 0.246 0.061">
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.04 0.5 0.3 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.658 0.5 0.3 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" position_real="0.341 0 0.318 1">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="Caption" value="1 Crop value" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="TextShadow" value="true" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="PanelEmpty" name="cropvalue1_5" position_real="0.314 0.566 0.162 0.061">
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.04 0.5 0.217 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.741 0.5 0.217 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" position_real="0.259 0 0.482 1">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="Caption" value="1.5 Crop value" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="TextShadow" value="true" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="PanelEmpty" name="cropvalue2" position_real="0.487 0.566 0.246 0.061">
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.04 0.5 0.3 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.658 0.5 0.3 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" position_real="0.341 0 0.318 1">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="Caption" value="2 Crop value" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="TextShadow" value="true" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="PanelEmpty" name="cropvalue3" position_real="0.745 0.566 0.162 0.061">
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.04 0.5 0.217 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.741 0.5 0.217 0.05">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="1" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" position_real="0.259 0 0.482 1">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="Caption" value="3 Crop value" />
+					<Property key="TextAlign" value="Center" />
+					<Property key="TextShadow" value="true" />
+			</Widget>
+		</Widget>
+		
+		<Widget type="Widget" skin="HudBackgroundLarge" position_real="0 0.103 0.215 0.09">
+			 <Widget type="TextBox" skin="TextBox" position_real="0 0 1 1">
+				<Property key="FontName" value="InventoryItemTitle" />
+				<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_TITLE}" />
+				<Property key="TextAlign" value="Center" />
+				<Property key="TextShadow" value="true" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="HudBackgroundLarge" name="Farmingsafe" position_real="0.394 0.64 0.21 0.125">
+			<Widget type="TextBox" skin="TextBox" name="FarmingsafeTitle" position_real="0 0 1 1">
+					<Property key="FontName" value="InventoryItemTitle" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_TITLE_FARMINGSAFE}" />
+					<Property key="TextAlign" value="Center" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="HudBackgroundLarge" name="Night1" position_real="0.103 0.64 0.21 0.358">
+			<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0 1 0.25">
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="Night1Title" position_real="0 0 1 0.25">
+					<Property key="FontName" value="NightTitle" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_TITLE_NIGHT}   1" />
+					<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n1_Totebot" position_real="0.05 0.27 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" />
+					<UserString key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n1_Haybot" position_real="0.05 0.44 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n1_Tapebot" position_real="0.05 0.61 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n1_Farmbot" position_real="0.05 0.78 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="HudBackgroundLarge" name="Night2" position_real="0.394 0.64 0.21 0.358">
+			<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0 1 0.25">
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="Night2Title" position_real="0 0 1 0.25">
+					<Property key="FontName" value="NightTitle" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_TITLE_NIGHT}   2" />
+					<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n2_Totebot" position_real="0.05 0.27 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n2_Haybot" position_real="0.05 0.44 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n2_Tapebot" position_real="0.05 0.61 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n2_Farmbot" position_real="0.05 0.78 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="HudBackgroundLarge" name="Night3" position_real="0.686 0.64 0.21 0.358">
+			<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0 1 0.25">
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="Night3Title" position_real="0 0 1 0.25">
+					<Property key="FontName" value="NightTitle" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_TITLE_NIGHT3}" />
+					<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n3_Totebot" position_real="0.05 0.27 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n3_Haybot" position_real="0.05 0.44 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n3_Tapebot" position_real="0.05 0.61 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="n3_Farmbot" position_real="0.05 0.78 1 0.15">
+					<Property key="FontName" value="OxaniumMedium" />
+			</Widget>
+		</Widget>
+		<Widget type="Widget" skin="HudBackgroundLarge" name="Maincalcbg" position_real="0 0.205 1 0.362">
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.008 0.75 0.898 0.01">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.05 0.079 0.001 0.61">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.05 0.804 0.001 0.155">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.3085 0.079 0.001 0.61">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.3085 0.804 0.001 0.155">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.4815 0.079 0.001 0.61">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.4815 0.804 0.001 0.155">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.7385 0.079 0.001 0.61">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.7385 0.804 0.001 0.155">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.912 0.079 0.001 0.888">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.922 0.365 0.068 0.01">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="Widget" skin="WhiteSkin" position_real="0.922 0.72 0.068 0.01">
+				<Property key="Colour" value="0.592157 0.592157 0.592157" />
+				<Property key="Alpha" value="0.6" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="calc_croptype" position_real="0 0.333 0.052 0.222">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="Crop" />
+					<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="calc_cropamount" position_real="0 0.765 0.052 0.222">
+				<Property key="FontName" value="OxaniumMedium" />
+				<Property key="Caption" value="Amount" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="calc_cropvaluetitle" position_real="0.913 0 0.087 0.202">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_MISC_CROPVALUE}" />
+					<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="calc_cropvalue" position_real="0.913 0.162 0.087 0.202">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="0123456789nai.,-/*" />
+					<Property key="TextAlign" value="Center" />
+					<UserString key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="calc_highlevelcounttitle" position_real="0.913 0.37 0.087 0.202">
+					<Property key="FontName" value="OxaniumSmall2" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_MISC_HLC}" />
+					<Property key="TextAlign" value="Center" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="calc_highlevelcount" position_real="0.913 0.532 0.087 0.202">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="0123456789nai.," />
+					<Property key="TextAlign" value="Center" />
+					<UserString key="FontName" value="OxaniumMedium" />
+			</Widget>
+			<Widget type="TextBox" skin="TextBox" name="calc_level" position_real="0.913 0.725 0.087 0.202">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_MISC_LEVEL} 0123456789nai.," />
+					<Property key="TextAlign" value="Center" />
+					<UserString key="FontName" value="OxaniumMedium" />
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgCarrot" position_real="0.057 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountcarrot" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="TextAlign" value="Center" />
+						<Property key="Caption" value="0123456789" />
+						<UserString key="FontName" value="OxaniumMedium" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypecarrot" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_CARROT}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="carrotimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="47ece75a-bfca-4e8a-b618-4f609fcea0da" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="ct_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c ct" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgTomato" position_real="0.141 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamounttomato" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypetomato" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_TOMATO}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="tomatoimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="6d92d8e7-25e9-4698-b83d-a64dc97978c8" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="to_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c to" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgRedbeet" position_real="0.225 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountredbeet" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptyperedbeet" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_REDBEET}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="redbeetimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="4ce00048-f735-4fab-b978-5f405e60f48f" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="rt_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c rt" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgPotato" position_real="0.314 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountpotato" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypepotato" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_POTATO}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="potatoimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="bfcfac34-db0f-42d6-bd0c-74a7a5c95e82" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="po_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c po" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgCotton" position_real="0.398 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountcotton" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypecotton" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_COTTON}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="cottonimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="3440440b-d362-4473-aa03-b7c41e1fe7ad" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="cn_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c cn" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgBanana" position_real="0.488 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountbanana" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypebanana" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_BANANA}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="bananaimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="aa4c9c5e-7fc6-4c27-967f-c550e551c872" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="ba_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c ba" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgBlueberry" position_real="0.571 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountblueberry" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypeblueberry" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_BLUEBERRY}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="blueberryimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="6a43fff2-8c6d-4460-9f44-e5483b5267dd" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="by_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c by" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgOrange" position_real="0.655 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountorange" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypeorange" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_ORANGE}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="orangeimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="f5098301-1693-457b-8efc-83b3504105ac" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="oe_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c oe" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgPineapple" position_real="0.745 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountpineapple" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypepineapple" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_PINEAPPLE}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="pineappleimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="4ec64cda-1a5b-4465-88b4-5ea452c4a556" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="pe_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c pe" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+			<Widget type="Widget" skin="PanelEmpty" name="bgBroccoli" position_real="0.828 0 0.078 1">
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.031 1 0.70">
+				</Widget>
+				<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0 0.796 1 0.179">
+					<Widget type="TextBox" skin="TextBox" name="calc_cropamountbroccoli" position_real="0 0 1 1">
+						<Property key="FontName" value="OxaniumMedium" />
+						<Property key="Caption" value=" 0" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="calc_croptypebroccoli" position_real="0 0.009 1 0.2">
+					<Property key="FontName" value="OxaniumMedium" />
+					<Property key="Caption" value="#{RAID_SC_EXPANDED_INFO_FRUIT_BROCCOLI}" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+				<Widget type="ImageBox" skin="ImageBox" name="broccoliimage" position_real="0.166 0.132 0.655 0.508">
+					<Property key="ImageResource" value="ItemIconsSetSurvival0" />
+					<Property key="ImageGroup" value="ItemIconsSurvival" />
+					<Property key="ImageName" value="b5cdd503-fe1c-482b-86ab-6a5d2cc4fc8f" />
+				</Widget>
+				<Widget type="TextBox" skin="TextBox" name="bi_cmd" position_real="0 0.572 1 0.175">
+					<Property key="FontName" value="MonoSmall" />
+					<Property key="Caption" value="#a5a5a5/c bi" />
+					<Property key="TextAlign" value="Center" />
+				</Widget>
+			</Widget>
+			
+		</Widget>
+	</Widget>
+
+	<Widget type="Widget" skin="PanelEmpty" name="TimePanel" position_real="0 0 0.3 0.2">
+		<Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    	<Property key="Visible" value="false" />
+		<Widget type="TextBox" skin="TextBox" name="Time" position_real="0.1 0.15 0.15 0.15">
+			<Property key="FontName" value="InventorySearchText" />
+            <Property key="Caption" value="00:00" />
+            <Property key="TextShadow" value="true" />
+		</Widget>
+		<Widget type="TextBox" skin="TextBox" name="Day" position_real="0.1 0.3 0.15 0.15">
+			<Property key="FontName" value="Monosmaller" />
+            <Property key="Caption" value="Day 14" />
+            <Property key="TextShadow" value="true" />
+		</Widget>
+		<Widget type="Widget" skin="WhiteSkin" position_real="0.1 0.287 0.1 0.007">
+			<Property key="Colour" value="0.9 0.9 0.9" />
+			<Property key="Alpha" value="0.9" />
+		</Widget>
+		<Widget type="ImageBox" skin="ImageBox" name="Clock" position_real="0.05 0.16 0.046 0.121">
+            <Property key="ImageTexture" value="gui_logbook_time_icon.png" />
+        </Widget>
+	</Widget>
+
+	<Widget type="Widget" skin="PanelEmpty" name="AttackIndicatorPanel" position_real="0.077 0 0.263 0.267">
+		<Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    	<Property key="Visible" value="false" />
+
+		<Widget type="Widget" skin="HudBackgroundLarge" position_real="0 0.069 0.191 0.334">
+			<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0.01 0.01 0.98 0.98" >
+				<Widget type="ImageBox" skin="ImageBox" name="IndicatorIcon" position_real="0 0 1 1" />
+			</Widget>
+        </Widget>
+
+		<Widget type="Widget" skin="Exi_GrayBackground_Large" position_real="0.204 0.069 0.546 0.494">
+			<Widget type="TextBox" skin="TextBox" name="BotName" position_real="0 0 1 0.248">
+				<Property key="FontName" value="SM_Button" />
+           		<Property key="Caption" value="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz()-/?" />
+            	<Property key="TextShadow" value="true" />
+				<Property key="TextAlign" value="Center" />
+			</Widget>
+
+			<Widget type="Widget" skin="HudBackgroundShadowLarge" position_real="0.05 0.248 0.9 0.15">
+				<Widget type="ImageBox" skin="ImageBox" name="Indicator_HPBar" position_real="0 0 1 1">
+					<Widget type="TextBox" skin="TextBox" name="Indicator_HPText" position_real="0 0 1 1">
+						<Property key="FontName" value="SM_ButtonSmall" />
+           				<Property key="Caption" value="1234567890/HP" />
+           		 		<Property key="TextShadow" value="true" />
+						<Property key="TextAlign" value="Center" />
+					</Widget>
+				</Widget>
+			</Widget>
+
+			<Widget type="Widget" skin="PanelEmpty" position_real="0.05 0.478 0.9 0.135">
+				<Widget type="ImageBox" skin="ImageBox" name="Indicator_StatImg1" position_real="0 0 0.057 0.739" />
+				<Widget type="TextBox" skin="TextBox" name="Indicator_StatText1" position_real="0 0 1 0.95">
+					<Property key="FontName" value="SM_LabelMini" />
+           			<Property key="Caption" value="()-/0123456789:DEIMPRUacdegilnopstvx" />
+					<Property key="TextAlign" value="Left VCenter" />
+					<Property key="Alpha" value="0.6" />
+				</Widget>
+				<Widget type="Widget" skin="WhiteSkin" name="Indicator_StatLine1" position_real="0 0.95 1 0.05">
+            	    <Property key="Colour" value="1 1 1" />
+            	    <Property key="Alpha" value="0.2" />
+           		</Widget>
+			</Widget>
+			<Widget type="Widget" skin="PanelEmpty" position_real="0.05 0.65 0.9 0.135">
+				<Widget type="ImageBox" skin="ImageBox" name="Indicator_StatImg2" position_real="0 0 0.057 0.739" />
+				<Widget type="TextBox" skin="TextBox" name="Indicator_StatText2" position_real="0 0 1 0.95">
+					<Property key="FontName" value="SM_LabelMini" />
+					<Property key="TextAlign" value="Left VCenter" />
+					<Property key="Alpha" value="0.6" />
+				</Widget>
+				<Widget type="Widget" skin="WhiteSkin" name="Indicator_StatLine2" position_real="0 0.95 1 0.05">
+            	    <Property key="Colour" value="1 1 1" />
+            	    <Property key="Alpha" value="0.2" />
+           		</Widget>
+			</Widget>
+			<Widget type="Widget" skin="PanelEmpty" position_real="0.05 0.822 0.9 0.135">
+				<Widget type="TextBox" skin="TextBox" name="Indicator_StatText3" position_real="0 0 1 0.95">
+					<Property key="FontName" value="SM_LabelMini" />
+					<Property key="TextAlign" value="Left VCenter" />
+					<Property key="Alpha" value="0.6" />
+				</Widget>
+			</Widget>
+        </Widget>
+	</Widget>
+
+	<Widget type="Widget" skin="PanelEmpty" name="LoadImgsPanel" position_real="0 0.1 0.3 0.2">
+		<Property key="NeedKey" value="false" />
+        <Property key="NeedMouse" value="false" />
+    	<Property key="Visible" value="false" />
+		<Widget type="ImageBox" skin="ImageBox" name="LoadImgs" position_real="0.05 0.16 0.046 0.121" />
+	</Widget>
+
+
+	<!--Widget type="ImageBox" skin="ImageBox" name="test124" position_real="0.006 0.085 0.03 0.085">
+		<Property key="ImageResource" value="ExI_GuiMap" />
+		<Property key="ImageGroup" value="Antenna_Logbook" />
+		<Property key="ImageName" value="1" />
+		<Widget type="ImageBox" skin="ImageBox" name="test123" position_real="0 0 1 0.29" />
+	</Widget>
+
+	<Widget type="Widget" skin="HudBackgroundLarge" name="tmp" position_real="0.006 0.18 0.18 0.2">
+		<Widget type="EditBox" skin="EditBoxEmpty" name="Console" position_real="0.02 0.05 0.96 0.9">
+            <Property key="FontName" value="SM_LabelMini" />
+            <Property key="Caption" value="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz()-/?.,!´`" />
+            <Property key="WordWrap" value="true" />
+            <Property key="TextShadow" value="false" />
+            <Property key="TextAlign" value="Left Top" />
+            <Property key="ReadOnly" value="true" />
+            <Property key="Static" value="true" />
+        </Widget>
+
+
+	</Widget-->
+
+    <CodeGeneratorSettings />
+</MyGUI>

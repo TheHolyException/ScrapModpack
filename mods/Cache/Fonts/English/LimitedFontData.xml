@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_HeaderLarge_Wide">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="16"/>
+            <Property key="LetterSpacing" value="6.6666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="39 39"/>
+                <Code range="65 73"/>
+                <Code range="75 80"/>
+                <Code range="82 87"/>
+                <Code range="89 90"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_HeaderLarge_Medium">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="16"/>
+            <Property key="LetterSpacing" value="2.6666667"/>
+            <Codes>
+                <Code range="32 34"/>
+                <Code range="44 44"/>
+                <Code range="46 57"/>
+                <Code range="63 63"/>
+                <Code range="65 80"/>
+                <Code range="82 90"/>
+                <Code range="92 92"/>
+                <Code range="95 95"/>
+                <Code range="97 105"/>
+                <Code range="107 112"/>
+                <Code range="114 121"/>
+                <Code range="8220 8221"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_HeaderLarge_Narrow">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="16"/>
+            <Property key="LetterSpacing" value="0.6666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="65 65"/>
+                <Code range="67 69"/>
+                <Code range="71 72"/>
+                <Code range="77 77"/>
+                <Code range="79 79"/>
+                <Code range="83 83"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_HeaderMedium">
+            <Property key="Source" value="Shentox_Bold.otf"/>
+            <Property key="Size" value="12"/>
+            <Property key="LetterSpacing" value="2"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="65 69"/>
+                <Code range="71 73"/>
+                <Code range="76 76"/>
+                <Code range="78 79"/>
+                <Code range="82 85"/>
+                <Code range="87 87"/>
+                <Code range="89 89"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_SubHeader">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="10"/>
+            <Property key="LetterSpacing" value="3"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="49 53"/>
+                <Code range="65 65"/>
+                <Code range="67 69"/>
+                <Code range="71 71"/>
+                <Code range="73 73"/>
+                <Code range="76 76"/>
+                <Code range="78 79"/>
+                <Code range="82 86"/>
+                <Code range="89 89"/>
+                <Code range="92 92"/>
+                <Code range="110 110"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_Header">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="9"/>
+            <Property key="LetterSpacing" value="1.33333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_HeaderSmall">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="8"/>
+            <Property key="LetterSpacing" value="1.33333333"/>
+            <Codes>
+                <Code range="32 33"/>
+                <Code range="48 49"/>
+                <Code range="65 67"/>
+                <Code range="69 69"/>
+                <Code range="71 71"/>
+                <Code range="73 73"/>
+                <Code range="76 76"/>
+                <Code range="78 80"/>
+                <Code range="82 85"/>
+                <Code range="88 88"/>
+                <Code range="97 97"/>
+                <Code range="99 99"/>
+                <Code range="101 101"/>
+                <Code range="105 105"/>
+                <Code range="107 111"/>
+                <Code range="115 118"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_HeaderTiny">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="7"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="48 48"/>
+                <Code range="50 50"/>
+                <Code range="52 52"/>
+                <Code range="58 58"/>
+                <Code range="65 69"/>
+                <Code range="71 71"/>
+                <Code range="73 73"/>
+                <Code range="76 80"/>
+                <Code range="82 84"/>
+                <Code range="89 89"/>
+                <Code range="101 101"/>
+                <Code range="109 109"/>
+                <Code range="111 112"/>
+                <Code range="114 115"/>
+                <Code range="117 117"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_Tab">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="9"/>
+            <Property key="LetterSpacing" value="1.33333333"/>
+            <Codes>
+                <Code range="65 65"/>
+                <Code range="67 69"/>
+                <Code range="71 73"/>
+                <Code range="76 80"/>
+                <Code range="82 85"/>
+                <Code range="89 89"/>
+                <Code range="95 95"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_TabSmall">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="8"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="65 69"/>
+                <Code range="73 73"/>
+                <Code range="75 80"/>
+                <Code range="82 86"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_TextLabel">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="9"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_Label">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="9"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="48 58"/>
+                <Code range="69 69"/>
+                <Code range="73 73"/>
+                <Code range="77 77"/>
+                <Code range="84 84"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_LabelSmall">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="8"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="68 68"/>
+                <Code range="89 89"/>
+                <Code range="97 98"/>
+                <Code range="100 101"/>
+                <Code range="103 103"/>
+                <Code range="105 106"/>
+                <Code range="109 112"/>
+                <Code range="114 117"/>
+                <Code range="119 120"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_LabelTiny">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="7"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="43 43"/>
+                <Code range="45 45"/>
+                <Code range="47 58"/>
+                <Code range="65 73"/>
+                <Code range="75 80"/>
+                <Code range="82 85"/>
+                <Code range="87 87"/>
+                <Code range="89 89"/>
+                <Code range="97 97"/>
+                <Code range="99 105"/>
+                <Code range="108 112"/>
+                <Code range="114 118"/>
+                <Code range="121 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_LabelMini">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="6"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="40 41"/>
+                <Code range="45 45"/>
+                <Code range="47 58"/>
+                <Code range="65 65"/>
+                <Code range="67 69"/>
+                <Code range="73 73"/>
+                <Code range="76 77"/>
+                <Code range="79 80"/>
+                <Code range="82 87"/>
+                <Code range="97 97"/>
+                <Code range="99 101"/>
+                <Code range="103 103"/>
+                <Code range="105 105"/>
+                <Code range="108 108"/>
+                <Code range="110 112"/>
+                <Code range="115 116"/>
+                <Code range="118 118"/>
+                <Code range="120 120"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_SliderLabel">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="5"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="48 57"/>
+                <Code range="65 65"/>
+                <Code range="70 70"/>
+                <Code range="73 73"/>
+                <Code range="76 77"/>
+                <Code range="79 79"/>
+                <Code range="83 84"/>
+                <Code range="87 88"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_SearchText">
+            <Property key="Source" value="Shentox_Regular.otf"/>
+            <Property key="Size" value="10"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_ToolTipText">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="8"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_TextLarge">
+            <Property key="Source" value="Inter_Medium.otf"/>
+            <Property key="Size" value="12"/>
+            <Codes>
+                <Code range="32 33"/>
+                <Code range="43 44"/>
+                <Code range="46 46"/>
+                <Code range="58 58"/>
+                <Code range="65 68"/>
+                <Code range="70 71"/>
+                <Code range="73 73"/>
+                <Code range="77 77"/>
+                <Code range="81 81"/>
+                <Code range="83 85"/>
+                <Code range="89 90"/>
+                <Code range="97 112"/>
+                <Code range="114 119"/>
+                <Code range="121 122"/>
+                <Code range="8217 8217"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_Text">
+            <Property key="Source" value="Inter_Medium.otf"/>
+            <Property key="Size" value="10"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_TextSmall">
+            <Property key="Source" value="Inter_Medium.otf"/>
+            <Property key="Size" value="8"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_TextTiny">
+            <Property key="Source" value="Inter_Medium.otf"/>
+            <Property key="Size" value="7"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_ItemTitle">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="11"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_GameName">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="11"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="67 67"/>
+                <Code range="71 71"/>
+                <Code range="78 78"/>
+                <Code range="97 97"/>
+                <Code range="101 101"/>
+                <Code range="103 104"/>
+                <Code range="108 110"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_ButtonLarge">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="13"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="65 67"/>
+                <Code range="69 69"/>
+                <Code range="71 73"/>
+                <Code range="75 75"/>
+                <Code range="77 80"/>
+                <Code range="82 84"/>
+                <Code range="88 88"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_Button">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="10"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="40 41"/>
+                <Code range="45 45"/>
+                <Code range="47 57"/>
+                <Code range="63 63"/>
+                <Code range="65 90"/>
+                <Code range="97 122"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_ButtonSmall">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="8"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="47 57"/>
+                <Code range="65 73"/>
+                <Code range="75 80"/>
+                <Code range="82 91"/>
+                <Code range="93 93"/>
+                <Code range="97 99"/>
+                <Code range="101 102"/>
+                <Code range="104 105"/>
+                <Code range="107 112"/>
+                <Code range="114 117"/>
+                <Code range="119 119"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_ButtonTiny">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="7"/>
+            <Property key="LetterSpacing" value="0.66666667"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_ButtonSmallBold">
+            <Property key="Source" value="Shentox_Bold.otf"/>
+            <Property key="Size" value="8"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_NumberHuge">
+            <Property key="Source" value="Shentox_Regular.otf"/>
+            <Property key="Size" value="21"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="48 58"/>
+                <Code range="176 176"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_NumberSmall">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="8"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="45 45"/>
+                <Code range="48 58"/>
+                <Code range="70 70"/>
+                <Code range="78 79"/>
+                <Code range="84 84"/>
+                <Code range="101 101"/>
+                <Code range="105 105"/>
+                <Code range="109 109"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_NumberTiny">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="7"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="42 43"/>
+                <Code range="45 45"/>
+                <Code range="47 58"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_NumberMini">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="6"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="42 42"/>
+                <Code range="47 57"/>
+                <Code range="88 88"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_UserName">
+            <Property key="Source" value="Shentox_Regular.otf"/>
+            <Property key="Size" value="8"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_ListItem">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="9"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SM_HotbarBinding">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="6.5"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="X_Interactable_Timer_TimeUnit">
+            <Property key="Source" value="Shentox_Regular.otf"/>
+            <Property key="Size" value="15"/>
+            <Codes>
+                <Code range="77 77"/>
+                <Code range="83 83"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="X_Interactable_Timer_TickCount">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="11"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="48 57"/>
+                <Code range="67 67"/>
+                <Code range="73 73"/>
+                <Code range="75 75"/>
+                <Code range="83 84"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="X_MenuGamemodeMenu_GameMode">
+            <Property key="Source" value="Shentox_Bold.otf"/>
+            <Property key="Size" value="25"/>
+            <Property key="LetterSpacing" value="3.33333333"/>
+            <Codes>
+                <Code range="65 65"/>
+                <Code range="67 67"/>
+                <Code range="69 69"/>
+                <Code range="71 73"/>
+                <Code range="76 76"/>
+                <Code range="78 78"/>
+                <Code range="82 86"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="X_Hud_Alert">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="12"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="X_Hud_Interaction">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="10"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="X_Hud_PlayerName">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="11"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="X_Hud_ItemStack">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="11"/>
+            <Codes>
+                <Code range="48 57"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="ButtonCaptionLarge">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="16.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="40 41"/>
+                <Code range="43 43"/>
+                <Code range="48 57"/>
+                <Code range="65 90"/>
+                <Code range="95 95"/>
+                <Code range="97 97"/>
+                <Code range="99 102"/>
+                <Code range="105 105"/>
+                <Code range="108 112"/>
+                <Code range="114 116"/>
+                <Code range="119 120"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="ButtonCaptionSmall">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="8.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SaveGameCaption">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="12.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="MessageCaptionLarge">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="16.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="MessageCaptionMedium">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="13.333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="MessageCaptionSmall">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="8.666667"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="WelcomeMessageText">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="12.000000"/>
+            <Codes>
+                <Code range="49 50"/>
+                <Code range="65 65"/>
+                <Code range="67 69"/>
+                <Code range="71 73"/>
+                <Code range="76 80"/>
+                <Code range="82 84"/>
+                <Code range="87 87"/>
+                <Code range="95 95"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="Chat">
+            <Property key="Source" value="DejaVuSans.ttf"/>
+            <Property key="Size" value="7.333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="ToolTip">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="8.666667"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InventoryItemDescription">
+            <Property key="Source" value="Inter_Medium.otf"/>
+            <Property key="Size" value="7.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="ControllerTitle">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="16.000000"/>
+            <Codes>
+                <Code range="65 65"/>
+                <Code range="67 67"/>
+                <Code range="69 69"/>
+                <Code range="71 71"/>
+                <Code range="73 73"/>
+                <Code range="76 79"/>
+                <Code range="82 84"/>
+                <Code range="95 95"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="LogicDescription">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="16.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="65 65"/>
+                <Code range="97 105"/>
+                <Code range="107 111"/>
+                <Code range="114 118"/>
+                <Code range="121 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SensorSetting">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="16.000000"/>
+            <Codes>
+                <Code range="66 66"/>
+                <Code range="79 79"/>
+                <Code range="83 83"/>
+                <Code range="99 99"/>
+                <Code range="102 102"/>
+                <Code range="104 105"/>
+                <Code range="110 111"/>
+                <Code range="116 117"/>
+                <Code range="119 119"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SequenceListNumber">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="16.000000"/>
+            <Codes>
+                <Code range="48 57"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SequenceControllerAngle">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="8.666667"/>
+            <Codes>
+                <Code range="43 43"/>
+                <Code range="45 45"/>
+                <Code range="48 57"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="TimerControllerMilliseconds">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="26.666667"/>
+            <Codes>
+                <Code range="48 57"/>
+                <Code range="67 70"/>
+                <Code range="73 73"/>
+                <Code range="76 79"/>
+                <Code range="82 85"/>
+                <Code range="88 88"/>
+                <Code range="95 95"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="TimerControllerSeconds">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="35.333333"/>
+            <Codes>
+                <Code range="46 46"/>
+                <Code range="48 57"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="TimerControllerTicks">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="18.666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="48 57"/>
+                <Code range="67 67"/>
+                <Code range="69 70"/>
+                <Code range="73 73"/>
+                <Code range="75 79"/>
+                <Code range="82 85"/>
+                <Code range="88 88"/>
+                <Code range="95 95"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="PlayerName">
+            <Property key="Source" value="Lato-Medium.ttf"/>
+            <Property key="Size" value="16.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookTitle">
+            <Property key="Source" value="GRUPO3.otf"/>
+            <Property key="Size" value="45.333333"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="39 39"/>
+                <Code range="65 73"/>
+                <Code range="76 87"/>
+                <Code range="89 89"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookSubTitle">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="12.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="38 39"/>
+                <Code range="44 46"/>
+                <Code range="50 51"/>
+                <Code range="53 53"/>
+                <Code range="63 63"/>
+                <Code range="65 67"/>
+                <Code range="69 70"/>
+                <Code range="72 73"/>
+                <Code range="76 78"/>
+                <Code range="80 80"/>
+                <Code range="82 85"/>
+                <Code range="87 87"/>
+                <Code range="97 121"/>
+                <Code range="8217 8217"/>
+                <Code range="8226 8226"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookSubTitleItalic">
+            <Property key="Source" value="Futura-Oblique.otf"/>
+            <Property key="Size" value="12.000000"/>
+            <Codes>
+                <Code range="32 33"/>
+                <Code range="39 39"/>
+                <Code range="44 44"/>
+                <Code range="46 46"/>
+                <Code range="69 69"/>
+                <Code range="76 76"/>
+                <Code range="84 84"/>
+                <Code range="97 105"/>
+                <Code range="107 112"/>
+                <Code range="114 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookPageCount">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="16.000000"/>
+            <Codes>
+                <Code range="47 57"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookDescriptionLarge">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="9.333333"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="44 44"/>
+                <Code range="46 46"/>
+                <Code range="65 67"/>
+                <Code range="73 73"/>
+                <Code range="80 80"/>
+                <Code range="83 84"/>
+                <Code range="97 105"/>
+                <Code range="107 119"/>
+                <Code range="121 122"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookDescriptionSmall">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="8.000000"/>
+            <Codes>
+                <Code range="32 34"/>
+                <Code range="44 50"/>
+                <Code range="52 52"/>
+                <Code range="55 55"/>
+                <Code range="58 58"/>
+                <Code range="65 67"/>
+                <Code range="69 70"/>
+                <Code range="72 72"/>
+                <Code range="77 77"/>
+                <Code range="79 87"/>
+                <Code range="89 89"/>
+                <Code range="97 122"/>
+                <Code range="8217 8217"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookInstructionLarge">
+            <Property key="Source" value="SovjetBoxBd_v0_9.otf"/>
+            <Property key="Size" value="16.666667"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="66 67"/>
+                <Code range="72 73"/>
+                <Code range="80 80"/>
+                <Code range="97 99"/>
+                <Code range="101 101"/>
+                <Code range="105 105"/>
+                <Code range="107 111"/>
+                <Code range="114 118"/>
+                <Code range="121 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookInstructionMedium">
+            <Property key="Source" value="SovjetBoxBd_v0_9.otf"/>
+            <Property key="Size" value="11.333333"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="47 47"/>
+                <Code range="65 65"/>
+                <Code range="67 68"/>
+                <Code range="72 74"/>
+                <Code range="76 77"/>
+                <Code range="79 80"/>
+                <Code range="82 83"/>
+                <Code range="97 101"/>
+                <Code range="103 112"/>
+                <Code range="114 118"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookInstructionSmall">
+            <Property key="Source" value="SovjetBoxBd_v0_9.otf"/>
+            <Property key="Size" value="10.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="38 38"/>
+                <Code range="47 47"/>
+                <Code range="58 58"/>
+                <Code range="65 68"/>
+                <Code range="72 72"/>
+                <Code range="75 76"/>
+                <Code range="80 80"/>
+                <Code range="82 84"/>
+                <Code range="87 87"/>
+                <Code range="97 112"/>
+                <Code range="114 122"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookLogicDescription">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="5.333333"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="65 65"/>
+                <Code range="97 97"/>
+                <Code range="99 105"/>
+                <Code range="107 108"/>
+                <Code range="110 111"/>
+                <Code range="114 116"/>
+                <Code range="118 118"/>
+                <Code range="121 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookFAQQuestion">
+            <Property key="Source" value="Futura-Bold.otf"/>
+            <Property key="Size" value="10.666667"/>
+            <Codes>
+                <Code range="32 33"/>
+                <Code range="44 44"/>
+                <Code range="63 63"/>
+                <Code range="72 73"/>
+                <Code range="77 77"/>
+                <Code range="79 79"/>
+                <Code range="87 87"/>
+                <Code range="97 105"/>
+                <Code range="108 112"/>
+                <Code range="114 119"/>
+                <Code range="121 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HandbookFAQAnswer">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="12.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="34 34"/>
+                <Code range="40 41"/>
+                <Code range="43 44"/>
+                <Code range="46 46"/>
+                <Code range="65 66"/>
+                <Code range="72 73"/>
+                <Code range="76 77"/>
+                <Code range="81 84"/>
+                <Code range="87 87"/>
+                <Code range="89 89"/>
+                <Code range="97 105"/>
+                <Code range="107 112"/>
+                <Code range="114 119"/>
+                <Code range="121 122"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="IESmallButton">
+            <Property key="Source" value="SovjetBoxBd_v0_9.otf"/>
+            <Property key="Size" value="10.666667"/>
+            <Codes>
+                <Code range="65 65"/>
+                <Code range="68 69"/>
+                <Code range="72 73"/>
+                <Code range="75 75"/>
+                <Code range="77 77"/>
+                <Code range="79 80"/>
+                <Code range="82 85"/>
+                <Code range="87 87"/>
+                <Code range="95 95"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="IEDescription">
+            <Property key="Source" value="DejaVuSans.ttf"/>
+            <Property key="Size" value="8.333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="IEPartsCount">
+            <Property key="Source" value="Futura.otf"/>
+            <Property key="Size" value="12.000000"/>
+            <Codes>
+                <Code range="48 57"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="ImportCreationName">
+            <Property key="Source" value="SovjetBoxBd_v0_9.otf"/>
+            <Property key="Size" value="17.333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="ExportCreationName">
+            <Property key="Source" value="SovjetBoxBd_v0_9.otf"/>
+            <Property key="Size" value="22.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="GreyMessageBoxCaption">
+            <Property key="Source" value="GRUPO3.otf"/>
+            <Property key="Size" value="22.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="44 44"/>
+                <Code range="63 63"/>
+                <Code range="65 65"/>
+                <Code range="68 68"/>
+                <Code range="97 102"/>
+                <Code range="104 105"/>
+                <Code range="108 112"/>
+                <Code range="114 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="TypableTextfield">
+            <Property key="Source" value="Shentox_Regular.otf"/>
+            <Property key="Size" value="9.333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InventorySearchText">
+            <Property key="Source" value="Shentox_Regular.otf"/>
+            <Property key="Size" value="12.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="SequenceListIndex">
+            <Property key="Source" value="Shentox_Regular.otf"/>
+            <Property key="Size" value="21.333333"/>
+            <Codes>
+                <Code range="48 57"/>
+                <Code range="176 176"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="HotbarBinding">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="7.333333"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="65 65"/>
+                <Code range="67 67"/>
+                <Code range="69 69"/>
+                <Code range="71 72"/>
+                <Code range="76 76"/>
+                <Code range="78 78"/>
+                <Code range="87 87"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="TimeDate">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="8.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InventoryPropertyText">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="8.666667"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InventoryTabLabel">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="9.333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InteractionBindingText">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="10.666667"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InteractionText">
+            <Property key="Source" value="Shentox_Medium.otf"/>
+            <Property key="Size" value="12.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="ButtonBold12">
+            <Property key="Source" value="Shentox_Bold.otf"/>
+            <Property key="Size" value="8.000000"/>
+            <Codes>
+                <Code range="48 57"/>
+                <Code range="65 65"/>
+                <Code range="68 70"/>
+                <Code range="72 73"/>
+                <Code range="78 78"/>
+                <Code range="80 80"/>
+                <Code range="82 85"/>
+                <Code range="88 88"/>
+                <Code range="91 91"/>
+                <Code range="93 93"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="UpgradeCost">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="6.666667"/>
+            <Codes>
+                <Code range="48 57"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="UpgradeCaption">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="7.333333"/>
+            <Codes>
+                <Code range="47 57"/>
+                <Code range="88 88"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InventoryItemCount">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="9.333333"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InventoryItemTitle">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="12.000000"/>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="InventoryTitle">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="14.666667"/>
+            <Codes>
+                <Code range="32 33"/>
+                <Code range="65 73"/>
+                <Code range="75 80"/>
+                <Code range="82 87"/>
+                <Code range="89 90"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="MonoSmall">
+            <Property key="Source" value="JetBrainsMono-Regular.ttf"/>
+            <Property key="Size" value="5.333333"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="47 47"/>
+                <Code range="97 99"/>
+                <Code range="101 101"/>
+                <Code range="105 105"/>
+                <Code range="110 112"/>
+                <Code range="114 114"/>
+                <Code range="116 116"/>
+                <Code range="121 121"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="MonoMedium">
+            <Property key="Source" value="JetBrainsMono-Regular.ttf"/>
+            <Property key="Size" value="8.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="43 46"/>
+                <Code range="48 58"/>
+                <Code range="67 67"/>
+                <Code range="69 69"/>
+                <Code range="78 78"/>
+                <Code range="82 83"/>
+                <Code range="87 87"/>
+                <Code range="97 97"/>
+                <Code range="100 101"/>
+                <Code range="105 105"/>
+                <Code range="110 110"/>
+                <Code range="114 118"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="OxaniumMedium">
+            <Property key="Source" value="Oxanium-Medium.ttf"/>
+            <Property key="Size" value="8.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="42 42"/>
+                <Code range="44 58"/>
+                <Code range="65 90"/>
+                <Code range="97 122"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="OxaniumSmall2">
+            <Property key="Source" value="Oxanium-Medium.ttf"/>
+            <Property key="Size" value="7.000000"/>
+            <Codes>
+                <Code range="32 126"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="OxaniumSmall3">
+            <Property key="Source" value="Oxanium-Medium.ttf"/>
+            <Property key="Size" value="5.666666"/>
+            <Codes>
+                <Code range="33 126"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+    <ResourceWrapper>
+        <Resource type="ResourceTrueTypeFont" name="NightTitle">
+            <Property key="Source" value="Shentox_SemiBold.otf"/>
+            <Property key="Size" value="10.000000"/>
+            <Codes>
+                <Code range="32 32"/>
+                <Code range="49 51"/>
+                <Code range="78 78"/>
+                <Code range="97 97"/>
+                <Code range="101 101"/>
+                <Code range="103 105"/>
+                <Code range="108 108"/>
+                <Code range="111 111"/>
+                <Code range="114 114"/>
+                <Code range="116 116"/>
+            </Codes>
+        </Resource>
+    </ResourceWrapper>
+</MyGUI>
