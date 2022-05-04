@@ -183,8 +183,7 @@
 				"friction": 4,
 				"buoyancy": 5
 			},
-{
-	"partList": [
+		},
 		{
 			"uuid": "1b927252-ee6d-420e-8bb4-ae42fcb43ba8",
 			"name": "obj_construction_brick",
@@ -948,7 +947,7 @@
 				"buoyancy": 1
 			},
 			"flammable": true,
-			"autoTool": "c9d61b8a-b116-41d5-9f95-77a87e4fcff7"
+			"autoTool": "c9d61b8a-b116-41d5-9f95-77a87e4fcff7",
 			"stackSize": 5
 		},
 		{
