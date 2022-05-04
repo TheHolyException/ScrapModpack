@@ -1,0 +1,74 @@
+{
+	"partList": [
+		{
+			"uuid": "f2aa1e44-aea8-4431-9b7e-f7e35163dd7c",
+			"showInInventory": false,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/empty.tga",
+									"$GAME_DATA/Textures/empty.tga",
+									"$GAME_DATA/Textures/empty.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Mesh/cube.mesh"
+					}
+				]
+			},
+			"color": "000000",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"stackSize": 1,
+			"characterShape": {
+				"characterUuid": "48c03f69-3ec8-454c-8d1a-fa09083363b1",
+				"placementSphereRadius": 0.15
+			}
+		}
+		
+		
+		,
+		
+		{
+			"uuid": "e29c4761-60cf-4df2-9080-fc76e6825c12",
+			"showInInventory": false,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/empty.tga",
+									"$GAME_DATA/Textures/empty.tga",
+									"$GAME_DATA/Textures/empty.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Mesh/cube.mesh"
+					}
+				]
+			},
+			"color": "000000",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"stackSize": 1,
+			"characterShape": {
+				"characterUuid": "f5294ddb-8af2-4309-a82b-7a59a7d13e54",
+				"placementSphereRadius": 0.15
+			}
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"toolList":
+	[
+		{
+			"uuid": "5cc12f03-275e-4c8e-b013-79fc0f913e1b",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_lift_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$GAME_DATA/Scripts/game/Lift.lua", "class": "Lift" }
+		},
+		{
+			"uuid": "ed185725-ea12-43fc-9cd7-4295d0dbf88b",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
+			"previewRotation": [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"sledgehammer": { }
+		}
+		
+		
+		
+		,
+		{
+			"uuid": "fa1b499e-c40e-4e55-9f73-27ae1cba6c15",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
+			"previewRotation": [  -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script": { "file": "$SURVIVAL_DATA/Scripts/game/tools/Planter.lua", "class": "Planter" },
+			"autoTool": true
+		},
+		{
+			"uuid": "f26a26bf-b9be-4e59-83e4-da2e9e6dd285",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$SURVIVAL_DATA/Scripts/game/tools/Fertilizer.lua", "class": "Fertilizer" },
+			"autoTool": true
+		},
+		{
+			"uuid": "2bff990a-0e74-43c7-b7dc-889b3a086fa3",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$SURVIVAL_DATA/Scripts/game/tools/Eat.lua", "class": "Eat" },
+			"autoTool": true
+		},
+		{
+			"uuid": "87cf94fa-a52a-47bd-8d62-47a2e10fe2af",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$SURVIVAL_DATA/Scripts/game/tools/Feeder.lua", "class": "Feeder" },
+			"autoTool": true
+		},
+		{
+			"uuid": "3ef5412a-7044-45ae-9592-9ce86bd99081",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$SURVIVAL_DATA/Scripts/game/tools/SoilBag.lua", "class": "SoilBag" },
+			"autoTool": true
+		}
+	]
+}
+//			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ], //Point Forward (Default)
+//			"previewRotation": [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ], //Point Backward
+//			"previewRotation": [ 0, 0, 1, 1, 0, 0, 0, 1, 0 ], //Point Right
+//			"previewRotation": [ 0, 0, -1, -1, 0, 0, 0, 1, 0 ], //Point Left
+//			"previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ], //Point Up
+//			"previewRotation": [ 1, 0, 0, 0, -1, 0, 0, 0, -1 ], //Point Down
+//			"previewRotation": [ 0, 0, 1, -1, 0, 0, 0, 1, 0 ], //Turn Right
+//			"previewRotation": [ 0, 0, -1, 1, 0, 0, 0, 1, 0 ], //Turn Left

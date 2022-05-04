@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/fant_handbook.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList": [
+					"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/sites/fant_handbook_dif_site_1.png",
+					"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/fant_handbook_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/fant_handbook_nor.tga"
+				],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

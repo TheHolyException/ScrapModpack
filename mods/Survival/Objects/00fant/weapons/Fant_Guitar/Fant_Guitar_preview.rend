@@ -1,0 +1,19 @@
+{
+    "lodList": [
+		{
+		    "mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Guitar/Fant_Guitar.obj",
+
+			"subMeshList": [
+				{
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			],
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

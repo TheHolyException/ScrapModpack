@@ -1,0 +1,45 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RemoteGun/Fant_Remotegun.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap": {
+			"char_connecttool_mat": {
+				"textureList": [	
+					"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_dif.tga",
+					"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_asg.tga",
+					"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_nor.tga"
+				],
+				"material" : "DifAsgNor"
+			}
+			,
+			"obj_industrial_satellite_dif": {
+				"textureList": [	
+					"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+					"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+					"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+				],
+				"material" : "DifAsgNor"
+			}
+			,
+			"callbutton_mat": {
+				"textureList": [	
+					"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_dif.tga",
+					"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_asg.tga",
+					"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_nor.tga"
+				],
+				"material" : "DifAsgNor"
+			}
+			,
+			"callbutton_screen": {
+				"textureList": [	
+					"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RemoteGun/obj_survivalobjects_elevatorcallbutton_screen_dif.tga",
+					"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_screen_asg.tga"
+				],
+				"material" : "DifAsg"
+			}
+		},
+			
+		"maxViewDistance": 1000.0
+	}]
+}

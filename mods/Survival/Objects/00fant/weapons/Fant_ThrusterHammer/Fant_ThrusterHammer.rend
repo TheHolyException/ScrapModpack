@@ -1,0 +1,45 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ThrusterHammer/Fant_ThrusterHammer.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap": {
+			"submesh2": {
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_05_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_05_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_05_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}																							
+			,
+			"farmbot": {
+				"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}		
+			,
+			"tapebot_body": {
+				"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}		
+			,
+			"haybot": {
+				"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}		
+		},
+		"maxViewDistance": 1000.0
+	}]
+}

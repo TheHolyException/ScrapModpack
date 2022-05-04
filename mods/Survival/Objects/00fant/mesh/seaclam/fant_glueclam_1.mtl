@@ -1,0 +1,55 @@
+# Blender 3.1.0 MTL File: 'fant_glueclam_finish_1.blend'
+# www.blender.org
+
+newmtl connectionpoint
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  ..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Scrap Mechanic\Survival\Objects\Textures\containers\obj_interactive_container_connectorpoint_dif.TGA
+
+newmtl fant_color_palette_dif
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl glass
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 0.660000
+illum 9
+map_Kd  ..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Scrap Mechanic\Survival\Objects\Textures\blocks\blk_glass_dif.tga
+
+newmtl sand
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd  ..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Scrap Mechanic\Survival\Objects\Textures\blocks\blk_sand_dif.tga
+
+newmtl slimyclam_mat
+Ns 63.117920
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3

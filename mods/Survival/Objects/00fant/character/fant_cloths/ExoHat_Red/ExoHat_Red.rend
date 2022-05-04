@@ -1,0 +1,25 @@
+{
+	"lodList": [{	
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoHat_Red/ExoHat_Red.dae",
+		"subMeshMap": {
+			"tapebot_head": {
+               	"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoHat_Red/char_tapebot_head_Blue_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_nor.tga"
+				]
+          	},
+			"tapebot_body": {
+				"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+				]
+            }
+        },
+
+		"maxViewDistance": 1000.0
+	}]
+}

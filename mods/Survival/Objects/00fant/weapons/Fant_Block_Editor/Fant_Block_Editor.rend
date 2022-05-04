@@ -1,0 +1,28 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Block_Editor/Fant_Block_Editor.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap": {
+			"char_connecttool_mat": {
+				"textureList": [	
+					"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_dif.tga",
+					"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_asg.tga",
+					"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_nor.tga"
+				],
+				"material" : "DifAsgNor"
+			}
+			,
+			"obj_survivalobject_elevatorbutton_dif": {
+					"textureList": [	
+						"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+		},
+			
+		"maxViewDistance": 1000.0
+	}]
+}

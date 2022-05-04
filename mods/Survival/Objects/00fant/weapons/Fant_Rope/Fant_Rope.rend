@@ -1,0 +1,17 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/Fant_Rope.dae",
+		"subMeshMap" : {
+			"rope" : {
+				    "textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/rope.png",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/rope_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/rope_nor.tga"
+				    ],
+				"material": "DifAsgNor"
+			}
+		},
+
+		"maxViewDistance": 1000.0
+	}]
+}

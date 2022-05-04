@@ -1,0 +1,37 @@
+{
+    "lodList": [
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Mutliconnecttool/Fant_Mutliconnecttool.fbx",
+		    "subMeshMap": {
+				"char_connecttool_mat": {
+					"textureList": [	
+						"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+				,
+				"woc": {
+					"textureList": [	
+						"$SURVIVAL_DATA/Character/Char_Cow/char_cow_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Cow/char_cow_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Cow/char_cow_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+				,
+				"controller_lvl_5": {
+					"textureList": [	
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_05_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_05_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_05_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+			},
+			
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

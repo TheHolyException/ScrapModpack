@@ -1,0 +1,114 @@
+{
+    "lodList":
+	[
+		{
+			"subMeshMap" : {
+				"char_spudgun_grip_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+					],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"char_spudgun_base_mat" : {
+						"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+						],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"stock_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_nor.tga"
+					],
+					"color": "b9a263",
+					"material": "DifAsgNor"
+				}				
+				,
+				"barrel_spinner_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_spinner/char_spudgun_barrel_spinner_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_spinner/char_spudgun_barrel_spinner_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_spinner/char_spudgun_barrel_spinner_nor.tga"
+					],
+					"color": "b9a263",
+					"material": "DifAsgNor"
+				}					
+				,
+				"mounted_spudgun": {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Glowgun/obj_interactive_mountablespudgun_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+					],
+					"color": "ff0000",
+					"material": "DifAsgNor"
+				}				
+				,
+				"sightscrew_basicbarrel_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_nor.tga"
+					],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"barrel": {
+					"textureList": [	
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}		
+				,
+				"glowbug": {
+					"textureList": [	
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Glowgun/char_glowgorp_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+				,
+				"Glass_mat": {
+					"textureList": [	
+						"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+						"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+						"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+				,
+				"Glowstick_mat": {
+					"textureList": [	
+						"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+				,
+				"backpack1": {
+					"textureList": [	
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/outfit_applicator_backpack_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/outfit_applicator_backpack_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/outfit_applicator_backpack_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Glowgun/Fant_Glowgun.fbx"
+		}
+	]
+}

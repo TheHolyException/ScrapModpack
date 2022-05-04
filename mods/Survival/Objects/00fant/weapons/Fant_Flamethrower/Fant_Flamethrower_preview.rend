@@ -1,0 +1,48 @@
+{
+    "lodList":
+	[
+		{
+			"subMeshMap" : {
+				"char_spudgun_base_mat" : {
+						"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+						],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"char_spudgun_grip_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+					],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"mounted_spudgun": {
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+				,				
+				"gastank": {
+					"material": "DifAsgNor",
+					"color": "0000ff",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Flamethrower/Fant_obj_consumable_gas_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_gas_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_gas_nor.tga"
+					]
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Flamethrower/Fant_Flamethrower.fbx"
+		}
+	]
+}

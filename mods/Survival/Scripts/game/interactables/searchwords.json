@@ -1,0 +1,30 @@
+[
+	"",
+	"FANT",
+	
+	"SHAPE",
+	"GLASS",
+	"DECO",
+	
+	"ITEM",
+	"PIPE",
+	"STORAGE",
+	"PRODUCTION",
+	
+	"FORCE",
+	"AIR",
+	"ACTOR",
+	"WHEEL",
+	
+	"DRILL",
+	"SAW",
+	"GRINDER",
+	
+	"SENSOR",
+	
+	"WEAPON",
+	"AMMO",
+	
+	"FOOD"
+
+]

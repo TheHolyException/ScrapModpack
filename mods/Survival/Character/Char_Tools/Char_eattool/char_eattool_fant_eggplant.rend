@@ -1,0 +1,19 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_fant_eggplant.dae",
+			"subMeshMap": {
+                "bark": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_dif.tga",
+						"$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_asg.tga",
+						"$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_nor.tga"
+					]
+				}
+            }
+        }
+	]
+}
+

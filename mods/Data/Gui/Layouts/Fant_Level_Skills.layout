@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+	<Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" name="BackPanel">
+		<Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" name="LEVEL_SKILLS">
+			<Widget type="Widget" skin="BackgroundInteractableWide" position_real="0.3 0.2 0.4 0.6" name="LEVEL_SKILLS_WINDOW">
+			
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.03 0.94 0.08" name="LEVEL_SKILLS_NAME_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_NAME">
+						<Property key="Caption" value="NAME"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.12 0.20 0.08" name="LEVEL_SKILLS_LEVELNUMBER_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_LEVELNUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.24 0.12 0.3 0.08" name="LEVEL_SKILLS_LEVEL_TITLE">
+					<Property key="Caption" value="LEVEL"/>
+					<Property key="FontHeight" value="40"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				
+				
+				
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.55 0.12 0.20 0.08" name="LEVEL_SKILLS_POINTSNUMBER_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_POINTSNUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.76 0.12 0.21 0.08" name="LEVEL_SKILLS_POINTS_TITLE">
+					<Property key="Caption" value="POINTS"/>
+					<Property key="FontHeight" value="40"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.21 0.20 0.08" name="LEVEL_SKILLS_HEALTH_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_HEALTHNUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.35 0.21 0.62 0.08" name="LEVEL_SKILLS_HEALTH_TITLE">
+					<Property key="Caption" value="HEALTH -Damage Reduce"/>
+					<Property key="FontHeight" value="10"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				<Widget type="Button" skin="SMButton" position_real="0.24 0.21 0.095 0.08" name="LEVEL_SKILLS_HEALTH_UPGRADE">
+                    <Property key="Caption" value="+"/>
+                    <Property key="FontHeight" value="30"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+				
+				
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.3 0.20 0.08" name="LEVEL_SKILLS_FOOD_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_FOODNUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.35 0.3 0.62 0.08" name="LEVEL_SKILLS_FOOD_TITLE">
+					<Property key="Caption" value="FOOD -Less consumption"/>
+					<Property key="FontHeight" value="10"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				<Widget type="Button" skin="SMButton" position_real="0.24 0.3 0.095 0.08" name="LEVEL_SKILLS_FOOD_UPGRADE">
+                    <Property key="Caption" value="+"/>
+                    <Property key="FontHeight" value="30"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+				
+				
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.39 0.20 0.08" name="LEVEL_SKILLS_THIRST_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_THIRSTNUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.35 0.39 0.62 0.08" name="LEVEL_SKILLS_THIRST_TITLE">
+					<Property key="Caption" value="THIRST -Less consumption"/>
+					<Property key="FontHeight" value="10"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				<Widget type="Button" skin="SMButton" position_real="0.24 0.39 0.095 0.08" name="LEVEL_SKILLS_THIRST_UPGRADE">
+                    <Property key="Caption" value="+"/>
+                    <Property key="FontHeight" value="30"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.48 0.20 0.08" name="LEVEL_SKILLS_LOOT_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_LOOTNUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.35 0.48 0.62 0.08" name="LEVEL_SKILLS_LOOT_TITLE">
+					<Property key="Caption" value="LOOT -Drop increase"/>
+					<Property key="FontHeight" value="10"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				<Widget type="Button" skin="SMButton" position_real="0.24 0.48 0.095 0.08" name="LEVEL_SKILLS_LOOT_UPGRADE">
+                    <Property key="Caption" value="+"/>
+                    <Property key="FontHeight" value="30"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.57 0.20 0.08" name="LEVEL_SKILLS_REFINE_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_REFINENUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.35 0.57 0.62 0.08" name="LEVEL_SKILLS_REFINE_TITLE">
+					<Property key="Caption" value="REFINE -Gather increase"/>
+					<Property key="FontHeight" value="10"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				<Widget type="Button" skin="SMButton" position_real="0.24 0.57 0.095 0.08" name="LEVEL_SKILLS_REFINE_UPGRADE">
+                    <Property key="Caption" value="+"/>
+                    <Property key="FontHeight" value="30"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+				
+				
+				
+				
+				
+				<Widget type="Widget" skin="PanelSkin" position_real="0.03 0.66 0.20 0.08" name="LEVEL_SKILLS_FARMING_PANEL">
+					<Widget type="TextBox" skin="TextBox" position_real="0 0 1 1" name="LEVEL_SKILLS_FARMINGNUMBER">
+						<Property key="Caption" value="100"/>
+						<Property key="FontHeight" value="40"/>
+						<Property key="FontName" value="ControllerTitle"/>
+						<Property key="TextAlign" value="Center"/>
+					</Widget>
+				</Widget>
+				
+				<Widget type="TextBox" skin="TextBox" position_real="0.35 0.66 0.62 0.08" name="LEVEL_SKILLS_FARMING_TITLE">
+					<Property key="Caption" value="FARMING -Gather increase"/>
+					<Property key="FontHeight" value="10"/>
+					<Property key="FontName" value="ControllerTitle"/>
+					<Property key="TextAlign" value="Left"/>
+				</Widget>
+				
+				<Widget type="Button" skin="SMButton" position_real="0.24 0.66 0.095 0.08" name="LEVEL_SKILLS_FARMING_UPGRADE">
+                    <Property key="Caption" value="+"/>
+                    <Property key="FontHeight" value="30"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<Widget type="Button" skin="SMButton" position_real="0.825 0.92 0.15 0.06" name="LEVEL_SKILLS_RESPEC">
+                    <Property key="Caption" value="RESPEC"/>
+                    <Property key="FontHeight" value="30"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+				
+				
+			</Widget>
+		</Widget>
+	</Widget>
+</MyGUI>

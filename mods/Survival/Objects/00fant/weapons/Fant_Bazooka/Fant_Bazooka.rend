@@ -1,0 +1,18 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh":  "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bazooka/Fant_Bazooka.dae",
+			"subMeshMap": {
+				"fant_color_palette_dif": {
+					"material": "DifAsgNor",
+					"textureList": [
+                        "$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

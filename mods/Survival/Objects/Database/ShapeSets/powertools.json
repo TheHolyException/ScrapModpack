@@ -1,0 +1,249 @@
+{
+	"partList": [
+		{
+			"uuid": "3e10ef67-383a-4b60-aa5b-b1173134e437",
+			"name": "obj_powertools_sawblade",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/powertools/obj_powertools_sawblade.rend",
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 1,
+				"margin": 0.8,
+				"axis": "Y"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/SawBlade.lua",
+				"classname": "SawBlade"
+			},
+			"rotationSet": "PropYmmNegYmm",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 5,
+				"durability": 7,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"friction": 0.0,
+			"restitution": 0.0
+		},
+		{
+			"uuid": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
+			"name": "obj_powertools_drill",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/powertools/obj_powertools_drill.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_powertools_drill.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Drill.lua",
+				"classname": "Drill"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 5,
+				"durability": 7,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"friction": 0.1
+		}
+		
+		
+		
+		
+		
+		// 00Fant Start
+		
+		,
+		{
+			"uuid": "846ce978-d609-4a67-b9d6-996e5c5cbd16",
+			"name": "obj_powertools_fant_drill_small",
+			"renderable": {
+				"lodList": [
+					{		
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],										
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_drill/fant_drill_small.obj"
+					}
+				]
+			},
+			"color": "4a4a4aff",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_drill/fant_drill_small_collider.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Drill.lua",
+				"classname": "Drill"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 4,
+				"durability": 7,
+				"friction": 2,
+				"buoyancy": 0
+			},
+			"flammable": false,
+			"density": 1250.0,
+			"friction": 0.1
+		}
+		,
+		{
+			"uuid": "8ccf972b-8241-4be2-a7b9-3e69db41ea15",
+			"name": "obj_powertools_fant_drill",
+			"renderable": {
+				"lodList": [
+					{		
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],										
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_drill/fant_drill_normal.obj"
+					}
+				]
+			},
+			"color": "4a4a4aff",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_drill/fant_drill_normal_collider.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Drill.lua",
+				"classname": "Drill"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 6,
+				"durability": 7,
+				"friction": 2,
+				"buoyancy": 0
+			},
+			"flammable": false,
+			"density": 1250.0,
+			"friction": 0.1
+		}
+		,
+		{
+			"uuid": "68fba88c-aa80-469e-8372-b9fdf39aab6f",
+			"name": "obj_powertools_fant_drill_large",
+			"renderable": {
+				"lodList": [
+					{		
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_grinder_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],										
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_drill/fant_drill_large.obj"
+					}
+				]
+			},
+			"color": "4a4a4aff",
+			"hull": {
+				"x": 5,
+				"y": 1,
+				"z": 5,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_drill/fant_drill_large_collider.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Drill.lua",
+				"classname": "Drill"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 8,
+				"durability": 7,
+				"friction": 2,
+				"buoyancy": 0
+			},
+			"flammable": false,
+			"density": 1250.0,
+			"friction": 0.1
+		}
+		
+		
+		,
+		{
+			"uuid": "c1546fbc-e990-45ba-a680-42d0a748da77",
+			"name": "obj_powertools_fant_autominer_farmbot_drill",
+			"renderable": {
+				"lodList": [
+					{		
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_autominer/char_farmbot_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_autominer/char_farmbot_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_autominer/char_farmbot_nor_fliped.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],										
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_autominer/fant_autominer_farmbot_drill.obj"
+					}
+				]
+			},
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 3,
+				"z": 3,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_autominer/fant_autominer_farmbot_drill_collider.obj"
+			},
+			"scripted": {
+				"filename": "$SURVIVAL_DATA/Scripts/game/interactables/Drill.lua",
+				"classname": "Drill"
+			},
+			"rotationSet": "PropFull",
+			"sticky": "+Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 6,
+				"durability": 7,
+				"friction": 2,
+				"buoyancy": 0
+			},
+			"flammable": false,
+			"density": 1250.0,
+			"friction": 0.1
+		}
+		// 00Fant End
+	]
+}

@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" name="BackPanel">
+        <Widget type="Widget" skin="SMButton" position_real="0.3 0.42963 0.402083 0.434259">
+            <Widget type="TextBox" skin="SMButton" position_real="0.0194301 0.0319829 0.958549 0.138593" name="output_text">
+                <Property key="Caption" value="Search Word"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.0194301 0.191898 0.0841969 0.138593" name="key_1">
+                <Property key="Caption" value="1"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.11658 0.191898 0.0841969 0.138593" name="key_2">
+                <Property key="Caption" value="2"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.213731 0.191898 0.0841969 0.138593" name="key_3">
+                <Property key="Caption" value="3"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.310881 0.191898 0.0841969 0.138593" name="key_4">
+                <Property key="Caption" value="4"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.408031 0.191898 0.0841969 0.138593" name="key_5">
+                <Property key="Caption" value="5"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.505181 0.191898 0.0841969 0.138593" name="key_6">
+                <Property key="Caption" value="6"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.602332 0.191898 0.0841969 0.138593" name="key_7">
+                <Property key="Caption" value="7"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.699482 0.191898 0.0841969 0.138593" name="key_8">
+                <Property key="Caption" value="8"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.796632 0.191898 0.0841969 0.138593" name="key_9">
+                <Property key="Caption" value="9"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.893782 0.191898 0.0841969 0.138593" name="key_0">
+                <Property key="Caption" value="0"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.0194301 0.351812 0.0841969 0.138593" name="key_q">
+                <Property key="Caption" value="Q"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.11658 0.351812 0.0841969 0.138593" name="key_w">
+                <Property key="Caption" value="W"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.213731 0.351812 0.0841969 0.138593" name="key_e">
+                <Property key="Caption" value="E"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.310881 0.351812 0.0841969 0.138593" name="key_r">
+                <Property key="Caption" value="R"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.408031 0.351812 0.0841969 0.138593" name="key_t">
+                <Property key="Caption" value="T"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.505181 0.351812 0.0841969 0.138593" name="key_y">
+                <Property key="Caption" value="Y"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.602332 0.351812 0.0841969 0.138593" name="key_u">
+                <Property key="Caption" value="U"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.699482 0.351812 0.0841969 0.138593" name="key_i">
+                <Property key="Caption" value="I"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.796632 0.351812 0.0841969 0.138593" name="key_o">
+                <Property key="Caption" value="O"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.893782 0.351812 0.0841969 0.138593" name="key_p">
+                <Property key="Caption" value="P"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.0194301 0.511727 0.0841969 0.138593" name="key_a">
+                <Property key="Caption" value="A"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.11658 0.511727 0.0841969 0.138593" name="key_s">
+                <Property key="Caption" value="S"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.213731 0.511727 0.0841969 0.138593" name="key_d">
+                <Property key="Caption" value="D"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.310881 0.511727 0.0841969 0.138593" name="key_f">
+                <Property key="Caption" value="F"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.408031 0.511727 0.0841969 0.138593" name="key_g">
+                <Property key="Caption" value="G"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.505181 0.511727 0.0841969 0.138593" name="key_h">
+                <Property key="Caption" value="H"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.602332 0.511727 0.0841969 0.138593" name="key_j">
+                <Property key="Caption" value="J"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.699482 0.511727 0.0841969 0.138593" name="key_k">
+                <Property key="Caption" value="K"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.796632 0.511727 0.0841969 0.138593" name="key_l">
+                <Property key="Caption" value="L"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.893782 0.511727 0.0841969 0.138593" name="key_enter">
+                <Property key="Caption" value="OK"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 1 0"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.0194301 0.671642 0.0841969 0.138593" name="key_z">
+                <Property key="Caption" value="Z"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.11658 0.671642 0.0841969 0.138593" name="key_x">
+                <Property key="Caption" value="X"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.213731 0.671642 0.0841969 0.138593" name="key_c">
+                <Property key="Caption" value="C"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.310881 0.671642 0.0841969 0.138593" name="key_v">
+                <Property key="Caption" value="V"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.408031 0.671642 0.0841969 0.138593" name="key_b">
+                <Property key="Caption" value="B"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.505181 0.671642 0.0841969 0.138593" name="key_n">
+                <Property key="Caption" value="N"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.602332 0.671642 0.0841969 0.138593" name="key_m">
+                <Property key="Caption" value="M"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.699482 0.671642 0.0841969 0.138593" name="key_del">
+                <Property key="Caption" value="Del"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="1 0 0"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.796632 0.671642 0.0841969 0.138593" name="key_left">
+                <Property key="Caption" value="&lt;-"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 0 1"/>
+                <Property key="Visible" value="false"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.893782 0.671642 0.0841969 0.138593" name="key_right">
+                <Property key="Caption" value="-&gt;"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 0 1"/>
+                <Property key="Visible" value="false"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.602332 0.831556 0.0841969 0.138593" name="key_comma">
+                <Property key="Caption" value=","/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 0 1"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.699482 0.831556 0.0841969 0.138593" name="key_dot">
+                <Property key="Caption" value="."/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 0 1"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.796632 0.831556 0.0841969 0.138593" name="key_minus">
+                <Property key="Caption" value="-"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 0 1"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.893782 0.831556 0.0841969 0.138593" name="key_underscore">
+                <Property key="Caption" value="_"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 0 1"/>
+            </Widget>
+            <Widget type="Button" skin="SMButton" position_real="0.0194301 0.831556 0.569948 0.138593" name="key_space">
+                <Property key="Caption" value="Space"/>
+                <Property key="FontHeight" value="40"/>
+                <Property key="FontName" value="ControllerTitle"/>
+                <Property key="Colour" value="0 0 1"/>
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Gary/fant_gary_hold.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap":{
+	            "gary": {  
+	                "material": "DifAsgNor",
+	                "textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/Gary_Colors.png",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_nor.tga"
+	                ]
+	      	  	},
+	            "gary_shell": {
+	                "material": "DifAsgNor",
+	                "textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/Gary_Shell.png",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_nor.tga"
+	                ]
+	            }
+		},
+		"maxViewDistance": 1000.0
+	}]
+} 

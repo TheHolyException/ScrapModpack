@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" name="BackPanel">
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.829167 0.54537 0.0526042 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_forward">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="fant_arrow_up.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 0 0"/>
+				</Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.829167 0.740741 0.0526042 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_backward">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="fant_arrow_down.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 0 0"/>
+				</Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.769792 0.643519 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_left">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="fant_arrow_left.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="0 1 0"/>
+				</Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.885417 0.643519 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_right">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="fant_arrow_right.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="0 1 0"/>
+				</Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.891667 0.531482 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_up">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="fant_arrow_upZ.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="0 0 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" position_real="0.891667 0.755556 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_down">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="fant_arrow_downZ.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="0 0 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		
+		
+		
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.56 0.643519 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_copy_uuid">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="arrow_copy_uuid.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 1 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.63 0.643519 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_copy_inputs">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="arrow_copy_inputs.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 1 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.70 0.643519 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_copy_outputs">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="arrow_copy_outputs.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 1 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.56 0.755556 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_paste_uuid">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="arrow_paste_uuid.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 1 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.63 0.755556 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_paste_inputs">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="arrow_paste_inputs.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 1 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.70 0.755556 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_paste_outputs">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="arrow_paste_outputs.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 1 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		
+		
+		<Widget type="Widget" skin="PanelEmpty" position_real="0.49 0.755556 0.0546875 0.0925926">
+            <Widget type="Button" skin="SMButton" position_real="0 0 1 1" name="block_edit_copy_creation">
+                <Property key="Colour" value="1 1 1 1"/>
+				<Widget type="ImageBox" skin="ImageBox" position_real="0.05 0.05 0.9 0.9">
+					<Property key="ImageTexture" value="arrow_copy_creation.png" />
+					<Property key="NeedMouse" value="false" />
+					<Property key="NeedKey" value="false" />
+					<Property key="Colour" value="1 1 1"/>
+				</Widget>
+            </Widget>
+        </Widget>
+		
+		
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

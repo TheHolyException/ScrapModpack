@@ -1,0 +1,332 @@
+{
+	"projectiles": {
+		"potato": {
+			"mass": 3.0,
+			"radius": 0.25,
+			"friction": 0.2,
+			"spin": 7.0,
+			"mesh": "$GAME_DATA/Projectiles/Renderables/potato.rend",
+			"effect": "PotatoProjectile - Hit",
+			"audiomass": 250.0,
+			"effectmaterial": "Potato",
+			"ammo": 
+			{ 
+				"uuid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82", 
+				"cost": 1
+			},
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel": 1,
+						"chance": 1.0
+					}
+				]
+			},
+			"enableImpactEffect": true
+		},
+		"smallpotato": {
+			"mass": 3.0,
+			"radius": 0.25,
+			"friction": 0.2,
+			"spin": 7.0,
+			"mesh": "$GAME_DATA/Projectiles/Renderables/projectile_spinner_potato.rend",
+			"effect": "PotatoProjectile - Hit",
+			"audiomass": 250.0,
+			"effectmaterial": "Potato",
+			"ammo": 
+			{ 
+				"uuid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",  
+				"cost": 1
+			},
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel": 1,
+						"chance": 1.0
+					}
+				]
+			},
+			"enableImpactEffect": true
+		},
+		"fries": {
+			"mass": 0.75,
+			"radius": 0.0625,
+			"friction": 0.2,
+			"spin": 0.0,
+			"mesh": "$GAME_DATA/Projectiles/Renderables/projectile_fries.rend",
+			"effect": "PotatoProjectile - Hit",
+			"audiomass": 250.0,
+			"effectmaterial": "Potato",
+			"amount": 4,
+			"ammo": 
+			{ 
+				"uuid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82", 
+				"cost": 2
+			},
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel": 1,
+						"chance": 1.0
+					}
+				]
+			},
+			"enableImpactEffect": false
+		}
+		
+		,
+		"evil_banana": {
+			"mass": 3.0,
+			"radius": 0.25,
+			"friction": 0.2,
+			"spin": 7.0,
+			"mesh": "$GAME_DATA/Projectiles/Renderables/projectile_banana.rend",
+			"effect": "BananaProjectile - Hit",
+			"audiomass": 250.0,
+			"effectmaterial": "Potato",
+			"color": "83a633",
+			"ammo": 
+			{ 
+				"uuid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82", 
+				"cost": 1
+			},
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel": 1,
+						"chance": 1.00
+					}
+					,
+					{
+						"qualityLevel": 2,
+						"chance": 0.55
+					}
+					,
+					{
+						"qualityLevel": 3,
+						"chance": 0.50
+					}
+					,
+					{
+						"qualityLevel": 4,
+						"chance": 0.40
+					}
+					,
+					{
+						"qualityLevel": 5,
+						"chance": 0.35
+					}
+					,
+					{
+						"qualityLevel": 6,
+						"chance": 0.30
+					}
+					,
+					{
+						"qualityLevel": 7,
+						"chance": 0.25
+					}
+					,
+					{
+						"qualityLevel": 8,
+						"chance": 0.20
+					}
+					,
+					{
+						"qualityLevel": 9,
+						"chance": 0.15
+					}
+					,
+					{
+						"qualityLevel": 10,
+						"chance": 0.10
+					}
+				]
+			},
+			"enableImpactEffect": true
+		}
+		,
+		"fant_glowstick":{
+			"mass": 0.2,
+			"radius": 0.35,
+			"spin": 4.25,
+			"mesh": "$GAME_DATA/Projectiles/Renderables/projectile_glowstick.rend",
+			"audiomass": 1.0,
+			"effectmaterial": "Plastic",
+			"attachedEffect": "GlowstickProjectile - Attached",
+			"ammo": 
+			{ 
+				"uuid": "3a3280e4-03b6-4a4d-9e02-e348478213c9", 
+				"cost": 1
+			},
+			"bounce":
+			{
+				"bounceEffect": "GlowstickProjectile - Bounce",
+				"hitOnBounce": false,
+				"restitution": 0.5,
+				"maxAllowedBounces": 10,
+				"minDeathVelocity": 4.5,
+				"maxDeathVelocity": 30.0
+			},
+			"enableImpactEffect": true,
+			"color": "00ff00"
+		}
+		
+		
+		
+		,
+		"fant_screw01": {
+			"mass": 3.0,
+			"radius": 0.25,
+			"friction": 0.2,
+			"spin": 7.0,
+			"mesh": "$GAME_DATA/Objects/Renderables/decor/obj_decor_screw01.rend",
+			"effect": "ToteBot - Hit",
+			"audiomass": 250.0,
+			"effectmaterial": "Potato",
+			"color": "83a633",
+			"ammo": 
+			{ 
+				"uuid": "c5e56da5-bc3f-4519-91c2-b307d36e15aa", 
+				"cost": 1
+			},
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel": 1,
+						"chance": 1.00
+					}
+					,
+					{
+						"qualityLevel": 2,
+						"chance": 0.55
+					}
+					,
+					{
+						"qualityLevel": 3,
+						"chance": 0.50
+					}
+					,
+					{
+						"qualityLevel": 4,
+						"chance": 0.40
+					}
+					,
+					{
+						"qualityLevel": 5,
+						"chance": 0.35
+					}
+					,
+					{
+						"qualityLevel": 6,
+						"chance": 0.30
+					}
+					,
+					{
+						"qualityLevel": 7,
+						"chance": 0.25
+					}
+					,
+					{
+						"qualityLevel": 8,
+						"chance": 0.20
+					}
+					,
+					{
+						"qualityLevel": 9,
+						"chance": 0.15
+					}
+					,
+					{
+						"qualityLevel": 10,
+						"chance": 0.10
+					}
+				]
+			},
+			"enableImpactEffect": true
+		}
+		,
+		"fant_screw02": {
+			"mass": 3.0,
+			"radius": 0.25,
+			"friction": 0.2,
+			"spin": 7.0,
+			"mesh": "$GAME_DATA/Objects/Renderables/decor/obj_decor_screw02.rend",
+			"effect": "ToteBot - Hit",
+			"audiomass": 250.0,
+			"effectmaterial": "Potato",
+			"color": "83a633",
+			"ammo": 
+			{ 
+				"uuid": "edd445cc-c298-4ce3-9a58-745c1bee1bc7", 
+				"cost": 1
+			},
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel": 1,
+						"chance": 1.00
+					}
+					,
+					{
+						"qualityLevel": 2,
+						"chance": 0.55
+					}
+					,
+					{
+						"qualityLevel": 3,
+						"chance": 0.50
+					}
+					,
+					{
+						"qualityLevel": 4,
+						"chance": 0.40
+					}
+					,
+					{
+						"qualityLevel": 5,
+						"chance": 0.35
+					}
+					,
+					{
+						"qualityLevel": 6,
+						"chance": 0.30
+					}
+					,
+					{
+						"qualityLevel": 7,
+						"chance": 0.25
+					}
+					,
+					{
+						"qualityLevel": 8,
+						"chance": 0.20
+					}
+					,
+					{
+						"qualityLevel": 9,
+						"chance": 0.15
+					}
+					,
+					{
+						"qualityLevel": 10,
+						"chance": 0.10
+					}
+				]
+			},
+			"enableImpactEffect": true
+		}
+	}
+}

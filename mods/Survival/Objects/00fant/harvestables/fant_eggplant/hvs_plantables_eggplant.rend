@@ -1,0 +1,36 @@
+{
+	"lodList": [
+		{
+			"includes": [
+				"POSITION",
+				"NORMAL",
+				"UV0",
+				"VERTEX_COLOR",
+				"TANGENT"
+			], 
+			"subMeshMap": {
+				"bark": {
+					"material": "Leaves",
+					"textureList": [
+						"$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_dif.tga",
+						"$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_asg.tga",
+						"$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_nor.tga"
+					]
+				},
+				"Soil": {
+				    "material": "UVAnimDifAsgNor",
+				    "textureList": [
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_dif.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_asg.tga",
+                                    "$SURVIVAL_DATA/Harvestables/Textures/Farming/hvs_farming_soil_nor.tga"
+				    ],
+				    "custom":{
+				                  "uv0": { "u": 1, "v": 0.1 }
+				     }
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/harvestables/fant_eggplant/hvs_plantables_eggplant_3.fbx"
+		}
+	]
+}
+

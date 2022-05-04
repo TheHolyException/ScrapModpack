@@ -1,0 +1,105 @@
+{
+	"lodList": 
+	[
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Gravitygun/Fant_Gravitygun.dae",
+			"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+			"subMeshMap" : {
+				"char_spudgun_grip_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+					],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"char_spudgun_base_mat" : {
+						"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+						],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"sight_basic_mat" : {
+						"textureList": [
+							"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_dif.tga",
+							"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_asg.tga",
+							"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_nor.tga"
+						],
+					"color": "dcc83c",
+					"material": "DifAsgNor"
+				}
+				,
+				"stock_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_nor.tga"
+					],
+					"color": "b9a263",
+					"material": "DifAsgNor"
+				}														
+				,
+				"mounted_spudgun": {
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}	
+				,							
+				"haybot": {
+					"textureList": [
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_dif.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+				,
+				"tapebot_body": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+					]
+				}
+				,
+				"mounted_spudgun": {
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+				,
+				"farmbot": {  
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_nor.tga"
+					]
+				}
+				,
+				"refinery": {
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			},
+			"maxViewDistance": 1000.0
+		}
+	]
+}

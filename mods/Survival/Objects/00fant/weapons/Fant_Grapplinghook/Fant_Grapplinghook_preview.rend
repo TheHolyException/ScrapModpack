@@ -1,0 +1,36 @@
+{
+    "lodList":
+	[
+		{
+			"subMeshMap" : {
+				"char_spudgun_grip_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+				,
+				"fant_color_palette_dif" : {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+				,
+				"obj_warehouse_overheadcrane_dif" : {
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/Warehouse/obj_warehouse_overheadcrane_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/Warehouse/obj_warehouse_overheadcrane_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/Warehouse/obj_warehouse_overheadcrane_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			},
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Grapplinghook/Fant_Grapplinghook.fbx"
+		}
+	]
+}

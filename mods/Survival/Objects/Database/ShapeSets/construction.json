@@ -1,0 +1,3260 @@
+{
+	"partList": [
+		{
+			"uuid": "1b927252-ee6d-420e-8bb4-ae42fcb43ba8",
+			"name": "obj_construction_brick",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_brick_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_brick.fbx"
+					}
+				]
+			},
+			"color": "82847e",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 2
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 3,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c3a520b3-8d0e-435c-8070-e0ef58d028be",
+			"name": "obj_construction_rebarsmall",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarsmall.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 1,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "ac59ef69-95a7-4907-a8ba-e5c83ef83112",
+			"name": "obj_construction_rebarmedium",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarmedium.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 2,
+				"y": 3,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "0f638bd7-0c0d-4ba3-9ba2-af0b523ddff4",
+			"name": "obj_construction_rebarbig",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_rebar_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_rebarbig.fbx"
+					}
+				]
+			},
+			"color": "8d8f89",
+			"box": {
+				"x": 3,
+				"y": 2,
+				"z": 1
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "c2078bfe-fa3d-4c2b-8d97-6b5308ff624b",
+			"name": "obj_construction_signcone",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_signcone_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_signcone.fbx"
+					}
+				]
+			},
+			"color": "f15814",
+			"hull": {
+				"x": 2,
+				"y": 5,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_signcone.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y-X+X",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 5
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "6232b62a-f3e0-4609-a159-ab08abf8125f",
+			"name": "obj_construction_bucket",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_bucket.fbx"
+					}
+				]
+			},
+			"color": "50612d",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 3,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Rock",
+			"ratings": {
+				"density": 8,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "b0329961-7ac0-4a83-aabc-6701e516de7b",
+			"name": "obj_construction_mould",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould2_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould2_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_mould2_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_mould.fbx"
+					}
+				]
+			},
+			"color": "50612d",
+			"hull": {
+				"x": 6,
+				"y": 2,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_mould.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+X-X+Z-Z",
+			"physicsMaterial": "Wood",
+			"ratings": {
+				"density": 5,
+				"durability": 4,
+				"friction": 2,
+				"buoyancy": 1
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "0e695319-afd0-405b-85c8-289df8614c52",
+			"name": "obj_construction_carpetroll",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_carpetroll.fbx"
+					}
+				]
+			},
+			"color": "368085",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 8,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropYZNegX",
+			"ratings": {
+				"density": 3,
+				"durability": 2,
+				"friction": 4,
+				"buoyancy": 4
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "9f909330-869e-468b-822a-204876118c0a",
+			"name": "obj_construction_carpetrollstand",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_stand_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_stand_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_carpetroll_stand_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_bucket_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_carpetrollstand.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 4,
+				"y": 4,
+				"z": 1,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_carpetrollstand.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Z+Z-Y",
+			"ratings": {
+				"density": 4,
+				"durability": 4,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "82625879-3a0a-4ab8-9895-575d38ec4420",
+			"name": "obj_construction_wall02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"idx": 1,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_nor.tga"
+								],
+								"material": "DifAsgNor"
+							},
+							{
+								"idx": 0,
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wall02.fbx"
+					}
+				]
+			},
+			"color": "1999eb",
+			"box": {
+				"x": 8,
+				"y": 6,
+				"z": 1
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 4,
+				"buoyancy": 7
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "93e32c6b-b9de-4fed-ad9d-49f0850ee634",
+			"name": "obj_construction_wallpillar",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wallpillar.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 1,
+				"y": 8,
+				"z": 1
+			},
+			"rotationSet": "StaticYmZmXm",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "094ceb5a-995b-431f-87f4-aac091494ae4",
+			"name": "obj_construction_wallfondation",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wallfondation.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 8,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYmNegYmZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "87a3bc6b-5eb3-43a3-871a-0cb42a415d64",
+			"name": "obj_construction_wallplank",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_wall02_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_wallplank.fbx"
+					}
+				]
+			},
+			"color": "3a3a40",
+			"box": {
+				"x": 1,
+				"y": 6,
+				"z": 1
+			},
+			"rotationSet": "PropYmZm",
+			"sticky": "+Y-Y+Z-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 3,
+				"buoyancy": 7
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "ec757a7d-a27b-4688-ae85-46167659bf00",
+			"name": "obj_construction_ramp01",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_ramp01.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 5,
+				"y": 1,
+				"z": 8
+			},
+			"rotationSet": "StaticYmZX",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 3
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "26119eb4-0e0e-4730-85ad-8a8c44f3d18c",
+			"name": "obj_construction_ramp02",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_ramp01_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_ramp02.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_ramp02.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "68db6d52-00fb-441a-ab34-a79341acde32",
+			"name": "obj_construction_soundisolationsmall",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_soundisolationsmall.fbx"
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 5,
+				"y": 1,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_soundisolationsmall.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "4369132a-40d8-47e7-ac45-e390c0ea6597",
+			"name": "obj_construction_soundisolation",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_soundisolation_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_soundisolation.fbx"
+					}
+				]
+			},
+			"color": "c36512",
+			"hull": {
+				"x": 6,
+				"y": 1,
+				"z": 6,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_soundisolation.obj"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 6,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "da6e54df-a223-4a0e-b42f-ddeddd33f5b3",
+			"name": "obj_construction_light",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"constructionlight": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"constructionlight02": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light02_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light02_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_light02_nor.tga"
+								],
+								"material": "PoseAnimDifAsgNor"
+							},
+							"flare": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlightflare_dif.tga",
+									"",
+									""
+								],
+								"material": "PoseAnimLightCone"
+							},
+							"beam": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga",
+									"",
+									""
+								],
+								"material": "PoseAnimLightCone"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_light_off.fbx",
+						"pose0": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_light_on.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"box": {
+				"x": 3,
+				"y": 4,
+				"z": 3
+			},
+			"spotlight": {
+				"defaultLuminance": 50,
+				"effect": "ConstructionLight"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "+Y-Y+X-X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 5,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 2
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "dac97219-d076-41db-8bbb-2509facf0eb4",
+			"name": "obj_construction_paintcan",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_paintcan_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_paintcan_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_paintcan_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_paintcan.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"cylinder": {
+				"diameter": 2,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Y"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y+Y",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 6,
+				"durability": 4,
+				"friction": 4,
+				"buoyancy": 1
+			},
+			"flammable": true,
+			"autoTool": "c9d61b8a-b116-41d5-9f95-77a87e4fcff7"
+		},
+		{
+			"uuid": "de7a75db-207d-48fe-a385-fc4c61b40cf6",
+			"name": "obj_construction_stairs",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_stairs_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_stairs_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/construction/obj_construction_stairs_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_stairs.fbx"
+					}
+				]
+			},
+			"color": "ebb100",
+			"hull": {
+				"x": 8,
+				"y": 1,
+				"z": 1,
+				"margin": 0.05,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_construction_stairs.obj"
+			},
+			"rotationSet": "PropYZ",
+			"sticky": "-Y-X+X-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 1
+			},
+			"flammable": false
+		}
+		,
+		
+		
+		//00Fant
+		
+		
+		{
+			"uuid": "2343987a-1272-4f80-8f80-f09f4814e337",
+			"name": "blk_fant_long_wedge_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "0528e821-17d4-4bb5-9b6c-33670f6edb1b",
+			"name": "blk_fant_long_wedge_left_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "04244360-adf8-410e-b095-5f1ed223dd3e",
+			"name": "blk_fant_long_wedge_right_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "c4803fa1-86e7-42fe-8fd9-cd5538349fed",
+			"name": "blk_fant_long_wedge_right_a_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_a_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_a_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "df9f3191-6614-4682-b65f-1aa38c58b6c2",
+			"name": "blk_fant_long_wedge_right_b_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_b_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_b_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "d86f8a96-2481-4555-a0e4-91558e34ebeb",
+			"name": "blk_fant_long_wedge_tip_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+	
+		,
+		{
+			"uuid": "0858f970-c1b8-4d14-b0a7-9ec276a5b45a",
+			"name": "blk_fant_square_wedge_2x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_2x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_2x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "32e724e9-f5dd-471a-ab56-ea07180ac73d",
+			"name": "blk_fant_square_wedge_inner_2x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_inner_2x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_inner_2x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "bad11ab7-8f2a-48f1-b842-622164860ab6",
+			"name": "blk_fant_square_wedge_tip_2x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_tip_2x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_tip_2x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "d7ac59f0-8c22-4178-a241-dccf13f36690",
+			"name": "blk_fant_wedge_1x1x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_1x1x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "2a1d5fc4-c895-4f4a-b03f-220284e8069c",
+			"name": "blk_fant_wedge_inner_a_1x1x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_a_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_a_1x1x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "1abd0536-21f2-4f2e-8dc1-b710a84f738e",
+			"name": "blk_fant_wedge_inner_b_1x1x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_b_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_b_1x1x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "0c3a579c-5cbd-4eb3-b6db-a1c658ff20ca",
+			"name": "blk_fant_wedge_outer_a_1x1x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_a_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_a_1x1x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "7de0912c-a453-4f19-bb61-518c2f1873da",
+			"name": "blk_fant_wedge_outer_b_1x1x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_b_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_b_1x1x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "5f419a96-15ca-4264-84fc-686683515f3d",
+			"name": "blk_fant_long_wedge_left_b_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_b_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_b_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "e4904167-8994-4cfb-b86f-4a56794619aa",
+			"name": "blk_fant_long_wedge_tip2_1x2x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip2_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip2_1x2x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+	
+
+
+
+
+		,
+		{
+			"uuid": "58fd9d50-4190-4bdc-888a-65396c719aee",
+			"name": "blk_fant_panel_1x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "73eb3376-3fb2-4ef2-adfd-1d8e58a6d986",
+			"name": "blk_fant_panel_1x2",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "918274d2-6ea4-4ac3-b966-a58ea04695df",
+			"name": "blk_fant_panel_1x3",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x3.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x3.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "8e672d85-cf95-445b-81e7-7da734eeb98e",
+			"name": "blk_fant_panel_2x2",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x2.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x2.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "bc14d2d9-8688-4412-9ae6-07e3f822edb5",
+			"name": "blk_fant_panel_2x3",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x3.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x3.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "cb1984b3-3f2e-4a5c-bca6-fcc07e5ad4d3",
+			"name": "blk_fant_panel_3x3",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_3x3.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 3,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_3x3.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "325885fc-41ad-439b-8258-c8a7cc5a19dd",
+			"name": "blk_fant_panel_edge_1x1",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x1.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x1.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "8dafa1fb-3b0a-4dc2-9f19-9bde3c7b5d45",
+			"name": "blk_fant_panel_edge_1x2",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "36acb481-e303-403c-a529-e0d51956a376",
+			"name": "blk_fant_panel_edge_1x2b",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2b.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2b.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		,
+	
+
+	
+	
+				
+		{
+			"uuid": "bf4e9c49-251d-4e58-9c61-1f55580dd816",
+			"name": "blk_fant_long_wedge_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+			
+		}
+		
+		,
+		{
+			"uuid": "7d0fff27-d8f3-49fd-b944-12883db43854",
+			"name": "blk_fant_long_wedge_left_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "310cf7ac-308b-4cf7-9211-bb08e162f56c",
+			"name": "blk_fant_long_wedge_right_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "bd436fd9-167b-414c-8401-ad9085f204e8",
+			"name": "blk_fant_long_wedge_right_a_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_a_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_a_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "52e0ad8e-1447-4155-82a1-c2370df2e0be",
+			"name": "blk_fant_long_wedge_right_b_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_b_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_right_b_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "3c00d1ed-f10f-4f8a-b482-9ee0eff07fff",
+			"name": "blk_fant_long_wedge_tip_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+	
+		,
+		{
+			"uuid": "2817328b-eb27-4581-88aa-87db401d1d5a",
+			"name": "blk_fant_square_wedge_2x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_2x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_2x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "c6764879-b597-4a8a-96da-d4e299bd868b",
+			"name": "blk_fant_square_wedge_inner_2x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_inner_2x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_inner_2x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "4a167e1d-c655-427f-a6ec-575ccf454de3",
+			"name": "blk_fant_square_wedge_tip_2x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_tip_2x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/square_wedge_tip_2x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "a8cc4e69-cf24-45b4-bfa4-038b9bffb6dd",
+			"name": "blk_fant_wedge_1x1x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_1x1x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "25e3fd87-dc79-4e3c-a2e0-25f5f17335f7",
+			"name": "blk_fant_wedge_inner_a_1x1x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_a_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_a_1x1x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "1cce2eaf-a531-456e-8100-065d8047fb2a",
+			"name": "blk_fant_wedge_inner_b_1x1x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_b_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_inner_b_1x1x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "a7805c93-c899-48f0-80d9-30fbee3f92f4",
+			"name": "blk_fant_wedge_outer_a_1x1x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_a_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_a_1x1x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "4aefd793-fab8-46fe-bb25-8ef0f633b9db",
+			"name": "blk_fant_wedge_outer_b_1x1x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_b_1x1x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/wedge_outer_b_1x1x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "000f5afb-6d9f-4c76-b0b0-08dbfd9374c3",
+			"name": "blk_fant_long_wedge_left_b_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_b_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_left_b_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "0065dbf3-7e58-44f0-b126-f5d23d2bba3b",
+			"name": "blk_fant_long_wedge_tip2_1x2x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip2_1x2x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/blockshapes/long_wedge_tip2_1x2x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 6,
+				"friction": 2,
+				"buoyancy": 4
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+	
+	
+	
+		
+		,
+		{
+			"uuid": "f82015fe-eaad-4b28-83ee-0196ce410ab0",
+			"name": "blk_fant_panel_1x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "179dc352-6125-41aa-bd3f-1f90e46fac55",
+			"name": "blk_fant_panel_1x2_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "604216fc-ae13-4f0b-b3c4-d34b819a3a73",
+			"name": "blk_fant_panel_1x3_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x3.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x3.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "542dc185-ba0f-4c2b-bca9-e19af15c4896",
+			"name": "blk_fant_panel_2x2_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x2.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 2,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x2.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "22196fd6-c7bf-44c9-af07-da324caf52f6",
+			"name": "blk_fant_panel_2x3_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x3.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_2x3.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "86bafde1-a528-469a-8d25-d3197bde7f93",
+			"name": "blk_fant_panel_3x3_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_3x3.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 3,
+				"y": 1,
+				"z": 3,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_3x3.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "a6ab767c-b136-46e6-99ec-dd5ed4bf54a6",
+			"name": "blk_fant_panel_edge_1x1_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x1.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x1.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "d240e52e-4254-4a28-a078-ca81ae8d6208",
+			"name": "blk_fant_panel_edge_1x2_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "ac160523-d828-416c-9703-5ad815b138df",
+			"name": "blk_fant_panel_edge_1x2b_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2b.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"glass": true,
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_edge_1x2b.obj"
+			},		
+			"physicsMaterial": "Glass",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+	
+		
+		,
+		{
+			"uuid": "e556c8d4-eee4-4e36-b082-a81c2e36bc9a",
+			"name": "blk_fant_suspension_panel_1x1a",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_suspension_panel_1x1a.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_suspension_panel_1x1a_collider.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		
+		,
+		{
+			"uuid": "0b4e5da7-b581-44de-bb9e-6f9364757c9c",
+			"name": "blk_fant_suspension_panel_1x1b",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_suspension_panel_1x1b.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_suspension_panel_1x1b_collider.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+	
+	
+	
+		,
+		{
+			"uuid": "c2a576cb-3974-4f90-a60b-65e8eca21007",
+			"name": "blk_fant_panel_1x1_slope",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1_slope.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1_slope.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+	
+		,
+		{
+			"uuid": "3d8bc1e0-812a-4c51-a465-e8fb238d8095",
+			"name": "blk_fant_panel_1x2_slope",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2_slope.obj"
+					}
+				]
+			},		
+			"color": "df7f01",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2_slope.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+		
+		,
+		{
+			"uuid": "66274c71-840f-496e-908a-4156eab486e4",
+			"name": "blk_fant_panel_1x1_slope_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1_slope.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x1_slope.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+	
+		,
+		{
+			"uuid": "6e19e739-d17e-4a90-9352-8889764ab89e",
+			"name": "blk_fant_panel_1x2_slope_glass",		
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material": "Glass"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2_slope.obj"
+					}
+				]
+			},		
+			"color": "e4f8ff",
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 2,
+				"margin": 0.001,
+				"col": "$SURVIVAL_DATA/Objects/00fant/mesh/fant_panels/fant_panel_1x2_slope.obj"
+			},		
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 1,
+				"buoyancy": 2
+			},
+			"rotationSet": "PropFull",
+			"flammable": false,
+			"stackSize": 256,
+			"density": 150.0,
+			"qualityLevel": 4
+		}
+	]
+}

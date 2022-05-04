@@ -1,0 +1,37 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/char_sledgehammer.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap": {
+			"fant_hammer": {
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_hammer_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_hammer_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_hammer_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}																							
+			,
+			"fant_color_palette_dif": {			
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_color_palette_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_color_palette_nor.tga"
+				],
+				"material": "DifAsgNor"			
+			}	
+			,
+			"fant_redwoc": {			
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_redwoc.png",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_redwoc_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_redwoc_nor.tga"
+				],
+				"material": "DifAsgNor"			
+			}	
+		},
+		
+		"maxViewDistance": 1000.0
+	}]
+}

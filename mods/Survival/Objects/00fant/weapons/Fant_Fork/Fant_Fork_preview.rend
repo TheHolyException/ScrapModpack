@@ -1,0 +1,20 @@
+{
+    "lodList": [
+		{
+		    "mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/Fant_Fork.obj",
+		   
+			"subMeshMap": {
+				"haybot": {
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}	
+			},
+		
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

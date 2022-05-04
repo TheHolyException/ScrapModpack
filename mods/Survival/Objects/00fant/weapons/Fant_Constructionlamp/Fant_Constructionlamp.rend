@@ -1,0 +1,19 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/char_sledgehammer.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap": {
+			"fant_constructionlamp": {			
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/fant_color_palette_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/fant_color_palette_nor.tga"
+				],
+				"material": "DifAsgNor"			
+			}	
+		},
+		
+		"maxViewDistance": 1000.0
+	}]
+}

@@ -1,0 +1,19 @@
+{
+    "lodList": [
+		{
+		    "mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/obj_fant_baseballbat.obj",
+		    "subMeshList" : [
+			{
+				    "textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/fant_baseball_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/fant_baseball_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/fant_baseball_nor.tga"
+				    ],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

@@ -1,0 +1,19 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_fant_totebots.dae",
+			"subMeshMap": {
+                "fant_totebots": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/00fant/textures/food/fant_totebots.png",
+						"$SURVIVAL_DATA/Objects/00fant/textures/food/fant_totebots_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/food/fant_totebots_nor.tga"
+                    ]
+                }
+            }
+        }
+	]
+}
+

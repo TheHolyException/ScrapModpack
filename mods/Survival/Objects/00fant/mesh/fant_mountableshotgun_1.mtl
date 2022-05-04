@@ -1,0 +1,67 @@
+# Blender MTL File: 'fant_mountableshotgun_1.blend'
+# Material Count: 6
+
+newmtl DefaultMaterial
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl barrel
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.500000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Data\\Character\\Char_Tools\\Char_spudgun\\Barrel\\Barrel_frier\\char_spudgun_barrel_frier_dif.tga
+
+newmtl char_spudgun_base_mat
+Ns 179.999996
+Ka 0.500000 0.500000 0.500000
+Kd 0.062848 0.062848 0.062848
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Data\\Character\\Char_Tools\\Char_spudgun\\Base\\char_spudgun_base_dif.tga
+
+newmtl mounted_spudgun
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Data\\Objects\\Textures\\interactive\\obj_interactive_mountablespudgun_dif.tga
+
+newmtl sightscrew_basicbarrel_mat
+Ns 179.999996
+Ka 0.500000 0.500000 0.500000
+Kd 0.747017 0.747017 0.747017
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Data\\Character\\Char_Tools\\Char_spudgun\\Sight\\Sight_basic\\char_spudgun_sight_basic_screw_dif.tga
+
+newmtl tank_mat
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.583930 0.583930 0.583930
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Data\\Character\\Char_Tools\\Char_spudgun\\Tank\\Tank_basic\\char_spudgun_tank_basic_dif.TGA

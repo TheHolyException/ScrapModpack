@@ -1,0 +1,59 @@
+{
+	"lodList": 
+	[
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Scrapgun/Fant_Scrapgun.fbx",
+			"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+			"subMeshMap" : {
+				"char_spudgun_base_mat" : {
+						"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+						],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}				
+				,
+				"char_spudgun_grip_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+					],
+					"color": "ffffff",
+					"material": "DifAsgNor"
+				}
+				,
+				"stock_mat" : {
+					"textureList": [
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_dif.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_asg.tga",
+						"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_nor.tga"
+					],
+					"color": "b9a263",
+					"material": "DifAsgNor"
+				}	
+				,
+				"mounted_spudgun": {
+					"textureList": [
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+						"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+				,
+				"makeshift_texture": {				
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_nor.tga"
+					],
+					"material": "DifAsgNor"
+				}
+			},
+			"maxViewDistance": 1000.0
+		}
+	]
+}

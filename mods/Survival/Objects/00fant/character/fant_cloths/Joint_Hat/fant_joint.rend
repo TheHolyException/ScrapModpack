@@ -1,0 +1,26 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Joint_Hat/fant_joint.fbx",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+			"glut": {
+               	"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Joint_Hat/glut.png",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Joint_Hat/glut_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Joint_Hat/glut_nor.tga"
+				]
+          	},
+			"paper": {
+				"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Joint_Hat/paper.png",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Joint_Hat/paper_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Joint_Hat/paper_nor.tga"
+				]
+            }
+        },
+
+		"maxViewDistance": 1000.0
+	}]
+}

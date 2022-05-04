@@ -1,0 +1,51 @@
+{
+	"menuScenes": [
+		{
+			"tile": "$GAME_DATA/Menu/MAINMENU256_01.TILE",
+
+			// MainCharacter
+			"character": {
+				"pos": { "x": 128.862, "y": 15.35, "z":5.055 },
+				"angle": 2.25,
+				"renderables": [
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_eattool_drink.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_fant_redwoc.rend"
+				],
+				"animation": "Idle"
+			},
+
+			// CustomizeCharacter
+			"customizeCharacter": {
+				"pos": { "x": 155.625, "y": 33.25, "z":1.0 },
+				"angle": 3.2
+			},
+
+			// MainCamera
+			"camera": {
+				"pos": { "x": 128.0, "y": 13.457, "z": 6.141 },
+				"lookAt": { "x": 128.0, "y": 29.858, "z": 4.347 }
+			},
+			"playCamera": {
+				"time": 0.7,
+				"pos": { "x": 128.0, "y": 37.0, "z": 3.447 },
+				"lookAt": { "x": 128.0, "y": 45.927, "z": 6.586 },
+				"easingIn": "easeOutCubic",
+				"easingOut": "easeOutCubic"
+			},
+			"customizeCamera": {
+				"time": 1.1,
+				"pos": { "x": 155.818, "y": 30.735, "z": 2.087 },
+				"lookAt": { "x": 151.611, "y": 39.912, "z": 0.646 },
+				"easingIn": "easeOutCubic",
+				"easingOut": "easeOutCubic"
+			},
+			"optionsCamera": {
+				"time": 0.75,
+				"pos": { "x": 112.771, "y": 16.262, "z": 4.078 },
+				"lookAt": { "x": 114.066, "y": 20.232, "z": 3.53 },
+				"easingIn": "easeOutCubic",
+				"easingOut": "easeOutCubic"
+			}
+		}
+	]
+}

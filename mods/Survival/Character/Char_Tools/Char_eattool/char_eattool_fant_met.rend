@@ -1,0 +1,28 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_fant_met.dae",
+			"subMeshMap": {
+                "fant_color_palette": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+                    ]
+                }
+				,
+				"logo": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/00fant/textures/food/fant_met_mug_logo_by_Captain_Lunasea.png",
+						"$SURVIVAL_DATA/Objects/00fant/textures/food/fant_met_mug_logo_by_Captain_Lunasea_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/food/fant_met_mug_logo_by_Captain_Lunasea_nor.tga"
+                    ]
+                }				
+            }
+        }
+	]
+}
+

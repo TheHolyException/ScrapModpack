@@ -1,0 +1,45 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Fant_ElectroHammer.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap": {
+			"electro_hammer": {
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}																							
+			,
+			"pcb": {			
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Pcb.png",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+				],
+				"material": "DifAsgNor"			
+			}	
+			,
+			"yellow": {			
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_nor.tga"
+				],
+				"material": "DifAsgNor"			
+			}	
+			,
+			"NewUV_sledgehammer_new_initialShadingGroup4": {			
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Fant_ElectroHammer_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Fant_ElectroHammer_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Fant_ElectroHammer_nor.tga"
+				],
+				"material": "DifAsgNor"			
+			}	
+		},
+		"maxViewDistance": 1000.0
+	}]
+}

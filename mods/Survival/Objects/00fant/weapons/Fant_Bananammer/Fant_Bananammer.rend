@@ -1,0 +1,28 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/char_sledgehammer.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+
+		"subMeshMap": {
+			"fant_bananammer": {
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/fant_bananammer_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/fant_bananammer_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/fant_bananammer_nor.tga"
+				],
+				"material": "DifAsgNor"
+			}																							
+			,
+			"banana": {			
+				"textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/obj_plantables_banana_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/obj_plantables_banana_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/obj_plantables_banana_nor.tga"
+				],
+				"material": "DifAsgNor"			
+			}	
+		},
+		
+		"maxViewDistance": 1000.0
+	}]
+}

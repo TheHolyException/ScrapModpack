@@ -1,0 +1,25 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoPants_Green/ExoPants_Male.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+			"totebot": {  
+				"material": "DifAsgNor",
+				"textureList":	[
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoPants_Green/char_totebotfawx_green_dif.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_totebotfawx_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_totebotfawx_nor.tga"
+				]
+			},
+			"outfit_technician_hat": {  
+				"material": "DifAsgNor",
+				"textureList":	[
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoPants_Green/outfit_demolition_hat_dif.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/outfit_demolition_hat_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/outfit_demolition_hat_nor.tga"
+				]
+			}
+        },
+		"maxViewDistance": 1000.0
+	}]
+}

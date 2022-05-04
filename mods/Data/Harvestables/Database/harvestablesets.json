@@ -1,0 +1,40 @@
+{
+	"harvestableSetList": [
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_trees.json",
+			"category": "Trees"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_burntforest.json",
+			"category": "Burntforest"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_stones.json",
+			"category": "Stones"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_fences.json",
+			"category": "Fences"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_fillers.json",
+			"category": "Fillers"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_farmables.json",
+			"category": "Farmables"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_plantables.json",
+			"category": "Plantables"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_loot.json",
+			"category": "Loot"
+		},
+		{
+			"name": "$SURVIVAL_DATA/Harvestables/Database/HarvestableSets/hvs_remains.json",
+			"category": "Remains"
+		}
+	]
+}

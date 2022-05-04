@@ -1,0 +1,19 @@
+{
+    "lodList": [
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Measurement_Tool/Fant_Measurement_Tool.fbx",
+		    "subMeshMap": {
+				"craftbot": {
+					"material": "SkelAnimDifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_nor.tga"
+					]
+				}
+			},
+			
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "assetSetList": [
+		{
+			"hidden": true,
+		    "assetSet": "$GAME_DATA/Terrain/Database/AssetSets/menu.json",
+		    "category": "Menu"
+		},
+		{
+		    "assetSet": "$GAME_DATA/Terrain/Database/AssetSets/manmade.json",
+		    "category": "Manmade"
+		},
+		{
+		    "assetSet": "$GAME_DATA/Terrain/Database/AssetSets/forest.json",
+		    "category": "Forest"
+		},		
+		{
+		    "assetSet": "$GAME_DATA/Terrain/Database/AssetSets/smallstone.json",
+		    "category": "Small Stones"
+		},
+		{
+		    "assetSet": "$GAME_DATA/Terrain/Database/AssetSets/rocks.json",
+		    "category": "Rocks"
+		},
+		{
+			"assetSet": "$SURVIVAL_DATA/Terrain/Database/AssetSets/Nature/Rocks.json",
+		    "category": "Survival Rocks"
+		},
+		{
+		    "assetSet": "$GAME_DATA/Terrain/Database/AssetSets/racetrack.json",
+		    "category": "Racetrack"
+		},
+		{
+			"hidden": true,
+			"assetSet": "$SURVIVAL_DATA/Terrain/Database/AssetSets/Water.json",
+		    "category": "Water"
+		}
+    ]
+}

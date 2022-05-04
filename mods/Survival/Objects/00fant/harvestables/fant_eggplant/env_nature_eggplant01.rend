@@ -1,0 +1,33 @@
+{
+    "impostorThreshold": 50,
+    "lodList": [
+        {
+            "minViewSize": 150,
+            "mesh": "$GAME_DATA/Terrain/Mesh/Foliage/env_foliage_eggplant01_lod0.fbx",
+            "subMeshMap": {
+                "bark": {
+                    "material": "Leaves",
+                    "textureList": [
+                        "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_dif.tga",
+                        "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_asg.tga",
+                        "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            "minViewSize": 50,
+            "mesh": "$GAME_DATA/Terrain/Mesh/Foliage/env_foliage_eggplant01_lod1.fbx",
+            "subMeshMap": {
+                "bark": {
+                    "material": "Leaves",
+                    "textureList": [
+                        "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_dif.tga",
+                        "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_asg.tga",
+                        "$GAME_DATA/Terrain/Textures/Foliage/env_foliage_eggplant_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}

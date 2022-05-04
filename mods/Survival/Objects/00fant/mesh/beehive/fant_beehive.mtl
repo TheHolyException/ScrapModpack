@@ -1,0 +1,35 @@
+# Blender MTL File: 'fant_beehive.blend'
+# Material Count: 3
+
+newmtl beewax_mat
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Survival\\Objects\\Textures\\harvests\\Resource\\obj_harvest_resource_beewax_dif.tga
+
+newmtl connectionpoint
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Survival\\Objects\\Mesh\\containers\\obj_interactive_container_connectorpoint_dif.TGA
+
+newmtl containerseed
+Ns 6.311795
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Games\\Steam\\SteamApps\\common\\Scrap Mechanic\\Survival\\Objects\\Mesh\\containers\\obj_containers_seed_dif.tga

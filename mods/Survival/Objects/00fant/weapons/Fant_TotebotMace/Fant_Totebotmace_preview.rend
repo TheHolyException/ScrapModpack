@@ -1,0 +1,42 @@
+{
+    "lodList": [
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/fant_totebotmace.fbx",
+		    "subMeshMap": {
+				"totebot": {
+					"textureList": [
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_dif.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_nor.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_ao.tga"
+					],
+					"color": "49642d",
+					"material": "DifAsgNor"
+				}																							
+				,
+				"cable": {
+					"textureList": [
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_cable_dif.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_cable_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_cable_nor.tga"
+					],
+					"color": "49642d",
+					"material": "DifAsgNor"
+				}																							
+				,
+				"totebothead": {
+					"textureList": [
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_dif.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_nor.tga",
+							"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_ao.tga"
+					],
+					"color": "49642d",
+					"material": "DifAsgNor"
+				}									
+			},
+			"color": "49642d",
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

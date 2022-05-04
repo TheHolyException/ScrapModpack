@@ -1,0 +1,42 @@
+{
+	"lodList": [{	
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoHat_Blue/ExoHat_Blue.dae",
+		"subMeshMap": {
+			"tapebot_head": {
+               	"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoHat_Blue/char_tapebot_head_Blue_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head02_nor.tga"
+				]
+          	},
+			"haybot": {
+				"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoHat_Blue/char_haybotfawx_dif.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_haybotfawx_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_haybotfawx_nor.tga"
+				]
+			},
+			"glass": {
+				"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoHat_Blue/blk_glass_dif.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/blk_glass_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/blk_glass_nor.tga"
+				],
+				"material": "Glass"
+			},
+			"tapebot_body": {
+				"material": "DifAsgNor",
+				"textureList": [
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+				]
+            }
+        },
+
+		"maxViewDistance": 1000.0
+	}]
+}

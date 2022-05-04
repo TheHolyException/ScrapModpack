@@ -1,0 +1,19 @@
+{
+	"lodList": [
+		{
+			"maxViewDistance": 1500,
+            "mesh": "$SURVIVAL_DATA/Character/Char_Tools/Char_eattool/char_eattool_fant_popcorn.dae",
+			"subMeshMap": {
+                "fant_popcorn": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_dif.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_asg.tga",
+						"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_nor.tga"
+                    ]
+                }
+            }
+        }
+	]
+}
+

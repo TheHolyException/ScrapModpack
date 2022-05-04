@@ -1,0 +1,34 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_gary/fant_gary.fbx",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap":{
+	            "gary": {  
+	                "material": "DifAsgNor",
+	                "textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/Gary_Colors.png",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_nor.tga"
+	                ]
+	      	  	},
+	            "gary_shell": {
+	                "material": "DifAsgNor",
+	                "textureList": [
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/Gary_Shell.png",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/character/fant_gary/_nor.tga"
+	                ]
+	            }
+		},
+		"animationList" : [
+			{ "name" : "run", 				"file" : "$SURVIVAL_DATA/Objects/00fant/character/fant_gary/fant_gary_walk.fbx", "looping" : true },
+			{ "name" : "sprint", 			"file" : "$SURVIVAL_DATA/Objects/00fant/character/fant_gary/fant_gary_walk.fbx", "looping" : true },
+
+			{ "name" : "idle", 				"file" : "$SURVIVAL_DATA/Objects/00fant/character/fant_gary/fant_gary_idle.fbx", "looping" : true },
+			{ "name" : "crouch_idle", 		"file" : "$SURVIVAL_DATA/Objects/00fant/character/fant_gary/fant_gary_idle.fbx", "looping" : true },
+			{ "name" : "cow_eat_grass", 	"file" : "$SURVIVAL_DATA/Objects/00fant/character/fant_gary/fant_gary_idle.fbx" }
+
+		],
+		"maxViewDistance": 1000.0
+	}]
+} 

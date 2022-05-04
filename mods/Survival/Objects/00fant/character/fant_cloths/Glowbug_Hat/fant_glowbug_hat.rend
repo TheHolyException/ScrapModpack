@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Glowbug_Hat/fant_glowbug_hat.fbx",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList":	[
+					"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/Glowbug_Hat/char_glowgorpfawx_dif.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_asg.tga",
+					"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_nor.tga"
+				],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

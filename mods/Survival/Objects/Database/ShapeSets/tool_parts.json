@@ -1,0 +1,1589 @@
+{
+	"partList": [
+
+		{
+			"uuid": "85fc5f11-722b-4723-91f2-293a81ad0800",
+			"name": "obj_tool_connect",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_connecttool_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1
+		},
+		{
+			"uuid": "731c6a84-7ae7-439d-a620-128076f9985c",
+			"name": "obj_tool_paint",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_painttool_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1
+		},
+		{
+			"uuid": "836e98a2-8c8c-4a6b-9239-54acdd4f4736",
+			"name": "obj_tool_weld",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_weldtool_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1
+		},
+		{
+			"uuid": "2d7f1278-ac93-4039-9eb2-d31715ea10ff",
+			"name": "obj_tool_spudgun",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1
+		},
+		{
+			"uuid": "b633c3ee-2cda-4096-989a-60e90cd220aa",
+			"name": "obj_tool_spudling",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_spinner_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1
+		},
+		{
+			"uuid": "3faf624b-0a95-452f-b6cd-9930ad1731c5",
+			"name": "obj_tool_frier",
+			"renderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"showInInventory": false,
+			"ratings": {},
+			"stackSize": 1
+		}
+		
+		
+		
+		
+		
+			
+		
+		
+		// 00Fant
+		
+		
+		
+		,
+		{
+			"uuid": "8a5f1e93-3627-4b3f-94cc-b1b05c9ad780",
+			"name": "weapon_fant_bananammer",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"fant_bananammer": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/fant_bananammer_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/fant_bananammer_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/fant_bananammer_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																							
+							,
+							"banana": {			
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/obj_plantables_banana_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/obj_plantables_banana_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/obj_plantables_banana_nor.tga"
+								],
+								"material": "DifAsgNor"			
+							}	
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bananammer/obj_fant_bananammer.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "e15cdeec-02fb-4113-8626-c66dde3232b5"
+		}
+	
+		,
+		{
+			"uuid": "ff3bebd8-47d7-4e7a-87fe-f55af566effc",
+			"name": "weapon_fant_baseballbat",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"fant_baseballbat": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/fant_baseball_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/fant_baseball_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/fant_baseball_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																														
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Baseballbat/obj_fant_baseballbat.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "5120e4c9-c160-4434-87f4-c2313e2602c8"
+		}
+	
+		,
+		{
+			"uuid": "3930f82a-7d04-4376-b048-62c5c58bee3d",
+			"name": "weapon_fant_constructionlamp",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"fant_constructionlamp": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/fant_color_palette_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/fant_color_palette_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																														
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Constructionlamp/obj_fant_constructionlamp.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "edeea470-6eda-40ef-95e6-5d37a10bade5"
+		}
+	
+		,
+		{
+			"uuid": "6686a74b-0068-42b6-8494-6d9fb09c808a",
+			"name": "weapon_fant_electroHammer",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"electro_hammer": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																							
+							,
+							"pcb": {			
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Pcb.png",
+										"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"			
+							}	
+							,
+							"yellow": {			
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_dif.tga",
+										"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_asg.tga",
+										"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_battery_nor.tga"
+								],
+								"material": "DifAsgNor"			
+							}	
+							,
+							"NewUV_sledgehammer_new_initialShadingGroup4": {			
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Fant_ElectroHammer_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Fant_ElectroHammer_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/Fant_ElectroHammer_nor.tga"
+								],
+								"material": "DifAsgNor"			
+							}																												
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ElectroHammer/obj_fant_electrohammer.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "40bf4cb9-e857-44de-89b8-0a42de20ebd5"
+		}
+	
+		,
+		{
+			"uuid": "af2e87fc-55d9-4f4d-b043-31412757f56f",
+			"name": "weapon_fant_greatNeckWrench",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"fant_gnw_texture": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_GreatNeckWrench/fant_greatneck wrench_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_GreatNeckWrench/fant_greatneck wrench_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_GreatNeckWrench/fant_greatneck wrench_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																														
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_GreatNeckWrench/obj_fant_giantneckwrench.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "cadac9b3-8b3b-4b8e-a50a-f1f23f47a7fc"
+		}
+		
+		,
+		{
+			"uuid": "b4b98a4e-9726-40c1-b9b5-135726abab56",
+			"name": "weapon_fant_redwochammer",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"fant_hammer": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_hammer_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_hammer_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_hammer_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																							
+							,
+							"fant_color_palette_dif": {			
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_color_palette_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_color_palette_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"			
+							}	
+							,
+							"fant_redwoc": {			
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_redwoc.png",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_redwoc_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/fant_redwoc_nor.tga"
+								],
+								"material": "DifAsgNor"			
+							}																													
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RedWocHammer/obj_fant_redwochammer.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "4bec43af-809c-4e01-a249-72ce8184f430"
+		}
+		
+		,
+		{
+			"uuid": "4e7aa2f0-f371-4a69-93f4-5e625e2ad5eb",
+			"name": "weapon_fant_fork",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"haybot": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																																																								
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/Fant_Fork.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "41936190-31bf-4cbd-93b4-8e7f2ac2f9c3"
+		}
+		
+		,
+		{
+			"uuid": "6125d38d-687b-41fa-bbf5-80c749982c3b",
+			"name": "weapon_fant_bazooka",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"fant_color_palette_dif": {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																																																								
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Bazooka/Fant_Bazooka.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "df1dacba-9905-4dce-aacc-16a1e3c2aef1"
+		}
+		
+		
+		
+		,
+		{
+			"uuid": "8c61b1db-4070-4f12-afcb-0fcd2515d481",
+			"name": "weapon_fant_watergun_obj",
+			"renderable": {
+				"lodList":
+				[
+					{
+						"subMeshMap" :
+						{
+							"char_spudgun_base_mat" : {
+									"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+									],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"lambert1" : {
+									"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+									],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"char_spudgun_grip_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"barrel_basic" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							
+							,
+							"sight_basic_mat" : {
+									"textureList": [
+										"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_dif.tga",
+										"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_asg.tga",
+										"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_nor.tga"
+									],
+								"color": "dcc83c",
+								"material": "DifAsgNor"
+							}
+							,
+							"sightscrew_basicbarrel_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"stock_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_nor.tga"
+								],
+								"color": "b9a263",
+								"material": "DifAsgNor"
+							}	
+							
+							,
+							"tank_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Tank/Tank_basic/char_spudgun_tank_basic_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Tank/Tank_basic/char_spudgun_tank_basic_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Tank/Tank_basic/char_spudgun_tank_basic_nor.tga"
+								],
+								"color": "366283",
+								"material": "DifAsgNor"
+							}	
+							
+							,
+							"barrel": {
+								"textureList": [	
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,
+							
+							
+							"mountablewatercanon": {
+								"material": "DifAsgNor",
+								"color": "0000ff",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Watergun/obj_interactive_watercanon_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_watercanon_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_watercanon_nor.tga"
+								]
+							}
+							
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Watergun/fant_watergun_obj.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "2dd19bf4-41e1-46b6-9166-dbd8c32a9b6d"
+		}
+		
+		
+		,
+		{
+			"uuid": "84cef3c6-7ec2-4354-bd5c-dc88c2c5fb9b",
+			"name": "weapon_fant_handheld_flamethrower_obj",
+			"renderable": {
+				"lodList":
+				[
+					{
+						"subMeshMap" :
+						{
+							"char_spudgun_base_mat" : {
+									"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+									],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"char_spudgun_grip_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,				
+							"gastank": {
+								"material": "DifAsgNor",
+								"color": "0000ff",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Flamethrower/Fant_obj_consumable_gas_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_gas_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_gas_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Flamethrower/Fant_Flamethrower.fbx"
+					}
+				]
+			},
+			"color": "0000ff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "2dd19bf4-41e1-46b6-9166-dbd8c32a9b6d"
+		}
+		
+			
+		,
+		{
+			"uuid": "c3f9a1c2-f188-424a-baba-adfa500b49de",
+			"name": "weapon_fant_totebotmace",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"totebot": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_nor.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_ao.tga"
+								],
+								"color": "49642d",
+								"material": "DifAsgNor"
+							}																							
+							,
+							"cable": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_cable_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_cable_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_cable_nor.tga"
+								],
+								"color": "49642d",
+								"material": "DifAsgNor"
+							}																							
+							,
+							"totebothead": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_nor.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/char_totebot_head_ao.tga"
+								],
+								"color": "49642d",
+								"material": "DifAsgNor"
+							}				
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_TotebotMace/fant_totebotmace.obj"
+					}
+				]
+			},
+			"color": "49642d",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "04474c14-4240-4729-becf-108680b42b76"
+		}
+	
+			
+		,
+		{
+			"uuid": "53384aa0-76dc-41cf-944d-37b06eb3cc92",
+			"name": "weapon_fant_glowgun",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_spudgun_grip_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"char_spudgun_base_mat" : {
+									"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+									],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"stock_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_nor.tga"
+								],
+								"color": "b9a263",
+								"material": "DifAsgNor"
+							}				
+							,
+							"barrel_spinner_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_spinner/char_spudgun_barrel_spinner_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_spinner/char_spudgun_barrel_spinner_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_spinner/char_spudgun_barrel_spinner_nor.tga"
+								],
+								"color": "b9a263",
+								"material": "DifAsgNor"
+							}					
+							,
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}				
+							,
+							"sightscrew_basicbarrel_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_screw_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"barrel": {
+								"textureList": [	
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_frier/char_spudgun_barrel_frier_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}		
+							,
+							"glowbug": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowgorp/char_glowgorp_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"Glass_mat": {
+								"textureList": [	
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+									"$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"Glowstick_mat": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"backpack1": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/outfit_applicator_backpack_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/outfit_applicator_backpack_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/outfit_applicator_backpack_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Glowgun/Fant_Glowgun.fbx"
+					}
+				]
+			},
+			"color": "49642d",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "4f8c659e-924b-4475-a0e8-74b7db696333"
+		}
+	
+	
+		,
+		{
+			"uuid": "595cf33a-7d4b-4a85-9612-afeba3f7ec11",
+			"name": "weapon_fant_mutliconnecttool",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_connecttool_mat": {
+								"textureList": [	
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"woc": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Character/Char_Cow/char_cow_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Cow/char_cow_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Cow/char_cow_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"controller_lvl_5": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_05_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_05_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_controller_05_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Mutliconnecttool/Fant_Mutliconnecttool.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "0d886c8f-5ece-4860-a115-22d5ad339b44"
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		,
+		{
+			"uuid": "3e492099-5158-420e-8a29-d6f27c867271",
+			"name": "weapon_fant_gravitygun",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_spudgun_grip_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"char_spudgun_base_mat" : {
+									"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+									],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"sight_basic_mat" : {
+									"textureList": [
+										"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_dif.tga",
+										"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_asg.tga",
+										"$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic_nor.tga"
+									],
+								"color": "dcc83c",
+								"material": "DifAsgNor"
+							}
+							,
+							"stock_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_nor.tga"
+								],
+								"color": "b9a263",
+								"material": "DifAsgNor"
+							}														
+							,
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}	
+							,							
+							"haybot": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_dif.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_asg.tga",
+										"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Fork/char_haybot_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,
+							"tapebot_body": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								]
+							}
+							,
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,
+							"farmbot": {  
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_nor.tga"
+								]
+							}
+							,
+							"refinery": {
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Refinery/char_refinery_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Gravitygun/Fant_Gravitygun.fbx"
+					}
+				]
+			},
+			"color": "49642d",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "7facaa00-bd55-492b-96b7-91481b010601"
+		}
+		
+		
+		
+		
+			
+		,
+		{
+			"uuid": "994c516b-1c74-4019-a31b-6a2887020b21",
+			"name": "weapon_fant_scrapgun",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_spudgun_base_mat" : {
+									"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+									],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}				
+							,
+							"char_spudgun_grip_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"stock_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom_nor.tga"
+								],
+								"color": "b9a263",
+								"material": "DifAsgNor"
+							}	
+							,
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,
+							"makeshift_texture": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_makeshiftengine_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Scrapgun/Fant_Scrapgun.fbx"
+					}
+				]
+			},
+			"color": "49642d",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "3ab3f216-f16d-40aa-b125-e54b0e9ae8eb"
+		}
+	
+	
+	
+	
+		,
+		{
+			"uuid": "15474491-5aa7-49b4-8df6-b65621e5a2ea",
+			"name": "weapon_fant_handbook",
+			"renderable": {
+				"lodList": [
+					{						
+						"subMeshMap": {
+							"lambert1" : {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/fant_handbook_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/fant_handbook_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/fant_handbook_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}										
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Handbook/fant_handbook.fbx"
+					}
+				]
+			},
+			"color": "49642d",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "feae3463-75b7-463c-9de2-b5c341101e8a"
+		}
+		
+		
+		
+		
+		,
+		{
+			"uuid": "15788126-38f7-4b5f-b9f0-bb2528264b31",
+			"name": "weapon_Fant_Waypoint_Marker",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_connecttool_mat": {
+								"textureList": [	
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"obj_industrial_satellite_dif": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Waypoint_Marker/Fant_Waypoint_Marker.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "1fd57b7b-168e-4209-b0e2-9285ff0ca0af"
+		}
+	
+	
+		
+		,
+		{
+			"uuid": "a691a9fe-e721-4124-ae18-66bc13491c96",
+			"name": "weapon_Fant_Block_Editor",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_connecttool_mat": {
+								"textureList": [	
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"obj_survivalobject_elevatorbutton_dif": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobject_elevatorbutton_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Block_Editor/Fant_Block_Editor.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "e5f0077b-05fa-4d41-904b-07c1651686dd"
+		}
+		
+		
+		
+		,
+		{
+			"uuid": "dae212ea-ae3c-4e0a-9fa0-6dd4ac55041f",
+			"name": "weapon_Fant_Measurement_Tool",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"craftbot": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Craftbot/char_craftbot_nor.tga"
+								]
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Measurement_Tool/Fant_Measurement_Tool.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "8ba1eb2a-4337-4ebc-94c9-24e54b1ae426"
+		}
+		
+		
+		
+		,
+		{
+			"uuid": "68b20d3b-9119-4d2d-8428-ee69ad9e0e84",
+			"name": "weapon_Fant_ThrusterHammer",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"submesh2": {
+								"textureList": [
+										"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_05_dif.tga",
+										"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_05_asg.tga",
+										"$SURVIVAL_DATA/Objects/Textures/interactive/obj_interactive_thruster_05_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}																							
+							,
+							"farmbot": {
+								"textureList": [
+										"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_dif.tga",
+										"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_asg.tga",
+										"$SURVIVAL_DATA/Character/Char_Farmbot/char_farmbot_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}		
+							,
+							"tapebot_body": {
+								"textureList": [
+										"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+										"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+										"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}		
+							,
+							"haybot": {
+								"textureList": [
+										"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+										"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+										"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}	
+						}						
+						,
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_ThrusterHammer/Fant_ThrusterHammer.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "a41681d5-8c35-48d8-8939-8c9786e62391"
+		}
+		
+		
+		
+		
+		
+		,
+		{
+			"uuid": "cad0ff84-34e2-498a-8d3b-cc4a882464b5",
+			"name": "weapon_Fant_Waypoint_Marker",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_connecttool_mat": {
+								"textureList": [	
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_connecttool/char_connecttool_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"obj_industrial_satellite_dif": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/industrial/obj_industrial_satellite_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"callbutton_mat": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_nor.tga"
+								],
+								"material" : "DifAsgNor"
+							}
+							,
+							"callbutton_screen": {
+								"textureList": [	
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_screen_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/survivalobject/obj_survivalobjects_elevatorcallbutton_screen_asg.tga"
+								],
+								"material" : "DifAsg"
+							}
+							
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_RemoteGun/Fant_Remotegun.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "162365dc-6a45-4c34-b30a-1562c9e3e024"
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		,
+		{
+			"uuid": "421d4d27-4b70-49c1-b981-20c0bbb83789",
+			"name": "weapon_Fant_Popcorn_Launcher",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap": {
+							"char_spudgun_base_mat" : {
+									"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_nor.tga"
+									],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}				
+							,
+							"char_spudgun_grip_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+								],
+								"color": "ffffff",
+								"material": "DifAsgNor"
+							}
+							,
+							"mounted_spudgun": {
+								"textureList": [
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_dif.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_asg.tga",
+									"$GAME_DATA/Objects/Textures/interactive/obj_interactive_mountablespudgun_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,
+							"farmbot": {  
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_Farmbot/Char_Farmbot_nor.tga"
+								]
+							}				
+							,
+							"corn": {  
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_corn_nor.tga"
+								]
+							}
+							,
+							"popcorn": {
+								"material": "DifAsgNor",
+								"textureList": [
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_nor.tga"
+								]
+							}
+							
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Popcorn_Launcher/fant_popcornlauncher.obj"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "d0458dad-8cee-44fb-af4a-ebbb4a64293a"
+		}
+		
+		
+		
+		,
+		{
+			"uuid": "c7c04571-7c3f-484e-a9f2-020e21347236",
+			"name": "weapon_Fant_Guitar",
+
+			
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Guitar/Fant_Guitar.obj"
+					}
+				]
+			},
+			
+			
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "46d6b26d-5536-4101-bab3-4af029075a87"
+		}
+		
+		
+		
+		
+		,
+		{
+			"uuid": "46ea02a0-a1e8-4d60-8087-ad5961849655",
+			"name": "weapon_Fant_Grapplinghook",
+
+			
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap" : {
+							"char_spudgun_grip_mat" : {
+								"textureList": [
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+									"$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,
+							"fant_color_palette_dif" : {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+							,
+							"obj_warehouse_overheadcrane_dif" : {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/Textures/Warehouse/obj_warehouse_overheadcrane_dif.tga",
+									"$SURVIVAL_DATA/Objects/Textures/Warehouse/obj_warehouse_overheadcrane_asg.tga",
+									"$SURVIVAL_DATA/Objects/Textures/Warehouse/obj_warehouse_overheadcrane_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Grapplinghook/Fant_Grapplinghook.fbx"
+					}
+				]
+			},
+			
+			
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"stackSize": 1,
+			"autoTool": "130b3819-d704-465d-b544-7b8a5f5d27e7"
+		}
+		
+		
+		
+		,
+		{
+			"uuid": "da1121c6-175c-499d-b58c-751e366f56ea",
+			"name": "weapon_Fant_Rope",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshMap" : {
+							"rope" : {
+								"textureList": [
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/rope.png",
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/rope_asg.tga",
+									"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/rope_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}							
+						},
+						"mesh": "$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Rope/fant_rope_model.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 2,
+				"y": 2,
+				"z": 1
+			},
+			"physicsMaterial": "Plastic",
+			"ratings": {},
+			"rotationSet": "PropFull",
+			"stackSize": 256,
+			"autoTool": "9d22a51c-1a47-4d03-8ee0-8835e898af24"
+		}
+	
+	]
+}

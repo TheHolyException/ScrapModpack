@@ -1,0 +1,19 @@
+{
+    "lodList": [
+		{
+			"mesh": "$SURVIVAL_DATA/Objects/Mesh/construction/obj_construction_paintcan.fbx",
+		    "subMeshMap": {
+				"phongE1": {
+					"textureList": [	
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Paintbucket/obj_construction_paintcan_dif.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Paintbucket/obj_construction_paintcan_asg.tga",
+						"$SURVIVAL_DATA/Objects/00fant/weapons/Fant_Paintbucket/obj_construction_paintcan_nor.tga"
+					],
+					"material" : "DifAsgNor"
+				}
+			},
+			
+		    "maxViewDistance": 1000.0
+		}
+    ]
+}

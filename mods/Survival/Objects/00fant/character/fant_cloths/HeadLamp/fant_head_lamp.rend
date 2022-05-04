@@ -1,0 +1,18 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/HeadLamp/fant_head_lamp.fbx",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshList" : [
+			{
+				"textureList":	[
+					"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_dif.tga",
+					"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_asg.tga",
+					"$SURVIVAL_DATA/Objects/00fant/textures/fant_color_palette_nor.tga"
+				],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

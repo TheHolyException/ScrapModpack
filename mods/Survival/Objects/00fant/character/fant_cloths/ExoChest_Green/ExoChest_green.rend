@@ -1,0 +1,41 @@
+{
+	"lodList": [{
+		"mesh": "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoChest_Green/char_male_outfit_defaultdamaged_jacket2.dae",
+		"includes" : ["POSITION", "UV0", "NORMAL", "TANGENTS", "BLEND_INDICES", "BLEND_WEIGHTS"],
+		"subMeshMap": {
+			"arm": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoChest_Green/char_builderbot_arm_dif_green.tga",
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_builderbot_arm_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_builderbot_arm_nor.tga"
+					    ]
+              	  	},
+			"shoulder": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoChest_Green/char_builderbot_dif_green.tga",
+                            "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_builderbot_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_builderbot_nor.tga"
+					    ]
+              	  	},
+			"totebot": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoChest_Green/char_totebotfawx_green_dif.tga",
+                            "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_totebotfawx_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_totebotfawx_nor.tga"
+					    ]
+              	  	},
+			"farmbot": {  
+                        "material": "DifAsgNor",
+						"textureList":	[
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/ExoChest_Green/char_farmbotfawx_green_dif.tga",
+                            "$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_farmbotfawx_asg.tga",
+							"$SURVIVAL_DATA/Objects/00fant/character/fant_cloths/char_farmbotfawx_nor.tga"
+					    ]
+              	  	}
+        },
+		"maxViewDistance": 1000.0
+	}]
+}
