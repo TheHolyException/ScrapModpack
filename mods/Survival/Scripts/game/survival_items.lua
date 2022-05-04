@@ -1,5 +1,8 @@
 -- this file is generated
 
+obj_craftbot_recyclebot = sm.uuid.new( "b0b933d1-8112-4383-be48-7b6e37d38c53" )
+obj_pneumatic_pipe_T = sm.uuid.new( "87d7c020-8593-4b34-98fe-fa779b30b964" )
+obj_pneumatic_pipe_cross = sm.uuid.new( "97e273a2-3bf6-11eb-adc1-0242ac120002" )
 
 -- 00Fant Start
 
@@ -976,6 +979,7 @@ obj_consumable_glue = sm.uuid.new( "36335664-6e61-4d44-9876-54f9660a8565" )
 -- robotparts.json
 ----------------------------------------
 obj_robotparts_tapebothead01 = sm.uuid.new( "1e89879f-1171-4bcd-9465-db7f740ab09e" )
+obj_robotparts_redtapebothead = sm.uuid.new( "d62ab46a-6d71-4858-85ba-c1a0e28e9abc" )
 obj_robotparts_tapebottorso01 = sm.uuid.new( "50380984-9ad6-4092-88e9-5a84b8212899" )
 obj_robotparts_tapebotleftarm01 = sm.uuid.new( "7faccb34-95df-4f3d-9250-054bb04b2719" )
 obj_robotparts_tapebotshooter = sm.uuid.new( "f293a245-2415-4da5-b012-01134652611f" )

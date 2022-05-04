@@ -1901,11 +1901,24 @@
             <Index name="9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b">
                 <Frame point="96 1440"/>
             </Index>
+
+
+            <!-- Craftbot+ -->
+            <Index name="87d7c020-8593-4b34-98fe-fa779b30b964">
+                <Frame point="192 1440"/>
+            </Index>
+            <Index name="b0b933d1-8112-4383-be48-7b6e37d38c53">
+                <Frame point="288 1440"/>
+            </Index>
+            <Index name="97e273a2-3bf6-11eb-adc1-0242ac120002">
+                <Frame point="384 1440"/>
+            </Index>
+            <Index name="f7d689eb-a198-45be-b12a-103dc06d02fe">
+                <Frame point="480 1440"/>
+            </Index>
 			
 			
-			
-				
-			// 00Fant Start
+			<!-- // 00Fant Start -->
 			
 			<Index name="6245eb8d-3f76-4c37-b6b3-a12d94cd7b5b">
                 <Frame point="0 1536"/>
@@ -3160,7 +3173,6 @@
 			<Index name="b05678e7-1e68-46fe-8894-2afd1ec1d0c5">
                 <Frame point="2976 1920"/>
             </Index>
-
         </Group>
     </Resource>
 </MyGUI>
