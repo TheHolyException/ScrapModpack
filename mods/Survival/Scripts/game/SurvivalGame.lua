@@ -444,10 +444,8 @@ function SurvivalGame.client_onCreate( self )
 	self.cl.time = {}
 	self.cl.time.timeOfDay = 0.0
 	self.cl.time.timeProgress = true
-
-	if sm.isHost and g_survivalDev then
-		self:bindChatCommands()
-	end
+	
+	self:bindChatCommands()
 
 	if not sm.isHost then
 		self:loadCraftingRecipes()
@@ -544,6 +542,8 @@ function SurvivalGame.bindChatCommands( self )
 		sm.game.bindChatCommand( "/activatequest",  { { "string", "uuid", true } }, "cl_onChatCommand", "Activate quest" )
 		sm.game.bindChatCommand( "/completequest",  { { "string", "uuid", true } }, "cl_onChatCommand", "Complete quest" )
 
+		sm.game.bindChatCommand( "/getuuid", {}, "cl_onChatCommand", "Get UUID of current Item" )
+		sm.game.bindChatCommand( "/getitem", { { "string", "uuid", true }, { "int", "quantity", true } }, "cl_onChatCommand", "Will give you the given Item (default 1)" )
 	
 	-- 00Fant´s code Start
 	
@@ -723,6 +723,15 @@ end
 function SurvivalGame.cl_onChatCommand( self, params )
 	if params[1] == "/ammo" then
 		self.network:sendToServer( "sv_giveItem", { player = sm.localPlayer.getPlayer(), item = obj_plantables_potato, quantity = ( params[2] or 50 ) } )
+	elseif params[1] == "/getuuid" then
+		self.network:sendToClients( "client_showMessage", "UUID >> " .. tostring( self.activeItem ) )
+		--self.network:sendToClient( player = sm.localPlayer.getPlayer(), "client_showMessage", "UUID >> " .. sm.localPlayer.getActiveItem() )
+	--EXI CMDs START--
+	
+	elseif params[1] == "/getitem" then
+		self.network:sendToServer( "sv_giveItem", { player = sm.localPlayer.getPlayer(), item = sm.uuid.new( params[2] ), quantity = ( params[3] or 1 ) } )	
+		
+		
 	elseif params[1] == "/spudgun" then
 		self.network:sendToServer( "sv_giveItem", { player = sm.localPlayer.getPlayer(), item = tool_spudgun, quantity = 1 } )
 	elseif params[1] == "/gatling" then
@@ -1218,7 +1227,26 @@ function SurvivalGame.sv_onChatCommand( self, params, player )
 		else
 			self.network:sendToClients( "client_showMessage", "Player is not tumbling" )
 		end
-
+		
+	elseif params[1] == "/tp" then
+		local pos
+		destinationPlayerName = params[2]
+		
+		players = sm.player.getAllPlayers()
+		for _, player in ipairs( players ) do
+			if player.name == destinationPlayerName then
+				pos = player.character.worldPosition
+				self.network:sendToClients( "client_showMessage", "Teleporting to " .. player.name)
+			end
+		end
+			
+	
+		if pos then
+			local cellX, cellY = math.floor( pos.x/64 ), math.floor( pos.y/64 )
+			self.sv.saved.overworld:loadCell( cellX, cellY, player, "sv_recreatePlayerCharacter", { pos = pos, dir = player.character:getDirection() } )
+		else
+			self.network:sendToClients( "client_showMessage", "Player '" .. destinationPlayerName .. "' not found" )
+		end
 	elseif params[1] == "/sethp" then
 		sm.event.sendToPlayer( player, "sv_e_debug", { hp = params[2] } )
 
