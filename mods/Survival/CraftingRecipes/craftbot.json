@@ -1872,16 +1872,107 @@
 		"craftTime": 7,
 		"ingredientList": [
 			{
-				"quantity": 10,
-				"itemId": "38e41fb5-dd50-4294-829d-a517f0282fed"
-			},
+				"quantity": 20,
+				"itemId": "38e41fb5-dd50-4294-829d-a517f0282fed" //obj_seed_tomato
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
 			{
-				"quantity": 10,
-				"itemId": "9c82a525-8a8b-4483-9595-505aaa042486"
-			},
+				"quantity": 20,
+				"itemId": "9c82a525-8a8b-4483-9595-505aaa042486" //obj_seed_carrot
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
 			{
-				"quantity": 10,
-				"itemId": "64051718-a3f1-422b-bda3-277efa0c4545"
+				"quantity": 20,
+				"itemId": "64051718-a3f1-422b-bda3-277efa0c4545" //obj_seed_redbeet
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "22beade5-38ca-47b4-a2ee-32403f58a862" //obj_seed_banana
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2" //obj_seed_blueberry
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4" //obj_seed_orange
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a" //obj_seed_pineapple
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "1c6756ca-3a60-4dcb-a5d1-353edf818308" //obj_seed_broccoli
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "eb1ef696-5c05-4662-9e47-fe1e0875ff84" //obj_seed_potato
+			}
+		]
+	},
+	{
+		"itemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67", //obj_consumable_fertilizer
+		"quantity": 5,
+		"craftTime": 7,
+		"ingredientList": [
+			{
+				"quantity": 20,
+				"itemId": "93c27ab2-4930-4654-ba1c-bcfe35e966f6" //obj_seed_cotton
 			}
 		]
 	},
@@ -1923,6 +2014,21 @@
 			{
 				"quantity": 3,
 				"itemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f"
+			}
+		]
+	},
+	{
+		"itemId": "36335664-6e61-4d44-9876-54f9660a8565", //obj_consumable_glue
+		"quantity": 2,
+		"craftTime": 2,
+		"ingredientList": [
+			{
+				"quantity": 3,
+				"itemId": "f74c2891-79a9-45e0-982e-4896651c2e25" //Chemicals
+			},
+			{
+				"quantity": 3,
+				"itemId": "388adeab-67e5-4901-afe8-c56217754510" //Glowpoop
 			}
 		]
 	},
