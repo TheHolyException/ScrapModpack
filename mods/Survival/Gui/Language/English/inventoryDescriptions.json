@@ -1,4 +1,12 @@
 {
+	"87d7c020-8593-4b34-98fe-fa779b30b964": {
+		"title": "Vacuum Pipe T",
+		"description": "Split a vacuum pipe connection into 2 more ones! Much better than using a chest for this.\n\n#7e7a6dThis part was added by #786e40Craftbot+#7e7a6d but was made by #684c8bXeridox#7e7a6d. Thanks to him for letting me use his part!\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 10x #787878Glass Blocks,#648181 2x #787878Circuit Boards"
+	},
+	"97e273a2-3bf6-11eb-adc1-0242ac120002": {
+		"title": "Vacuum Pipe Cross",
+		"description": "Split a vacuum pipe connection into 3 more ones!\n\n#7e7a6dThis part was added by #786e40Craftbot+#7e7a6d but was made by #684c8bXeridox#7e7a6d. Thanks to him for letting me use his part!\n\n#787878If recycled:#648181 7x #787878Metal Block 1,#648181 10x #787878Glass Blocks,#648181 2x #787878Circuit Boards"
+	},
 	"00284190-1484-4286-a198-b2ddef768c2e": {
 		"description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
 		"title": "Off-Road Suspension 2"

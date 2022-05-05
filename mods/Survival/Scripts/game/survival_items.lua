@@ -1,5 +1,7 @@
 -- this file is generated
 
+obj_pneumatic_pipe_T = sm.uuid.new( "87d7c020-8593-4b34-98fe-fa779b30b964" )
+obj_pneumatic_pipe_cross = sm.uuid.new( "97e273a2-3bf6-11eb-adc1-0242ac120002" )
 
 -- 00Fant Start
 

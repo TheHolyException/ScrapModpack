@@ -43,8 +43,14 @@ PipeUuids = {
 	--00Fant start
 	obj_interactive_mcp,
 	obj_interactive_mcp2,
-	obj_interactive_mcp3	
+	obj_interactive_mcp3,	
 	--00Fant end
+	
+    -- Craftbot+ start
+    obj_pneumatic_pipe_cross,
+    obj_pneumatic_pipe_T
+					  
+    -- Craftbot+ end
 }
 for _,v in ipairs( ContainerUuids ) do assert( v ) end
 for _,v in ipairs( PipeUuids ) do assert( v ) end

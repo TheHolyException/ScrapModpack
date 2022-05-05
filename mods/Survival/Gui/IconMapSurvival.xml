@@ -1903,7 +1903,13 @@
             </Index>
 			
 			
-			
+			<!-- Craftbot+ -->
+            <Index name="87d7c020-8593-4b34-98fe-fa779b30b964">
+                <Frame point="192 1440"/>
+            </Index>   
+            <Index name="97e273a2-3bf6-11eb-adc1-0242ac120002">
+                <Frame point="384 1440"/>
+            </Index>
 				
 			// 00Fant Start
 			
